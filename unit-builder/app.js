@@ -34708,8 +34708,8 @@ gok! function e(a, r, t)
 			limited: !0,
 			assets:
 			{
-				portrait: "img/heroes-portrait/goku.png",
-				main: "img/heroes-main/goku.png"
+				portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
+				main: "img/heroes-main/Goku.png"
 			},
 			skills: [
 			{
