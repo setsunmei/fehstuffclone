@@ -34694,7 +34694,7 @@
 				}
 			}
 		},
-        {
+                {
 			name: "Goku (Hostile Springs)",
 			shortName: "Goku",
 			title: "Relaxed Warrior",
