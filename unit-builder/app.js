@@ -1,4 +1,4 @@
-! function e(a, r, t)
+gok! function e(a, r, t)
 {
 	function i(o, s)
 	{
@@ -34708,8 +34708,8 @@
 			limited: !0,
 			assets:
 			{
-				portrait: "img/heroes-portrait/75px-Icon_Portrait_Hinoka (Hostile Springs).png",
-				main: "img/heroes-main/Hinoka (Hostile Springs).png"
+				portrait: "img/heroes-portrait/goku.png",
+				main: "img/heroes-main/goku.png"
 			},
 			skills: [
 			{
@@ -34789,7 +34789,7 @@
 			}
 		},
 		{
-			name: "Zephiel",
+			name: "ZephieLOL",
 			title: "The Liberator",
 			artist: "Yamada Akihiro (山田章博)",
 			voice: "Taylor Henry",
