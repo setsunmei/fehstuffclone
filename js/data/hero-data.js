@@ -12547,6 +12547,42 @@ module.exports = [
     }
   },
   {
+    name: "Goku",
+    shortName: "Goku",
+    title: "Saiyan",
+    artist: "Goku",
+    voice: "Goku Goku",
+    releaseDate: "Jan 23, 2019",
+    colorType: "Green",
+    weaponType: "Dagger",
+    moveType: "Flying",
+    rarity5: ["pool2"],
+assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
+      main: "img/heroes-main/Goku).png"
+    },
+    skills: [
+      { name: "Iron Dagger", rarity: 5 },
+      { name: "Steel Dagger", rarity: 5 },
+      { name: "Splashy Bucket", rarity: 5 },
+      { name: "Splashy Bucket+", rarity: 5 },
+      { name: "Draw Back", rarity: 5 },
+      { name: "Atk/Spd Bond 1", rarity: 5 },
+      { name: "Atk/Spd Bond 2", rarity: 5 },
+      { name: "Atk/Spd Bond 3", rarity: 5 },
+      { name: "Atk/Spd Link 1", rarity: 5 },
+      { name: "Atk/Spd Link 2", rarity: 5 },
+      { name: "Atk/Spd Link 3", rarity: 5 },
+      { name: "Air Orders 1", rarity: 5 },
+      { name: "Air Orders 2", rarity: 5 },
+      { name: "Air Orders 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 16, atk: 9, spd: 9, def: 3, res: 7 },
+      level40: { hp: [ 34, 38, 41 ], atk: [ 32, 35, 38 ], spd: [ 32, 35, 38 ], def: [ 12, 16, 19 ], res: [ 23, 26, 30 ] }
+    }
+  },
+  {
     name: "Zephiel",
     title: "The Liberator",
     artist: "Yamada Akihiro (山田章博)",
