@@ -27433,7 +27433,7 @@
             last: !0,
             effect: "Grants Spd+6 during combat when this unit is attacked."
         }, {
-            name: "Death Blow 1",
+            name: "Derp Blow 1",
             spCost: 50,
             icon: "1-12",
             exclude: [{
@@ -27444,7 +27444,7 @@
             name: "Death Blow 2",
             spCost: 100,
             icon: "2-0",
-            prev: ["Death Blow 1"],
+            prev: ["Derp Blow 1"],
             exclude: [{
                 weaponType: "Staff"
             }],
@@ -32828,7 +32828,7 @@
             stats: {
                 hp: 3
             },
-             include: [{
+            include: [{
                 colorType: "Green"
             }, {
                 moveType: "Flying"
@@ -32842,7 +32842,7 @@
             stats: {
                 hp: 4
             },
-             include: [{
+            include: [{
                 colorType: "Green"
             }, {
                 moveType: "Flying"
@@ -32856,7 +32856,7 @@
             stats: {
                 hp: 5
             },
-             include: [{
+            include: [{
                 colorType: "Green"
             }, {
                 moveType: "Flying"
@@ -32904,7 +32904,7 @@
             exclude: [{
                 weaponType: "Staff"
             }],
-            effect: "	If unit initiates combat, grants Spd+9 during combat."
+            effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "With Everyone!",
             spCost: 300,
