@@ -28761,6 +28761,102 @@
             prev: ["Wind Boost 1"],
             effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
         }, {
+            name: "Atk/Def Push 2",
+            spCost: 120,
+            icon: "60-2",
+            prev: ["Atk/Def Push 1"],
+            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+4, but if unit attacked, deals 1 damage to unit after combat."
+        }, {
+            name: "Atk/Def Push 3",
+            spCost: 240,
+            icon: "60-3",
+            prev: ["Atk/Def Push 2"],
+            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+5, but if unit attacked, deals 1 damage to unit after combat."
+        }, {
+            name: "G Duel Flying 1",
+            spCost: 70,
+            icon: "60-4",
+            stats: {
+                hp: 3
+            },
+            include: [{
+                colorType: "Green"
+            }, {
+                moveType: "Flying"
+            }],
+            effect: "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
+        }, {
+            name: "G Duel Flying 2",
+            spCost: 150,
+            icon: "60-5",
+            prev: ["G Duel Flying 1"],
+            stats: {
+                hp: 4
+            },
+            include: [{
+                colorType: "Green"
+            }, {
+                moveType: "Flying"
+            }],
+            effect: "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
+        }, {
+            name: "G Duel Flying 3",
+            spCost: 300,
+            icon: "60-6",
+            prev: ["G Duel Flying 2"],
+            stats: {
+                hp: 5
+            },
+            include: [{
+                colorType: "Green"
+            }, {
+                moveType: "Flying"
+            }],
+            effect: "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
+        }, {
+            name: "AR-O Atk/Def 1",
+            spCost: 60,
+            icon: "62-0",
+            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "AR-O Atk/Def 2",
+            spCost: 120,
+            icon: "62-1",
+            prev: ["AR-O Atk/Def 1"],
+            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +7; 3 grants +5; 4 grants +3; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "AR-O Atk/Def 3",
+            spCost: 240,
+            icon: "62-2",
+            prev: ["AR-O Atk/Def 2"],
+            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "AR-D Atk/Res 1",
+            spCost: 60,
+            icon: "62-3",
+            effect: "	If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "AR-D Atk/Res 2",
+            spCost: 120,
+            icon: "62-4",
+            prev: ["AR-D Atk/Res 1"],
+            effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "AR-D Atk/Res 3",
+            spCost: 240,
+            icon: "62-5",
+            prev: ["G Duel Flying 2"],
+            effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+        }, {
+            name: "Darting Blow 4",
+            spCost: 300,
+            icon: "62-9",
+            prev: ["Darting Blow 3"],
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            effect: "If unit initiates combat, grants Spd+9 during combat."
+        }, {
             name: "Wind Boost 3",
             spCost: 200,
             icon: "18-0",
@@ -32809,102 +32905,6 @@
             spCost: 60,
             icon: "60-1",
             effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat."
-        }, {
-            name: "Atk/Def Push 2",
-            spCost: 120,
-            icon: "60-2",
-            prev: ["Atk/Def Push 1"],
-            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+4, but if unit attacked, deals 1 damage to unit after combat."
-        }, {
-            name: "Atk/Def Push 3",
-            spCost: 240,
-            icon: "60-3",
-            prev: ["Atk/Def Push 2"],
-            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+5, but if unit attacked, deals 1 damage to unit after combat."
-        }, {
-            name: "G Duel Flying 1",
-            spCost: 70,
-            icon: "60-4",
-            stats: {
-                hp: 3
-            },
-            include: [{
-                colorType: "Green"
-            }, {
-                moveType: "Flying"
-            }],
-            effect: "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 160, treats unit's stats as 160 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
-        }, {
-            name: "G Duel Flying 2",
-            spCost: 150,
-            icon: "60-5",
-            prev: ["G Duel Flying 1"],
-            stats: {
-                hp: 4
-            },
-            include: [{
-                colorType: "Green"
-            }, {
-                moveType: "Flying"
-            }],
-            effect: "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 165, treats unit's stats as 165 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
-        }, {
-            name: "G Duel Flying 3",
-            spCost: 300,
-            icon: "60-6",
-            prev: ["G Duel Flying 2"],
-            stats: {
-                hp: 5
-            },
-            include: [{
-                colorType: "Green"
-            }, {
-                moveType: "Flying"
-            }],
-            effect: "Grants HP+4. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
-        }, {
-            name: "AR-O Atk/Def 1",
-            spCost: 60,
-            icon: "62-0",
-            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +4; 3 grants +3; 4 grants +2; ≥5 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-O Atk/Def 2",
-            spCost: 120,
-            icon: "62-1",
-            prev: ["AR-O Atk/Def 1"],
-            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +7; 3 grants +5; 4 grants +3; ≥5 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-O Atk/Def 3",
-            spCost: 240,
-            icon: "62-2",
-            prev: ["AR-O Atk/Def 2"],
-            effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Atk/Res 1",
-            spCost: 60,
-            icon: "62-3",
-            effect: "	If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Atk/Res 2",
-            spCost: 120,
-            icon: "62-4",
-            prev: ["AR-D Atk/Res 1"],
-            effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Atk/Res 3",
-            spCost: 240,
-            icon: "62-5",
-            prev: ["G Duel Flying 2"],
-            effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "Darting Blow 4",
-            spCost: 300,
-            icon: "62-9",
-            prev: ["Darting Blow 3"],
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "With Everyone!",
             spCost: 300,
