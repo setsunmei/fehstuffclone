@@ -58,7 +58,7 @@
 			banners: [
 			{
 				name: "Goku Time",
-				startDate: "April 1 2019",
+				startDate: "April 1, 2019",
 				focusHeroes: ["Goku"],
 				excludeFromRarity4: [],
 				excludeFromRarity5: [],
