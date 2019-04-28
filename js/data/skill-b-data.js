@@ -26,6 +26,7 @@ module.exports = [
     name: "Spd/Def Link 1",
     spCost: 60,
     icon: "60-7",
+    exclude: [{weaponType: "Staff"}],
     effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
   },
   {
@@ -33,6 +34,7 @@ module.exports = [
     spCost: 120,
     icon: "60-8",
     prev: ["Spd/Def Link 1"],
+    exclude: [{weaponType: "Staff"}],
     effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+4 to unit and target ally or unit and targeting ally for 1 turn."
   },
   {
@@ -40,6 +42,7 @@ module.exports = [
     spCost: 240,
     icon: "60-9",
     prev: ["Spd/Def Link 2"],
+    exclude: [{weaponType: "Staff"}],
     effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
   },
   {
@@ -66,6 +69,7 @@ module.exports = [
     name: "Disarm Trap 1",
     spCost: 60,
     icon: "60-10",
+    include: [{weaponType: "Dagger"}],
     effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 1, cancels trap's effect."
   },
   {
@@ -73,6 +77,7 @@ module.exports = [
     spCost: 60,
     icon: "60-11",
     prev: ["Disarm Trap 1"],
+    include: [{weaponType: "Dagger"}],
     effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 3, cancels trap's effect."
   },
   {
@@ -80,6 +85,7 @@ module.exports = [
     spCost: 60,
     icon: "60-12",
     prev: ["Disarm Trap 2"],
+    include: [{weaponType: "Dagger"}],
     effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
   },
   {
