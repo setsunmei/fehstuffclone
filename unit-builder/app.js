@@ -40102,12 +40102,12 @@
             effect: "Grants Spd+6 during combat if unit initiates the attack."
         }, {
             name: "Darting Blow 4",
-            spCost: 300,
             icon: "62-9",
             prev: ["Darting Blow 3"],
             exclude: [{
                 weaponType: "Staff"
             }],
+            last: !0,
             effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "Darting Stance 1",
