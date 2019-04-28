@@ -1,5 +1,19 @@
 module.exports = [
  {
+    date: "April 2019",
+    banners: [
+      {
+        name: "Goku Time",
+        startDate: "April 1, 2019",
+        focusHeroes: ["Goku"],
+        excludeFromRarity4: [],
+        excludeFromRarity5: [],
+        rateType: "defaultV2",
+        pool: "pool2"
+      },
+    ] 
+ },
+ {
     date: "March 2019",
     banners: [
       {

@@ -12552,14 +12552,14 @@ module.exports = [
     title: "Saiyan",
     artist: "Goku",
     voice: "Goku Goku",
-    releaseDate: "Jan 23, 2019",
+    releaseDate: "April 1, 2019",
     colorType: "Green",
     weaponType: "Dagger",
     moveType: "Flying",
     rarity5: ["pool2"],
-assets: {
+    assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
-      main: "img/heroes-main/Goku).png"
+      main: "img/heroes-main/Goku.png"
     },
     skills: [
       { name: "Iron Dagger", rarity: 5 },
