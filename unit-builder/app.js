@@ -27657,8 +27657,30 @@
             spCost: 240,
             icon: "16-12",
             prev: ["Distant Def 2"],
-            last: !0,
             effect: "If unit is attacked by foe using bow, daggers, magic, or staff, unit receives Def/Res+6 during combat."
+        }, {
+            name: "Distant Def 4",
+            spCost: 300,
+            icon: "61-6",
+            prev: ["Distant Def 3"],
+            effect: "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+8 and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+        }, {
+            name: "Spd/Def Solo 1",
+            spCost: 60,
+            icon: "61-7",
+            effect: "If unit is not adjacent to an ally, grants Spd/Def+2 during combat."
+        }, {
+            name: "Spd/Def Solo 2",
+            spCost: 120,
+            icon: "61-8",
+            prev: ["Spd/Def Solo 1"],
+            effect: "If unit is not adjacent to an ally, grants Spd/Def+4 during combat."
+        }, {
+            name: "Spd/Def Solo 3",
+            spCost: 240,
+            icon: "61-9",
+            prev: ["Spd/Def Solo 2"],
+            effect: "If unit is not adjacent to an ally, grants Spd/Def+6 during combat."
         }, {
             name: "Dragonskin",
             spCost: 300,
@@ -28761,6 +28783,11 @@
             prev: ["Wind Boost 1"],
             effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
         }, {
+            name: "Atk/Def Push 1",
+            spCost: 60,
+            icon: "60-1",
+            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat."
+        }, {
             name: "Atk/Def Push 2",
             spCost: 120,
             icon: "60-2",
@@ -28847,15 +28874,6 @@
             icon: "62-5",
             prev: ["G Duel Flying 2"],
             effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "Darting Blow 4",
-            spCost: 300,
-            icon: "62-9",
-            prev: ["Darting Blow 3"],
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "Wind Boost 3",
             spCost: 200,
@@ -32900,11 +32918,6 @@
                 moveType: "Flying"
             }],
             effect: "Grants flying allies within 2 spaces Def/Res+4 during combat."
-        }, {
-            name: "Atk/Def Push 1",
-            spCost: 60,
-            icon: "60-1",
-            effect: "At start of combat, if unit's HP = 100%, grants Atk/Def+3, but if unit attacked, deals 1 damage to unit after combat."
         }, {
             name: "With Everyone!",
             spCost: 300,
@@ -40088,6 +40101,15 @@
             prev: ["Darting Blow 2"],
             last: !0,
             effect: "Grants Spd+6 during combat if unit initiates the attack."
+        }, {
+            name: "Darting Blow 4",
+            spCost: 300,
+            icon: "62-9",
+            prev: ["Darting Blow 3"],
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "Darting Stance 1",
             icon: "39-2",
