@@ -27433,7 +27433,7 @@
             last: !0,
             effect: "Grants Spd+6 during combat when this unit is attacked."
         }, {
-            name: "Derp Blow 1",
+            name: "Death Blow 1",
             spCost: 50,
             icon: "1-12",
             exclude: [{
@@ -27444,7 +27444,7 @@
             name: "Death Blow 2",
             spCost: 100,
             icon: "2-0",
-            prev: ["Derp Blow 1"],
+            prev: ["Death Blow 1"],
             exclude: [{
                 weaponType: "Staff"
             }],
