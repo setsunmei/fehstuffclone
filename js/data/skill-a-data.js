@@ -1734,6 +1734,33 @@ module.exports = [
     effect: "If unit initiates combat, grants Spd+9 during combat."
    },
   {
+    name: "Distant Defense 4",
+    spCost: 300,
+    icon: "61-6",
+    prev: ["Distant Defense 3"],
+    effect: "If foe initiates combat and uses bow, dagger, magic, or staff, grants Def/Res+8 and neutralizes foe's bonuses (from skills like Fortify, Rally, etc.) during combat."
+  },
+  {
+    name: "Spd/Def Solo 1",
+    spCost: 60,
+    icon: "61-7",
+    effect: "If unit is not adjacent to an ally, grants Spd/Def+2 during combat."
+  },
+  {
+    name: "Spd/Def Solo 2",
+    spCost: 120,
+    icon: "61-8",
+    prev: ["Spd/Def Solo 1"],
+    effect: "If unit is not adjacent to an ally, grants Spd/Def+4 during combat."
+  },
+  {
+    name: "Spd/Def Solo 3",
+    spCost: 240,
+    icon: "61-9",
+    prev: ["Spd/Def Solo 2"],
+    effect: "If unit is not adjacent to an ally, grants Spd/Def+6 during combat."
+  },
+  {
     name: "Wind Boost 1",
     spCost: 50,
     icon: "17-11",
