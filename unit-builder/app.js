@@ -27406,6 +27406,14 @@
             last: !0,
             effect: "Grants Spd+6 during combat if unit initiates the attack."
         }, {
+            name: "Darting Blow 4",
+            icon: "62-9",
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            prev: ["Darting Blow 3"],
+            effect: "If unit initiates combat, grants Spd+9 during combat."
+        }, {
             name: "Darting Stance 1",
             spCost: 50,
             icon: "39-2",
@@ -40100,15 +40108,6 @@
             }],
             prev: ["Darting Blow 2"],
             effect: "Grants Spd+6 during combat if unit initiates the attack."
-        }, {
-            name: "Darting Blow 4",
-            icon: "62-9",
-            prev: ["Darting Blow 3"],
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            last: !0,
-            effect: "If unit initiates combat, grants Spd+9 during combat."
         }, {
             name: "Darting Stance 1",
             icon: "39-2",
