@@ -483,7 +483,6 @@ module.exports = [
     icon: "2-4",
     exclude: [{weaponType:"Staff"}],
     prev: ["Darting Blow 2"],
-    last: true,
     effect: "Grants Spd+6 during combat if unit initiates the attack."
   },
   {
@@ -1683,7 +1682,8 @@ module.exports = [
     icon: "60-6",
     prev: ["G Duel Flying 2"],
     effect: "Grants HP+5. If unit is 5★ and level 40 and unit's stats total less than 170, treats unit's stats as 170 in modes like Arena. (Higher-scoring opponents will appear. Stat total calculation excludes any values added by merges and skills.)"
-  },
+    last: true,
+   },
   {
     name: "AR-O Atk/Def 1",
     spCost: 60,
@@ -1703,7 +1703,8 @@ module.exports = [
     icon: "62-2",
     prev: ["AR-O Atk/Def 2"],
     effect: "If attacking in Aether Raids, grants Atk/Def+X during combat. (Calculates X based on number of foe's defensive structures: ≤2 structures grants +10; 3 grants +7; 4 grants +4; ≥5 grants +1. Destroyed defensive structures are not counted.)"
-  },
+    last: true,
+   },
   {
     name: "AR-D Atk/Res 1",
     spCost: 60,
@@ -1723,14 +1724,16 @@ module.exports = [
     icon: "62-5",
     prev: ["AR-D Atk/Res 3"],
     effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-  },
+    last: true,
+   },
   {
     name: "Darting Blow 4",
     spCost: 300,
     icon: "62-9",
     prev: ["Darting Blow 3"],
     effect: "If unit initiates combat, grants Spd+9 during combat."
-  },
+    last: true,
+   },
   {
     name: "Wind Boost 1",
     spCost: 50,
