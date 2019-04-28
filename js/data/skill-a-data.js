@@ -1709,7 +1709,7 @@ module.exports = [
     name: "AR-D Atk/Res 1",
     spCost: 60,
     icon: "62-3",
-    effect: "	If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
+    effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
   },
   {
     name: "AR-D Atk/Res 2",
@@ -1725,8 +1725,7 @@ module.exports = [
     prev: ["AR-D Atk/Res 3"],
     last: true,
     effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-
-   },
+  },
   {
     name: "Darting Blow 4",
     spCost: 300,
