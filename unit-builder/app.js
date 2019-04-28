@@ -40099,7 +40099,6 @@
                 weaponType: "Staff"
             }],
             prev: ["Darting Blow 2"],
-            last: !0,
             effect: "Grants Spd+6 during combat if unit initiates the attack."
         }, {
             name: "Darting Blow 4",
