@@ -12552,7 +12552,7 @@ module.exports = [
     title: "Saiyan",
     artist: "Goku",
     voice: "Goku Goku",
-    releaseDate: "April 1, 2019",
+    releaseDate: "Apr 1, 2019",
     colorType: "Green",
     weaponType: "Dagger",
     moveType: "Flying",

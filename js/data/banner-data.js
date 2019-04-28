@@ -4,7 +4,7 @@ module.exports = [
     banners: [
       {
         name: "Goku Time",
-        startDate: "April 1, 2019",
+        startDate: "Apr 1, 2019",
         focusHeroes: ["Goku"],
         excludeFromRarity4: [],
         excludeFromRarity5: [],
