@@ -1731,7 +1731,6 @@ module.exports = [
     spCost: 300,
     icon: "62-9",
     prev: ["Darting Blow 3"],
-    last: true,
     effect: "If unit initiates combat, grants Spd+9 during combat."
    },
   {
