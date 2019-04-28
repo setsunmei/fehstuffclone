@@ -167,7 +167,7 @@ module.exports = [
     spCost: 80,
     icon: "26-11",
     stats: {atk: 1, spd: 1},
-    prev: ["Speed49 +1", "Attack +1"],
+    prev: ["Speed +1", "Attack +1"],
     effect: "Grants Atk/Spd+1."
   },
   {
@@ -513,7 +513,7 @@ module.exports = [
   {
     name: "Death Blow 1",
     spCost: 50,
-    icon: "1-124",
+    icon: "1-12",
     exclude: [{weaponType:"Staff"}],
     effect: "Grants Atk+2 during combat if unit initiates the attack."
   },
