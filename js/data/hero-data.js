@@ -13109,7 +13109,6 @@ module.exports = [
       { name: "Sabotage Res 2", rarity: 5 },
       { name: "Sabotage Res 3", rarity: 5 },
       { name: "Chaos Named", rarity: 5 }
-
     ],
     stats: {
       level1: { hp: 16, atk: 9, spd: 5, def: 5, res: 9 },
