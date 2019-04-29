@@ -13041,7 +13041,7 @@ module.exports = [
       { name: "Wrathful Staff 3", rarity: 5 },
       { name: "Def Opening 1", rarity: 5 },
       { name: "Def Opening 2", rarity: 5 },
-      { name: "Def Opening 3", rarity: 5 },
+      { name: "Def Opening 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 16, atk: 10, spd: 5, def: 4, res: 8 },
@@ -13074,11 +13074,84 @@ module.exports = [
       { name: "Distant Def 3", rarity: 5 },
       { name: "Quick Riposte 1", rarity: 5 },
       { name: "Quick Riposte 2", rarity: 5 },
-      { name: "Quick Riposte 3", rarity: 5 },
+      { name: "Quick Riposte 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 15, atk: 11, spd: 6, def: 5, res: 6 },
       level40: { hp: [ 33, 37, 40 ], atk: [ 29, 33, 36 ], spd: [ 18, 21, 24 ], def: [ 23, 27, 30 ], res: [ 24, 28, 31 ] }
+    }
+  },
+  {
+    name: "Yune",
+    shortName: "Yune",
+    title: "Chaos Goddess",
+    artist: "Miwabe Sakura (みわべさくら)",
+    voice: "Megan Lee",
+    releaseDate: "Mar 29, 2019",
+    colorType: "Green",
+    weaponType: "Tome",
+    moveType: "Flying", 
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Yune.png",
+      main: "img/heroes-main/Yune.png"
+    },
+    skills: [
+      { name: "Wind", rarity: 5 },
+      { name: "Elwind", rarity: 5 },
+      { name: "Rexcalibur", rarity: 5 },
+      { name: "Chaos Manifest", rarity: 5 },
+      { name: "Chilling Wind", rarity: 5 },
+      { name: "Glacies", rarity: 5 },
+      { name: "Atk/Res Bond 1", rarity: 5 },
+      { name: "Atk/Res Bond 2", rarity: 5 },
+      { name: "Atk/Res Bond 3", rarity: 5 },
+      { name: "Sabotage Res 1", rarity: 5 },
+      { name: "Sabotage Res 2", rarity: 5 },
+      { name: "Sabotage Res 3", rarity: 5 },
+      { name: "Chaos Named", rarity: 5 }
+
+    ],
+    stats: {
+      level1: { hp: 16, atk: 9, spd: 5, def: 5, res: 9 },
+      level40: { hp: [ 34, 38, 41 ], atk: [ 30, 33, 36 ], spd: [ 23, 27, 30 ], def: [ 12, 15, 19 ], res: [ 34, 37, 40 ] }
+    }
+  },
+  {
+    name: "Alm (Legendary Heroes)",
+    shortName: "Alm",
+    title: "Saint King",
+    artist: "Arai Teruko (新井テル子)",
+    voice: "Kyle McCarley",
+    releaseDate: "Apr 27, 2019",
+    colorType: "Neutral",
+    weaponType: "Bow",
+    moveType: "Infantry", 
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm (Legendary Heroes).png",
+      main: "img/heroes-main/Alm (Legendary Heroes).png"
+    },
+    skills: [
+      { name: "Iron Bow", rarity: 5 },
+      { name: "Steel Bow", rarity: 5 },
+      { name: "Silver Bow", rarity: 5 },
+      { name: "Luna Arc", rarity: 5 },
+      { name: "New Moon", rarity: 5 },
+      { name: "Moonbow", rarity: 5 },
+      { name: "Lunar Flash", rarity: 5 },
+      { name: "Darting Blow 1", rarity: 5 },
+      { name: "Darting Blow 2", rarity: 5 },
+      { name: "Darting Blow 3", rarity: 5 },
+      { name: "Darting Blow 4", rarity: 5 },
+      { name: "Null Follow-Up 1", rarity: 5 },
+      { name: "Null Follow-Up 2", rarity: 5 },
+      { name: "Null Follow-Up 3", rarity: 5 },
+      { name: "Odd Atk Wave 1", rarity: 5 },
+      { name: "Odd Atk Wave 2", rarity: 5 },
+      { name: "Odd Atk Wave 3", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 18, atk: 11, spd: 11, def: 4, res: 3 },
+      level40: { hp: [ 36, 40, 43 ], atk: [ 34, 37, 40 ], spd: [ 34, 37, 40 ], def: [ 22, 26, 29 ], res: [ 19, 22, 26 ] }
     }
   },
   {
