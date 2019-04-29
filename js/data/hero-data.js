@@ -12588,7 +12588,7 @@ module.exports = [
     title: "Spring Trickster",
     artist: "Kusakihara Toshiyuki (草木原俊行) / INTELLIGENT SYSTEMS",
     voice: "Erika Ishii",
-    releaseDate: "March 23, 2019",
+    releaseDate: "Mar 23, 2019",
     colorType: "Neutral",
     weaponType: "Bow",
     moveType: "Flying",
