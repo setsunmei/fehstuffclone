@@ -21,6 +21,56 @@ module.exports = [
     include: [{moveType: "Flying"}],
   },
   {
+    name: "Chaos Named",
+    spCost: 300,
+    icon: "61-3",
+    effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
+    include: [{name: "Goku"}]
+  },
+  {
+    name: "Beast Exp. 1",
+    spCost: 30,
+    icon: "61-10",
+    include: [{weaponType: "Beast"}],
+    effect: "While unit lives and uses beast damage, unit gets 1.5x EXP.(Only highest value applied. Does not stack.)"
+  },
+  {
+    name: "Beast Exp. 2",
+    spCost: 60,
+    icon: "61-11",
+    prev: ["Beast Exp. 1"],
+    include: [{weaponType: "Beast"}],
+    effect: "While unit lives, all beast allies on team get 1.5x EXP.(Only highest value applied. Does not stack.)"
+  },
+  {
+    name: "Beast Exp. 3",
+    spCost: 120,
+    icon: "61-12",
+    prev: ["Beast Exp. 2"],
+    include: [{weaponType: "Beast"}],
+    effect: "While unit lives, all beast allies on team get 2x EXP. (Only highest value applied. Does not stack.)"
+  },
+  {
+    name: "Def Opening 1",
+    spCost: 60,
+    icon: "62-6",
+    effect: "At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)"
+  },
+  {
+    name: "Def Opening 2",
+    spCost: 120,
+    icon: "62-7",
+    prev: ["Def Opening 1"],
+    effect: "At start of turn, grants Def+4 to ally with the highest Def for 1 turn. (Excludes unit.)"
+  },
+  {
+    name: "Def Opening 3",
+    spCost: 240,
+    icon: "62-8",
+    prev: ["Def Opening 2"],
+    effect: "At start of turn, grants Def+6 to ally with the highest Def for 1 turn. (Excludes unit.)"
+  },
+  {
     name: "Armor March 1",
     spCost: 60,
     icon: "25-5",

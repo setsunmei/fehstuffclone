@@ -23,6 +23,72 @@ module.exports = [
     effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
   },
   {
+    name: "Spd/Def Link 1",
+    spCost: 60,
+    icon: "60-7",
+    exclude: [{weaponType: "Staff"}],
+    effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
+  },
+  {
+    name: "Spd/Def Link 2",
+    spCost: 120,
+    icon: "60-8",
+    prev: ["Spd/Def Link 1"],
+    exclude: [{weaponType: "Staff"}],
+    effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+4 to unit and target ally or unit and targeting ally for 1 turn."
+  },
+  {
+    name: "Spd/Def Link 3",
+    spCost: 240,
+    icon: "60-9",
+    prev: ["Spd/Def Link 2"],
+    exclude: [{weaponType: "Staff"}],
+    effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
+  },
+  {
+    name: "Sabotage Res 1",
+    spCost: 60,
+    icon: "61-0",
+    effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-3 on that foe through its next action."
+  },
+  {
+    name: "Sabotage Res 2",
+    spCost: 120,
+    icon: "61-1",
+    prev: ["Sabotage Res 1"],
+    effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-5 on that foe through its next action."
+  },
+  {
+    name: "Sabotage Res 3",
+    spCost: 240,
+    icon: "61-2",
+    prev: ["Sabotage Res 2"],
+    effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-7 on that foe through its next action."
+  },
+  {
+    name: "Disarm Trap 1",
+    spCost: 60,
+    icon: "60-10",
+    include: [{weaponType: "Dagger"}],
+    effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 1, cancels trap's effect."
+  },
+  {
+    name: "Disarm Trap 2",
+    spCost: 60,
+    icon: "60-11",
+    prev: ["Disarm Trap 1"],
+    include: [{weaponType: "Dagger"}],
+    effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 3, cancels trap's effect."
+  },
+  {
+    name: "Disarm Trap 3",
+    spCost: 60,
+    icon: "60-12",
+    prev: ["Disarm Trap 2"],
+    include: [{weaponType: "Dagger"}],
+    effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
+  },
+  {
     name: "Atk Feint 1",
     spCost: 60,
     icon: "56-9",
