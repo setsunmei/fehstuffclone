@@ -16,6 +16,123 @@ module.exports = [
     icon: "43-10",
     include: [{moveType: "Flying"}],
     effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
+  },  
+  {
+    name: "Spd/Res Bond 1",
+    spCost: 60,
+    icon: "39-7",
+    effect: "If unit is adjacent to an ally, grants Spd/Res+3 during combat."
+  },  
+  {
+    name: "Spd/Res Bond 2",
+    spCost: 120,
+    icon: "39-8",
+    prev: ["Spd/Res Bond 1"],
+    effect: "If unit is adjacent to an ally, grants Spd/Res+4 during combat."
+  },  
+  {
+    name: "Spd/Res Bond 3",
+    spCost: 240,
+    icon: "39-9",
+    prev: ["Spd/Res Bond 1"],
+    effect: "If unit is adjacent to an ally, grants Spd/Res+5 during combat."
+  },
+  {
+    name: "HP/Spd 1",
+    spCost: 100,
+    icon: "22-11",
+    stats: {hp: 3, spd: 1},
+    prev: ["HP +3", "Speed +1"],
+    effect: "Grants HP+3, Spd+1."
+  },
+  {
+    name: "HP/Spd 2",
+    spCost: 200,
+    icon: "22-12",
+    stats: {hp: 4, spd: 2},
+    prev: ["HP/Spd 1"],
+    last: true,
+    effect: "Grants HP+4, Spd+2."
+  },
+  {
+    name: "Wind Boost 1",
+    spCost: 50,
+    icon: "17-11",
+    effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat."
+  },
+  {
+    name: "Wind Boost 2",
+    spCost: 100,
+    icon: "17-12",
+    prev: ["Wind Boost 1"],
+    effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
+  },
+  {
+    name: "Wind Boost 3",
+    spCost: 200,
+    icon: "18-0",
+    prev: ["Wind Boost 2"],
+    last: true,
+    effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
+  },
+  {
+    name: "Even Res Wave 1",
+    spCost: 60,
+    icon: "48-6",
+    effect: "At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  {
+    name: "Even Res Wave 2",
+    spCost: 120,
+    icon: "48-7",
+    effect: "At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  {
+    name: "Even Res Wave 3",
+    spCost: 240,
+    icon: "48-8",
+    effect: "At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+  },
+  {
+    name: "Chill Atk 1",
+    spCost: 60,
+    icon: "42-7",
+    effect: "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Def through its next action."
+  },
+  {
+    name: "Chill Atk 2",
+    spCost: 120,
+    icon: "42-8",
+    prev: ["Chill Atk 1"],
+    effect: "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Def through its next action."
+  },
+  {
+    name: "Chill Atk 3",
+    spCost: 240,
+    icon: "42-9",
+    prev: ["Chill Atk 2"],
+    effect: "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Def through its next action."
+  },
+  {
+    name: "Warding Stance 1",
+    spCost: 50,
+    icon: "30-5",
+    effect: "Grants Res+2 during combat when this unit is attacked."
+  },
+  {
+    name: "Warding Stance 2",
+    spCost: 100,
+    icon: "30-6",
+    prev: ["Warding Stance 1"],
+    effect: "Grants Res+4 during combat when this unit is attacked."
+  },
+  {
+    name: "Warding Stance 3",
+    spCost: 200,
+    icon: "30-7",
+    prev: ["Warding Stance 2"],
+    last: true,
+    effect: "Grants Res+6 during combat when this unit is attacked."
   },
   {
     name: "Armored Boots",
@@ -1350,6 +1467,24 @@ module.exports = [
   },
   {
     name: "Squad Ace K 3",
+    icon: "21-3",
+    stats: {"hp": 5},
+    effect: "Grants HP+5."
+  },
+  {
+    name: "Squad Ace U 1",
+    icon: "21-1",
+    stats: {"hp": 3},
+    effect: "Grants HP+3."
+  },
+  {
+    name: "Squad Ace U 2",
+    icon: "21-2",
+    stats: {"hp": 4},
+    effect: "Grants HP+4."
+  },
+  {
+    name: "Squad Ace U 3",
     icon: "21-3",
     stats: {"hp": 5},
     effect: "Grants HP+5."
