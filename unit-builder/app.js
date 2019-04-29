@@ -183,6 +183,21 @@
                 hp: 3
             },
             icon: 16
+        }, {
+            hero: "Yune",
+            type: "Dark",
+            stats: {
+                hp: 5,
+                spd: 4
+            },
+            icon: 17
+        }, {
+            hero: "Alm (Legendary Heroes)",
+            type: "Earth",
+            stats: {
+                hp: 3
+            },
+            icon: 18
         }]
     }, {}],
     3: [function(e, a, t) {
@@ -27745,7 +27760,7 @@
             }, {
                 name: "Def Opening 3",
                 rarity: 5
-            }, ],
+            }],
             stats: {
                 level1: {
                     hp: 16,
@@ -27812,7 +27827,7 @@
             }, {
                 name: "Quick Riposte 3",
                 rarity: 5
-            }, ],
+            }],
             stats: {
                 level1: {
                     hp: 15,
@@ -27827,6 +27842,158 @@
                     spd: [18, 21, 24],
                     def: [23, 27, 30],
                     res: [24, 28, 31]
+                }
+            }
+        }, {
+            name: "Yune",
+            shortName: "Yune",
+            title: "Chaos Goddess",
+            artist: "Miwabe Sakura (みわべさくら)",
+            voice: "Megan Lee",
+            releaseDate: "Mar 29, 2019",
+            colorType: "Green",
+            weaponType: "Tome",
+            moveType: "Flying",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Yune.png",
+                main: "img/heroes-main/Yune.png"
+            },
+            skills: [{
+                name: "Wind",
+                rarity: 5
+            }, {
+                name: "Elwind",
+                rarity: 5
+            }, {
+                name: "Rexcalibur",
+                rarity: 5
+            }, {
+                name: "Chaos Manifest",
+                rarity: 5
+            }, {
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Glacies",
+                rarity: 5
+            }, {
+                name: "Atk/Res Bond 1",
+                rarity: 5
+            }, {
+                name: "Atk/Res Bond 2",
+                rarity: 5
+            }, {
+                name: "Atk/Res Bond 3",
+                rarity: 5
+            }, {
+                name: "Sabotage Res 1",
+                rarity: 5
+            }, {
+                name: "Sabotage Res 2",
+                rarity: 5
+            }, {
+                name: "Sabotage Res 3",
+                rarity: 5
+            }, {
+                name: "Chaos Named",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 9,
+                    spd: 5,
+                    def: 5,
+                    res: 9
+                },
+                level40: {
+                    hp: [34, 38, 41],
+                    atk: [30, 33, 36],
+                    spd: [23, 27, 30],
+                    def: [12, 15, 19],
+                    res: [34, 37, 40]
+                }
+            }
+        }, {
+            name: "Alm (Legendary Heroes)",
+            shortName: "Alm",
+            title: "Saint King",
+            artist: "Arai Teruko (新井テル子)",
+            voice: "Kyle McCarley",
+            releaseDate: "Apr 27, 2019",
+            colorType: "Neutral",
+            weaponType: "Bow",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm (Legendary Heroes).png",
+                main: "img/heroes-main/Alm (Legendary Heroes).png"
+            },
+            skills: [{
+                name: "Iron Bow",
+                rarity: 5
+            }, {
+                name: "Steel Bow",
+                rarity: 5
+            }, {
+                name: "Silver Bow",
+                rarity: 5
+            }, {
+                name: "Luna Arc",
+                rarity: 5
+            }, {
+                name: "New Moon",
+                rarity: 5
+            }, {
+                name: "Moonbow",
+                rarity: 5
+            }, {
+                name: "Lunar Flash",
+                rarity: 5
+            }, {
+                name: "Darting Blow 1",
+                rarity: 5
+            }, {
+                name: "Darting Blow 2",
+                rarity: 5
+            }, {
+                name: "Darting Blow 3",
+                rarity: 5
+            }, {
+                name: "Darting Blow 4",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 1",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 2",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 3",
+                rarity: 5
+            }, {
+                name: "Odd Atk Wave 1",
+                rarity: 5
+            }, {
+                name: "Odd Atk Wave 2",
+                rarity: 5
+            }, {
+                name: "Odd Atk Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 11,
+                    spd: 11,
+                    def: 4,
+                    res: 3
+                },
+                level40: {
+                    hp: [36, 40, 43],
+                    atk: [34, 37, 40],
+                    spd: [34, 37, 40],
+                    def: [22, 26, 29],
+                    res: [19, 22, 26]
                 }
             }
         }, {
@@ -32339,7 +32506,7 @@
             spCost: 300,
             icon: "61-3",
             include: [{
-                name: "Goku"
+                name: "Yune"
             }],
             effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
         }, {
@@ -43468,7 +43635,7 @@
             spCost: 500,
             prev: ["Moonbow"],
             include: [{
-                name: "Goku"
+                name: "Alm (Legendary Heroes)"
             }],
             effect: "Treats foe's Def/Res as if ignored by 20% during combat. Boosts damage by 20% of unit's Spd."
         }, {
@@ -43659,7 +43826,7 @@
             stats: {
                 spd: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Veronica (Regal Rabbits)"],
             effect: "Grants Spd+3. At start of combat, it unit's HP >= 75%, grants Atk/Spd/Def/Res+4 during combat."
         }, {
             name: "Chaos Manifest",
@@ -43672,7 +43839,7 @@
             stats: {
                 res: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Yune"],
             effect: "Grants Res. +3. If a penalty inflicted by a skill like Panic or Threathen and/or a a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack."
         }, {
             name: "Panther Lance",
@@ -43720,7 +43887,7 @@
             stats: {
                 atk: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Flora (Season for Picnics"],
             effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
         }, {
             name: "Eldhrímnir",
@@ -43732,7 +43899,7 @@
             stats: {
                 spd: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Felicia (Season for Picnics)"],
             effect: "Effective against beast foes. Grants Spd+3. At start of combat, If unit's Res > foe's Res, reduces foe's Atk/Spd by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.)"
         }, {
             name: "Luna Arc",
@@ -43744,7 +43911,7 @@
             stats: {
                 spd: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Alm (Legendary Heroes)"],
             effect: "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash))"
         }, {
             name: "Sandwiches!",
@@ -43804,7 +43971,7 @@
             stats: {
                 spd: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Lethe"],
             effect: "Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
         }, {
             name: "Covert Cat Fang",
@@ -43816,7 +43983,7 @@
             stats: {
                 def: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Ranulf"],
             effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
         }, {
             name: "Sabertooth Fang",
@@ -43828,7 +43995,7 @@
             stats: {
                 def: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Mordecai"],
             effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
         }, {
             name: "Lion King Fang",
@@ -43840,7 +44007,7 @@
             stats: {
                 atk: 3
             },
-            exclusive: ["Goku"],
+            exclusive: ["Caineghis"],
             effect: "Grants Atk+3 . If foe initiates combat, grants Atk/Spd/Def/Res+4 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally unit, unit transforms (otherwise, unit reverts). If unit transforms grants Atk+2, and unit can counterattack regardless of foe's range."
         }, {
             name: "Ovoid Staff",
@@ -49808,7 +49975,9 @@
                 [1494, 0],
                 [1068, 0],
                 [1494, 669],
-                [1068, 669]
+                [1068, 669],
+                [1498, 224],
+                [1068,446]
             ]
         }
     }, {}]
