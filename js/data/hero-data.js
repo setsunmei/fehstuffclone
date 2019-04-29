@@ -12594,7 +12594,7 @@ module.exports = [
     moveType: "Flying",
     ttReward: true,  
     assets: {
-      portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Loki (Regal Rabbits).png",
       main: "img/heroes-main/Loki (Regal Rabbits).png"
     },
     skills: [
