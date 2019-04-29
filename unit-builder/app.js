@@ -28791,6 +28791,13 @@
             prev: ["Wind Boost 1"],
             effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
         }, {
+            name: "Wind Boost 3",
+            spCost: 200,
+            icon: "18-0",
+            prev: ["Wind Boost 2"],
+            last: !0,
+            effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
+        }, {
             name: "Atk/Def Push 1",
             spCost: 60,
             icon: "60-1",
@@ -28882,13 +28889,6 @@
             icon: "62-5",
             prev: ["G Duel Flying 2"],
             effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "Wind Boost 3",
-            spCost: 200,
-            icon: "18-0",
-            prev: ["Wind Boost 2"],
-            last: !0,
-            effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
         }]
     }, {}],
     6: [function(e, a, t) {
@@ -29438,7 +29438,7 @@
             effect: "Swap places with an adjacent ally."
         }]
     }, {}],
-    8: [function(e, a, t) {
+    8: [function(e, a, t) { //B Skills
         a.exports = [{
             name: "Aerobatics 1",
             spCost: 60,
@@ -29460,11 +29460,80 @@
             name: "Aerobatics 3",
             spCost: 240,
             icon: "43-10",
-            prev: ["Aerobatics 2"],
+            prev: ["Aerobatics 2"], 
             include: [{
                 moveType: "Flying"
             }],
             effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
+        }, {
+            name: "Spd/Def Link 1",
+            spCost: 60,
+            icon: "60-7",
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+2 to unit and target ally or unit and targeting ally for 1 turn."
+        }, {
+            name: "Spd/Def Link 2",
+            spCost: 120,
+            icon: "60-8",
+            prev: ["Spd/Def Link 1"],
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+4 to unit and target ally or unit and targeting ally for 1 turn."
+        }, {
+            name: "Spd/Def Link 3",
+            spCost: 240,
+            icon: "60-9",
+            prev: ["Spd/Def Link 2"],
+            exclude: [{
+                weaponType: "Staff"
+            }],
+            effect: "If a movement Assist skill (like Reposition, Shove, Pivot, etc.) is used by unit or targets unit, grants Spd/Def+6 to unit and target ally or unit and targeting ally for 1 turn."
+        }, {
+            name: "Sabotage Res 1",
+            spCost: 60,
+            icon: "61-0",
+            effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-3 on that foe through its next action."
+        }, {
+            name: "Sabotage Res 2",
+            spCost: 120,
+            icon: "61-1",
+            prev: ["Sabotage Res 1"],
+            effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-5 on that foe through its next action."
+        }, {
+            name: "Sabotage Res 3",
+            spCost: 240,
+            icon: "61-2",
+            prev: ["Sabotage Res 2"],
+            effect: "At start of turn, if any foe's Res ≤ unit's Res-3 and that foe is adjacent to another foe, inflicts Res-7 on that foe through its next action."
+        }, {
+            name: "Disarm Trap 1",
+            spCost: 60,
+            icon: "60-10",
+             include: [{
+                weaponType: "Dagger"
+            }],
+            effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 1, cancels trap's effect."
+        }, {
+            name: "Disarm Trap 2",
+            spCost: 120,
+            icon: "60-11",
+            prev: ["Disarm Trap 1"],
+             include: [{
+                weaponType: "Dagger"
+            }],
+            effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap and that trap's level ≤ 3, cancels trap's effect."
+        }, {
+            name: "Disarm Trap 3",
+            spCost: 240,
+            icon: "60-12",
+            prev: ["Disarm Trap 2"],
+             include: [{
+                weaponType: "Dagger"
+            }],
+            effect: "While attacking in Aether Raids, if unit ends movement on a space with a Bolt Trap or a Heavy Trap, cancels trap's effect."
         }, {
             name: "Atk Feint 1",
             spCost: 60,
@@ -31215,7 +31284,7 @@
             effect: "Damage from unit's staff will be calculated the same as other weapons."
         }]
     }, {}],
-    9: [function(e, a, t) {
+    9: [function(e, a, t) {  //C Skills
         a.exports = [{
             name: "Air Orders 1",
             icon: "57-2",
@@ -31240,6 +31309,57 @@
             include: [{
                 moveType: "Flying"
             }]
+        }, {
+            name: "Chaos Named",
+            spCost: 300,
+            icon: "61-3",
+             include: [{
+                name: "Goku"
+            }],
+            effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
+        }, {
+            name: "Beast Exp. 1",
+            spCost: 30,
+            icon: "61-10",
+            include: [{
+                weaponType: "Beast"
+            }],
+            effect: "While unit lives and uses beast damage, unit gets 1.5x EXP. (Only highest value applied. Does not stack.)"
+        }, {
+            name: "Beast Exp. 2",
+            spCost: 60,
+            icon: "61-10",
+            prev: ["Beast Exp. 1"],
+             include: [{
+                weaponType: "Beast"
+            }],
+            effect: "While unit lives, all beast allies on team get 1.5x EXP. (Only highest value applied. Does not stack.)"
+        }, {
+            name: "Beast Exp. 3",
+            spCost: 120,
+            icon: "61-10",
+            prev: ["Beast Exp. 2"],
+             include: [{
+                weaponType: "Beast"
+            }],
+            effect: "While unit lives, all beast allies on team get 2x EXP. (Only highest value applied. Does not stack.)"
+        }, {
+            name: "Def Opening 1",
+            spCost: 60,
+            icon: "62-6",
+            effect: "At start of turn, grants Def+2 to ally with the highest Def for 1 turn. (Excludes unit.)"
+        }, {
+            name: "Def Opening 2",
+            spCost: 120,
+            icon: "62-7",
+            prev: ["Def Opening 1"],
+            effect: "At start of turn, grants Def+4 to ally with the highest Def for 1 turn. (Excludes unit.)"
+        }, {
+            name: "Def Opening 3",
+            spCost: 240,
+            icon: "62-8",
+            prev: ["Def Opening 2"],
+            effect: "At start of turn, grants Def+6 to ally with the highest Def for 1 turn. (Excludes unit.)"
         }, {
             name: "Armor March 1",
             spCost: 60,
@@ -39861,7 +39981,7 @@
             }]
         }
     }, {}],
-    12: [function(e, a, t) {
+    12: [function(e, a, t) {  //S Skills
         a.exports = [{
             name: "Aerobatics 1",
             icon: "43-8",
@@ -39883,6 +40003,113 @@
                 moveType: "Flying"
             }],
             effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
+        }, {
+            name: "Spd/Res Bond 1",
+            spCost: 60,
+            icon: "39-7",
+            effect: "Grants Spd/Res+3 to this unit during combat if unit is adjacent to an ally."
+        }, {
+            name: "Spd/Res Bond 2",
+            spCost: 120,
+            icon: "39-8",
+            prev: ["Spd/Res Bond 1"],
+            effect: "Grants Spd/Res+4 to this unit during combat if unit is adjacent to an ally."
+        }, {
+            name: "Spd/Res Bond 3",
+            spCost: 240,
+            icon: "39-9",
+            prev: ["Spd/Res Bond 2"],
+            last: !0,
+            effect: "Grants Spd/Res+5 to this unit during combat if unit is adjacent to an ally."
+        }, {
+            name: "HP/Spd 1",
+            spCost: 100,
+            icon: "22-11",
+            stats: {
+                hp: 3,
+                spd: 1
+            },
+            prev: ["HP +3", "Speed +1"],
+            effect: "Grants HP+3, Spd+1."
+        }, {
+            name: "HP/Spd 2",
+            spCost: 200,
+            icon: "22-12",
+            stats: {
+                hp: 4,
+                spd: 2
+            },
+            prev: ["HP/Spd 1"],
+            last: !0,
+            effect: "Grants HP+4, Spd+2."
+        }, {
+            name: "Wind Boost 1",
+            spCost: 50,
+            icon: "17-11",
+            effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+2 during combat."
+        }, {
+            name: "Wind Boost 2",
+            spCost: 100,
+            icon: "17-12",
+            prev: ["Wind Boost 1"],
+            effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+4 during combat."
+        }, {
+            name: "Wind Boost 3",
+            spCost: 200,
+            icon: "18-0",
+            prev: ["Wind Boost 2"],
+            last: !0,
+            effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Spd+6 during combat."
+        }, {
+            name: "Even Res Wave 1",
+            spCost: 60,
+            icon: "48-6",
+            effect: "At start of even-numbered turns, grants Res+2 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+        }, {
+            name: "Even Res Wave 2",
+            spCost: 120,
+            icon: "48-7",
+            effect: "At start of even-numbered turns, grants Res+4 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+        }, {
+            name: "Even Res Wave 3",
+            spCost: 240,
+            icon: "48-8",
+            effect: "At start of even-numbered turns, grants Res+6 to unit and adjacent allies for 1 turn. (Bonus granted to unit even if no allies are adjacent.)"
+        }, {
+            name: "Chill Atk 1",
+            spCost: 60,
+            icon: "42-7",
+            effect: "At the start of each turn, inflicts Atk-3 on foe on the enemy team with the highest Def through its next action."
+        }, {
+            name: "Chill Atk 2",
+            spCost: 120,
+            icon: "42-8",
+            prev: ["Chill Atk 1"],
+            effect: "At the start of each turn, inflicts Atk-5 on foe on the enemy team with the highest Def through its next action."
+        }, {
+            name: "Chill Atk 3",
+            spCost: 240,
+            icon: "42-9",
+            prev: ["Chill Atk 2"],
+            effect: "At the start of each turn, inflicts Atk-7 on foe on the enemy team with the highest Def through its next action."
+        }, {
+            name: "Warding Stance 1",
+            spCost: 50,
+            icon: "30-5",
+            effect: "Grants Res+2 during combat when this unit is attacked."
+        }, {
+            name: "Warding Stance 2",
+            spCost: 100,
+            icon: "30-6",
+            prev: ["Warding Stance 1"],
+            effect: "Grants Res+4 during combat when this unit is attacked."
+        }, {
+            name: "Warding Stance 3",
+            spCost: 200,
+            icon: "30-7",
+            prev: ["Warding Stance 2"],
+            last: !0,
+            effect: "Grants Res+6 during combat when this unit is attacked."
         }, {
             name: "Armored Boots",
             icon: "37-6",
@@ -41289,6 +41516,27 @@
             effect: "Grants HP+4."
         }, {
             name: "Squad Ace K 3",
+            icon: "21-3",
+            stats: {
+                hp: 5
+            },
+            effect: "Grants HP+5."
+        }, {
+            name: "Squad Ace U 1",
+            icon: "21-1",
+            stats: {
+                hp: 3
+            },
+            effect: "Grants HP+3."
+        }, {
+            name: "Squad Ace U 2",
+            icon: "21-2",
+            stats: {
+                hp: 4
+            },
+            effect: "Grants HP+4."
+        }, {
+            name: "Squad Ace U 3",
             icon: "21-3",
             stats: {
                 hp: 5
