@@ -27474,6 +27474,362 @@
                 }
             }
         }, {
+            name: "Felicia (Season For Picnics)",
+            shortName: "Felicia",
+            title: "Off the Menu",
+            artist: "HAKO (羽公)",
+            voice: "Connor Kelly",
+            releaseDate: "Apr 19, 2019",
+            colorType: "Green",
+            weaponType: "Axe",
+            moveType: "Armor",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Felicia (Season For Picnics).png",
+                main: "img/heroes-main/Felicia (Season For Picnics).png"
+            },
+            skills: [{
+                name: "Iron Axe",
+                rarity: 5
+            }, {
+                name: "Steel Axe",
+                rarity: 5
+            }, {
+                name: "Silver Axe",
+                rarity: 5
+            }, {
+                name: "Eldhrímnir",
+                rarity: 5
+            }, {
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Glacies",
+                rarity: 5
+            }, {
+                name: "Spd/Def Bond 1",
+                rarity: 5
+            }, {
+                name: "Spd/Def Bond 2",
+                rarity: 5
+            }, {
+                name: "Spd/Def Bond 3",
+                rarity: 5
+            }, {
+                name: "Special Fighter 1",
+                rarity: 5
+            }, {
+                name: "Special Fighter 2",
+                rarity: 5
+            }, {
+                name: "Special Fighter 3",
+                rarity: 5
+            }, {
+                name: "Close Guard 1",
+                rarity: 5
+            }, {
+                name: "Close Guard 2",
+                rarity: 5
+            }, {
+                name: "Close Guard 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 21,
+                    atk: 8,
+                    spd: 11,
+                    def: 8,
+                    res: 7
+                },
+                level40: {
+                    hp: [39, 43, 46],
+                    atk: [26, 30, 33],
+                    spd: [34, 37, 40],
+                    def: [26, 30, 33],
+                    res: [32, 35, 38]
+                }
+            }
+        }, {
+            name: "Flora (Season For Picnics)",
+            shortName: "Flora",
+            title: "Signature Dish",
+            artist: "HAKO (羽公)",
+            voice: "Julie Ann Taylor",
+            releaseDate: "Apr 19, 2019",
+            colorType: "Red",
+            weaponType: "Dagger",
+            moveType: "Armor",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora (Season For Picnics).png",
+                main: "img/heroes-main/Flora (Season For Picnics).png"
+            },
+            skills: [{
+                name: "Iron Dagger",
+                rarity: 5
+            }, {
+                name: "Steel Dagger",
+                rarity: 5
+            }, {
+                name: "Silver Dagger",
+                rarity: 5
+            }, {
+                name: "Sæhrímnir",
+                rarity: 5
+            }, {
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Iceberg",
+                rarity: 5
+            }, {
+                name: "AR-D Atk/Res 1",
+                rarity: 5
+            }, {
+                name: "AR-D Atk/Res 2",
+                rarity: 5
+            }, {
+                name: "AR-D Atk/Res 3",
+                rarity: 5
+            }, {
+                name: "Armor March 1",
+                rarity: 5
+            }, {
+                name: "Armor March 2",
+                rarity: 5
+            }, {
+                name: "Armor March 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 19,
+                    atk: 12,
+                    spd: 5,
+                    def: 7,
+                    res: 10
+                },
+                level40: {
+                    hp: [40, 43, 46],
+                    atk: [35, 38, 41],
+                    spd: [19, 22, 25],
+                    def: [25, 29, 32],
+                    res: [35, 38, 41]
+                }
+            }
+        }, {
+            name: "Lukas (Season For Picnics)",
+            shortName: "Lukas",
+            title: "Buffet for One",
+            artist: "cuboon",
+            voice: "Greg Chun",
+            releaseDate: "Apr 19, 2019",
+            colorType: "Blue",
+            weaponType: "Lance",
+            moveType: "Armor",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season For Picnics).png",
+                main: "img/heroes-main/Lukas (Season For Picnics).png"
+            },
+            skills: [{
+                name: "Iron Lance",
+                rarity: 5
+            }, {
+                name: "Steel Lance",
+                rarity: 5
+            }, {
+                name: "Luncheon Lance",
+                rarity: 5
+            }, {
+                name: "Luncheon Lance+",
+                rarity: 5
+            }, {
+                name: "Pivot",
+                rarity: 5
+            }, {
+                name: "AR-O Atk/Def 1",
+                rarity: 5
+            }, {
+                name: "AR-O Atk/Def 2",
+                rarity: 5
+            }, {
+                name: "AR-O Atk/Def 3",
+                rarity: 5
+            }, {
+                name: "Wary Fighter 1",
+                rarity: 5
+            }, {
+                name: "Wary Fighter 2",
+                rarity: 5
+            }, {
+                name: "Wary Fighter 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 25,
+                    atk: 9,
+                    spd: 6,
+                    def: 12,
+                    res: 3
+                },
+                level40: {
+                    hp: [48, 51, 54],
+                    atk: [18, 21, 24],
+                    spd: [18, 21, 24],
+                    def: [39, 42, 46],
+                    res: [19, 22, 26]
+                }
+            }
+        }, {
+            name: "Genny (Season For Picnics)",
+            shortName: "Genny",
+            title: "Dressed with Care",
+            artist: "Amagaitaro (アマガイタロー)",
+            voice: "Claudia Lenz",
+            releaseDate: "Apr 19, 2019",
+            colorType: "Neutral",
+            weaponType: "Staff",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny (Season For Picnics).png",
+                main: "img/heroes-main/Genny (Season For Picnics).png"
+            },
+            skills: [{
+                name: "Assault",
+                rarity: 5
+            }, {
+                name: "Toasty Skewer",
+                rarity: 5
+            }, {
+                name: "Toasty Skewer+",
+                rarity: 5
+            }, {
+                name: "Heal",
+                rarity: 5
+            }, {
+                name: "Mend",
+                rarity: 5
+            }, {
+                name: "Physic",
+                rarity: 5
+            }, {
+                name: "Physic+",
+                rarity: 5
+            }, {
+                name: "Imbue",
+                rarity: 5
+            }, {
+                name: "Kindled-Fire Balm",
+                rarity: 5
+            }, {
+                name: "Fireflood Balm",
+                rarity: 5
+            }, {
+                name: "Fireflood Balm+",
+                rarity: 5
+            }, {
+                name: "Wrathful Staff 1",
+                rarity: 5
+            }, {
+                name: "Wrathful Staff 2",
+                rarity: 5
+            }, {
+                name: "Wrathful Staff 3",
+                rarity: 5
+            }, {
+                name: "Def Opening 1",
+                rarity: 5
+            }, {
+                name: "Def Opening 2",
+                rarity: 5
+            }, {
+                name: "Def Opening 3",
+                rarity: 5
+            }, ],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 10,
+                    spd: 5,
+                    def: 4,
+                    res: 8
+                },
+                level40: {
+                    hp: [32, 35, 39],
+                    atk: [33, 36, 39],
+                    spd: [21, 24, 28],
+                    def: [11, 14, 18],
+                    res: [31, 34, 37]
+                }
+            }
+        }, {
+            name: "Leo (Season For Picnics)",
+            shortName: "Leo",
+            title: "Extra Tomatoes",
+            artist: "Hino Shinnosuke (日野慎之助)",
+            voice: "Max Mittelman",
+            releaseDate: "Apr 24, 2019",
+            colorType: "Green",
+            weaponType: "Tome",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Leo (Season For Picnics).png",
+                main: "img/heroes-main/Leo (Season For Picnics).png"
+            },
+            skills: [{
+                name: "Wind",
+                rarity: 5
+            }, {
+                name: "Elwind",
+                rarity: 5
+            }, {
+                name: "Sandwiches!",
+                rarity: 5
+            }, {
+                name: "Sandwiches!+",
+                rarity: 5
+            }, {
+                name: "Night Sky",
+                rarity: 5
+            }, {
+                name: "Glimmer",
+                rarity: 5
+            }, {
+                name: "Distant Def 1",
+                rarity: 5
+            }, {
+                name: "Distant Def 2",
+                rarity: 5
+            }, {
+                name: "Distant Def 3",
+                rarity: 5
+            }, {
+                name: "Quick Riposte 1",
+                rarity: 5
+            }, {
+                name: "Quick Riposte 2",
+                rarity: 5
+            }, {
+                name: "Quick Riposte 3",
+                rarity: 5
+            }, ],
+            stats: {
+                level1: {
+                    hp: 15,
+                    atk: 11,
+                    spd: 6,
+                    def: 5,
+                    res: 6
+                },
+                level40: {
+                    hp: [33, 37, 40],
+                    atk: [29, 33, 36],
+                    spd: [18, 21, 24],
+                    def: [23, 27, 30],
+                    res: [24, 28, 31]
+                }
+            }
+        }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
