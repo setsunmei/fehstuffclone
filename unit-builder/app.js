@@ -26889,31 +26889,72 @@
             releaseDate: "Mar 19, 2019",
             colorType: "Neutral",
             weaponType: "Staff",
-            moveType: "Cavalry", 
+            moveType: "Cavalry",
             assets: {
-              portrait: "img/heroes-portrait/75px-Icon_Portrait_Bruno (Regal Rabbits).png",
-              main: "img/heroes-main/Bruno (Regal Rabbits).png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Bruno (Regal Rabbits).png",
+                main: "img/heroes-main/Bruno (Regal Rabbits).png"
             },
-            skills: [
-              { name: "Assault", rarity: 4 },
-              { name: "Ovoid Staff", rarity: 4 },
-              { name: "Ovoid Staff+", rarity: 4 },
-              { name: "Heal", rarity: 5 },
-              { name: "Reconcile", rarity: 5 },
-              { name: "Martyr", rarity: 5 },
-              { name: "Martyr+", rarity: 5 },
-              { name: "Imbue", rarity: 4 },
-              { name: "Miracle", rarity: 4 },
-              { name: "Atk/Def Push 1", rarity: 4 }
-              { name: "Atk/Def Push 2", rarity: 4 }
-              { name: "Atk/Def Push 3", rarity: 4 }
-              { name: "Dazzling Staff 1", rarity: 4 }
-              { name: "Dazzling Staff 2", rarity: 4 }
-              { name: "Dazzling Staff 3", rarity: 5 }
-            ],
+            skills: [{
+                name: "Assault",
+                rarity: 4
+            }, {
+                name: "Ovoid Staff",
+                rarity: 4
+            }, {
+                name: "Ovoid Staff+",
+                rarity: 4
+            }, {
+                name: "Heal",
+                rarity: 5
+            }, {
+                name: "Reconcile",
+                rarity: 5
+            }, {
+                name: "Martyr",
+                rarity: 5
+            }, {
+                name: "Martyr+",
+                rarity: 5
+            }, {
+                name: "Imbue",
+                rarity: 4
+            }, {
+                name: "Miracle",
+                rarity: 4
+            }, {
+                name: "Atk/Def Push 1",
+                rarity: 4
+            }, {
+                name: "Atk/Def Push 2",
+                rarity: 4
+            }, {
+                name: "Atk/Def Push 3",
+                rarity: 4
+            }, {
+                name: "Dazzling Staff 1",
+                rarity: 4
+            }, {
+                name: "Dazzling Staff 2",
+                rarity: 4
+            }, {
+                name: "Dazzling Staff 3",
+                rarity: 5
+            }],
             stats: {
-              level1: { hp: 17, atk: 8, spd: 5, def: 9, res: 4 },
-              level40: { hp: [ 38, 41, 44 ], atk: [ 26, 30, 33 ], spd: [ 21, 24, 28 ], def: [ 32, 35, 38 ], res: [ 11, 14, 18 ] }
+                level1: {
+                    hp: 17,
+                    atk: 8,
+                    spd: 5,
+                    def: 9,
+                    res: 4
+                },
+                level40: {
+                    hp: [38, 41, 44],
+                    atk: [26, 30, 33],
+                    spd: [21, 24, 28],
+                    def: [32, 35, 38],
+                    res: [11, 14, 18]
+                }
             }
         }, {
             name: "Zephiel",
