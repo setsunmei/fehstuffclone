@@ -25,7 +25,7 @@ module.exports = [
     spCost: 300,
     icon: "61-3",
     effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
-    include: [{name: "Goku"}]
+    include: [{name: "Yune"}]
   },
   {
     name: "Beast Exp. 1",

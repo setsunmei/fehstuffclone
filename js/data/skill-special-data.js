@@ -376,7 +376,7 @@ module.exports = [
     cooldown: 2,
     spCost: 500,
     prev: ["Moonbow"],
-    include: [{name: "Goku"}],
+    include: [{name: "Alm (Legendary Heroes)"}],
     effect: "Treats foe's Def/Res as if ignored by 20% during combat. Boosts damage by 20% of unit's Spd."
   },
   {

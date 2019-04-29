@@ -66,7 +66,7 @@ module.exports = [
     colorType: "Green",
     prev: ["Rexcalibur"],
     stats: {spd: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Veronica (Regal Rabbits)"],
     effect: "Grants Spd+3. At start of combat, it unit's HP >= 75%, grants Atk/Spd/Def/Res+4 during combat."
   },
   {
@@ -78,7 +78,7 @@ module.exports = [
     colorType: "Green",
     prev: ["Rexcalibur"],
     stats: {res: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Yune"],
     effect: "Grants Res. +3. If a penalty inflicted by a skill like Panic or Threathen and/or a a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack."
   },
   {
@@ -129,7 +129,7 @@ module.exports = [
     weaponType: "Dagger",
     colorType: "Red",
     stats: {atk: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Flora (Season for Picnics)"],
     effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
   },
   {
@@ -140,7 +140,7 @@ module.exports = [
     weaponType: "Axe",
     colorType: "Green",
     stats: {spd: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Felicia (Season for Picnics)"],
     effect: "Effective against beast foes. Grants Spd+3. At start of combat, If unit's Res > foe's Res, reduces foe's Atk/Spd by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.)"
   },
   {
@@ -151,7 +151,7 @@ module.exports = [
     weaponType: "Bow",
     colorType: "Neutral",
     stats: {spd: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Alm (Legendary Heroes)"],
     effect: "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash))"
   },
   {
@@ -216,7 +216,7 @@ module.exports = [
     weaponType: "Beast",
     colorType: "Red",
     stats: {spd: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Lethe"],
     effect: "Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
   },
   {
@@ -227,7 +227,7 @@ module.exports = [
     weaponType: "Beast",
     colorType: "Green",
     stats: {def: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Ranulf"],
     effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
   },
   {
@@ -238,7 +238,7 @@ module.exports = [
     weaponType: "Beast",
     colorType: "Blue",
     stats: {def: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Mordecai"],
     effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
   },
   {
@@ -249,7 +249,7 @@ module.exports = [
     weaponType: "Beast",
     colorType: "Neutral",
     stats: {atk: 3},
-    exclusive: ["Goku"],
+    exclusive: ["Caineghis"],
     effect: "Grants Atk+3 . If foe initiates combat, grants Atk/Spd/Def/Res+4 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally unit, unit transforms (otherwise, unit reverts). If unit transforms grants Atk+2, and unit can counterattack regardless of foe's range."
   },
   {
