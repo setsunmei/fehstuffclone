@@ -27189,7 +27189,7 @@
             releaseDate: "Apr 10, 2019",
             colorType: "Neutral",
             weaponType: "Beast",
-            moveType: "Armor",
+            moveType: "Armored",
             assets: {
                 portrait: "img/heroes-portrait/75px-Icon_Portrait_Caineghis.png",
                 main: "img/heroes-main/Caineghis.png"
@@ -27497,7 +27497,7 @@
             releaseDate: "Apr 19, 2019",
             colorType: "Green",
             weaponType: "Axe",
-            moveType: "Armor",
+            moveType: "Armored",
             assets: {
                 portrait: "img/heroes-portrait/75px-Icon_Portrait_Felicia (Season For Picnics).png",
                 main: "img/heroes-main/Felicia (Season For Picnics).png"
@@ -27573,7 +27573,7 @@
             releaseDate: "Apr 19, 2019",
             colorType: "Red",
             weaponType: "Dagger",
-            moveType: "Armor",
+            moveType: "Armored",
             assets: {
                 portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora (Season For Picnics).png",
                 main: "img/heroes-main/Flora (Season For Picnics).png"
@@ -27640,7 +27640,7 @@
             releaseDate: "Apr 19, 2019",
             colorType: "Blue",
             weaponType: "Lance",
-            moveType: "Armor",
+            moveType: "Armored",
             assets: {
                 portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season For Picnics).png",
                 main: "img/heroes-main/Lukas (Season For Picnics).png"
