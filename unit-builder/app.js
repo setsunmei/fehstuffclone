@@ -26814,6 +26814,39 @@
                 }
             }
         }, {
+            name: "Loki (Regal Rabbits)",
+            shortName: "Loki",
+            title: "Spring Trickster",
+            artist: "Kusakihara Toshiyuki (草木原俊行) / INTELLIGENT SYSTEMS",
+            voice: "Erika Ishii",
+            releaseDate: "March 23, 2019",
+            colorType: "Neutral",
+            weaponType: "Bow",
+            moveType: "Flying",
+            ttReward: true,  
+            assets: {
+              portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
+              main: "img/heroes-main/Loki_(Regal_Rabbits).png"
+            },
+            skills: [
+              { name: "Iron Bow", rarity: 4 },
+              { name: "Steel Bow", rarity: 4 },
+              { name: "Beguiling Bow", rarity: 4 },
+              { name: "Beguiling Bow+", rarity: 5 },
+              { name: "New Moon", rarity: 4 },
+              { name: "Luna", rarity: 4 },
+              { name: "Flier Formation 1", rarity: 4 }
+              { name: "Flier Formation 2", rarity: 4 }
+              { name: "Flier Formation 3", rarity: 4 }
+              { name: "Spur Atk 1", rarity: 4 }
+              { name: "Spur Atk 2", rarity: 4 }
+              { name: "Goad Fliers", rarity: 5 }
+            ],
+            stats: {
+              level1: { hp: 17, atk: 7, spd: 8, def: 5, res: 8 },
+              level40: { hp: [ 35, 39, 42 ], atk: [ 28, 31, 34 ], spd: [ 31, 34, 37 ], def: [ 23, 27, 30 ], res: [ 22, 25, 28 ] }
+            }
+          }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
