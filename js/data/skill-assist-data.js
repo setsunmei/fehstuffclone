@@ -117,8 +117,16 @@ module.exports = [
     spCost: 300,
     prev: ["Rally Defense", "Rally Attack"],
     exclude: [{weaponType: "Staff"}],
-    last: true,
     effect: "Grants Atk/Def+3 to an adjacent ally until the end of the turn."
+  },
+  {
+    name: "Rally Atk/Def+",
+    range: 1,
+    spCost: 400,
+    prev: ["Rally Atk/Def"],
+    exclude: [{weaponType: "Staff"}],
+    last: true,
+    effect: "Grants Atk/Def+6 to target ally for 1 turn."
   },
   {
     name: "Rally Atk/Res",

@@ -372,6 +372,14 @@ module.exports = [
     effect: "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)"
   },
   {
+    name: "Lunar Flash",
+    cooldown: 2,
+    spCost: 500,
+    prev: ["Moonbow"],
+    include: [{name: "Goku"}],
+    effect: "Treats foe's Def/Res as if ignored by 20% during combat. Boosts damage by 20% of unit's Spd."
+  },
+  {
     name: "Reprisal",
     cooldown: 2,
     spCost: 200,
