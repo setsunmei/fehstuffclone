@@ -27488,7 +27488,7 @@
                     res: [13, 17, 20]
                 }
             }
-        }, {
+        },{
             name: "Felicia (Season for Picnics 2)",
             shortName: "Felicia",
             title: "Off the Menu",
@@ -27512,47 +27512,56 @@
                 name: "Silver Axe",
                 rarity: 5
             }, {
-                name: "Brave Axe+",
+                name: "Eldhrímnir",
                 rarity: 5
             }, {
-                name: "Night Sky",
+                name: "Chilling Wind",
                 rarity: 5
             }, {
-                name: "Glimmer",
+                name: "Glacies",
                 rarity: 5
             }, {
-                name: "G Duel Flying 1",
+                name: "Spd/Def Bond 1",
                 rarity: 5
             }, {
-                name: "G Duel Flying 2",
+                name: "Spd/Def Bond 2",
                 rarity: 5
             }, {
-                name: "G Duel Flying 3",
+                name: "Spd/Def Bond 3",
                 rarity: 5
             }, {
-                name: "Chill Res 1",
+                name: "Special Fighter 1",
                 rarity: 5
             }, {
-                name: "Chill Res 2",
+                name: "Special Fighter 2",
                 rarity: 5
             }, {
-                name: "Chill Res 3",
+                name: "Special Fighter 3",
+                rarity: 5
+            }, {
+                name: "Close Guard 1",
+                rarity: 5
+            }, {
+                name: "Close Guard 2",
+                rarity: 5
+            }, {
+                name: "Close Guard 3",
                 rarity: 5
             }],
             stats: {
-                level1: {
-                    hp: 16,
-                    atk: 9,
-                    spd: 10,
-                    def: 3,
-                    res: 6
+                 level1: {
+                    hp: 21,
+                    atk: 8,
+                    spd: 11,
+                    def: 8,
+                    res: 7
                 },
                 level40: {
-                    hp: [34, 38, 41],
-                    atk: [32, 35, 38],
-                    spd: [33, 36, 39],
-                    def: [12, 16, 19],
-                    res: [22, 25, 29]
+                    hp: [39, 43, 46],
+                    atk: [26, 30, 33],
+                    spd: [34, 37, 40],
+                    def: [26, 30, 33],
+                    res: [32, 35, 38]
                 }
             }
         }, {
