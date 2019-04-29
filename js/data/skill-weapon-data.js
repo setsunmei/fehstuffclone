@@ -164,7 +164,7 @@ module.exports = [
     effect: "If foe initiates combat, grants Atk/Res+4 during combat."
   },
   {
-    name: "Sandwiches!",
+    name: "Sandwiches!+",
     spCost: 300,
     damage: 12,
     range: 2,
