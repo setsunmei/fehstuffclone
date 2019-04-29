@@ -27489,6 +27489,73 @@
                 }
             }
         }, {
+            name: "Felicia (Season for Picnics 2)",
+            shortName: "Felicia",
+            title: "Off the Menu",
+            artist: "HAKO (羽公)",
+            voice: "Connor Kelly",
+            releaseDate: "Apr 19, 2019",
+            colorType: "Green",
+            weaponType: "Axe",
+            moveType: "Armored",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Felicia (Season for Picnics).png",
+                main: "img/heroes-main/Felicia (Season for Picnics).png"
+            },
+            skills: [{
+                name: "Iron Axe",
+                rarity: 5
+            }, {
+                name: "Steel Axe",
+                rarity: 5
+            }, {
+                name: "Silver Axe",
+                rarity: 5
+            }, {
+                name: "Brave Axe+",
+                rarity: 5
+            }, {
+                name: "Night Sky",
+                rarity: 5
+            }, {
+                name: "Glimmer",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 1",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 2",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 3",
+                rarity: 5
+            }, {
+                name: "Chill Res 1",
+                rarity: 5
+            }, {
+                name: "Chill Res 2",
+                rarity: 5
+            }, {
+                name: "Chill Res 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 9,
+                    spd: 10,
+                    def: 3,
+                    res: 6
+                },
+                level40: {
+                    hp: [34, 38, 41],
+                    atk: [32, 35, 38],
+                    spd: [33, 36, 39],
+                    def: [12, 16, 19],
+                    res: [22, 25, 29]
+                }
+            }
+        }, {
             name: "Felicia (Season For Picnics)",
             shortName: "Felicia",
             title: "Off the Menu",
