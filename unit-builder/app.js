@@ -28994,7 +28994,7 @@
         "./skill-special-data.js": 13,
         "./skill-weapon-data.js": 14
     }],
-    7: [function(e, a, t) {
+    7: [function(e, a, t) {   //assist skills
         a.exports = [{
             name: "Ardent Sacrifice",
             range: 1,
@@ -29151,8 +29151,15 @@
             exclude: [{
                 weaponType: "Staff"
             }],
-            last: !0,
             effect: "Grants Atk/Def+3 to an adjacent ally until the end of the turn."
+        }, {
+            name: "Rally Atk/Def+",
+            range: 1,
+            spCost: 400,
+            prev: ["Rally Atk/Def"],
+            exclude: [{weaponType: "Staff"}],
+            last: !0,
+            effect: "Grants Atk/Def+6 to target ally for 1 turn."
         }, {
             name: "Rally Atk/Res",
             range: 1,
@@ -41915,7 +41922,7 @@
             effect: "If unit has at least 3 more HP than enemy at the start of combat, unit receives Res+6 during combat."
         }]
     }, {}],
-    13: [function(e, a, t) {
+    13: [function(e, a, t) {  //specials
         a.exports = [{
             name: "Aegis",
             cooldown: 3,
@@ -42375,6 +42382,13 @@
             }],
             effect: "Boosts damage dealt by 40% of unit's Spd. (Skill cannot be inherited.)"
         }, {
+            name: "Lunar Flash",
+            cooldown: 2,
+            spCost: 500,
+            prev: ["Moonbow"],
+            include: [{name: "Goku"}],
+            effect: "Treats foe's Def/Res as if ignored by 20% during combat. Boosts damage by 20% of unit's Spd."
+        }, {
             name: "Reprisal",
             cooldown: 2,
             spCost: 200,
@@ -42648,7 +42662,7 @@
             colorType: "Green",
             effect: "If foe initiates combat, grants Atk/Res+4 during combat."
         }, {
-            name: "Sandwiches!",
+            name: "Sandwiches!+",
             spCost: 300,
             damage: 12,
             range: 2,
