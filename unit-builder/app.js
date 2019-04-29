@@ -27488,8 +27488,8 @@
                     res: [13, 17, 20]
                 }
             }
-        },{
-            name: "Felicia (Season for Picnics 2)",
+        }, {
+            name: "Felicia (Season for Picnics)",
             shortName: "Felicia",
             title: "Off the Menu",
             artist: "HAKO (羽公)",
@@ -27512,83 +27512,7 @@
                 name: "Silver Axe",
                 rarity: 5
             }, {
-                name: "Eldhrímnir",
-                rarity: 5
-            }, {
-                name: "Chilling Wind",
-                rarity: 5
-            }, {
-                name: "Glacies",
-                rarity: 5
-            }, {
-                name: "Spd/Def Bond 1",
-                rarity: 5
-            }, {
-                name: "Spd/Def Bond 2",
-                rarity: 5
-            }, {
-                name: "Spd/Def Bond 3",
-                rarity: 5
-            }, {
-                name: "Special Fighter 1",
-                rarity: 5
-            }, {
-                name: "Special Fighter 2",
-                rarity: 5
-            }, {
-                name: "Special Fighter 3",
-                rarity: 5
-            }, {
-                name: "Close Guard 1",
-                rarity: 5
-            }, {
-                name: "Close Guard 2",
-                rarity: 5
-            }, {
-                name: "Close Guard 3",
-                rarity: 5
-            }],
-            stats: {
-                 level1: {
-                    hp: 21,
-                    atk: 8,
-                    spd: 11,
-                    def: 8,
-                    res: 7
-                },
-                level40: {
-                    hp: [39, 43, 46],
-                    atk: [26, 30, 33],
-                    spd: [34, 37, 40],
-                    def: [26, 30, 33],
-                    res: [32, 35, 38]
-                }
-            }
-        }, {
-            name: "Felicia (Season For Picnics)",
-            shortName: "Felicia",
-            title: "Off the Menu",
-            artist: "HAKO (羽公)",
-            voice: "Connor Kelly",
-            releaseDate: "Apr 19, 2019",
-            colorType: "Green",
-            weaponType: "Axe",
-            moveType: "Armored",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Felicia (Season For Picnics).png",
-                main: "img/heroes-main/Felicia (Season For Picnics).png"
-            },
-            skills: [{
-                name: "Iron Axe",
-                rarity: 5
-            }, {
-                name: "Steel Axe",
-                rarity: 5
-            }, {
-                name: "Silver Axe",
-                rarity: 5
-            }, {
-                name: "Eldhrímnir",
+                name: "Silver Axe+",
                 rarity: 5
             }, {
                 name: "Chilling Wind",
