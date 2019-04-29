@@ -100,5 +100,17 @@ module.exports = [
     type: "Fire",
     stats: { hp: 3 },
     icon: 16
+  },
+  {
+    hero: "Yune",
+    type: "Dark",
+    stats: { hp: 5, spd: 4 },
+    icon: 17
+  },
+  {
+    hero: "Alm (Legendary Heroes)",
+    type: "Earth",
+    stats: { hp:3 },
+    icon: 18
   }
 ];
