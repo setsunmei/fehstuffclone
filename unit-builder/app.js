@@ -26957,6 +26957,523 @@
                 }
             }
         }, {
+            name: "Palla (Regal Rabbits)",
+            shortName: "Palla",
+            title: "Eldest Bun-Bun",
+            artist: "Mayo (まよ)",
+            voice: "Alexis Tipton",
+            releaseDate: "Mar 19, 2019",
+            colorType: "Red",
+            weaponType: "Dagger",
+            moveType: "Flying",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Palla (Regal Rabbits).png",
+                main: "img/heroes-main/Palla (Regal Rabbits).png"
+            },
+            skills: [{
+                    name: "Iron Dagger",
+                    rarity: 5
+                }, {
+                    name: "Steel Dagger",
+                    rarity: 5
+                }, {
+                    name: "Pegasus Carrot",
+                    rarity: 5
+                }, {
+                    name: "Pegasus Carrot+",
+                    rarity: 5
+                }, {
+                    name: "Dragon Gaze",
+                    rarity: 5
+                }, {
+                    name: "Draconic Aura",
+                    rarity: 5
+                }, {
+                    name: "Darting Blow 1",
+                    rarity: 5
+                }, {
+                    name: "Swift Sparrow 1",
+                    rarity: 5
+                }, {
+                    name: "Swift Sparrow 2",
+                    rarity: 5
+                }, {
+                    name: "Disarm Trap 1",
+                    rarity: 5
+                }, {
+                    name: "Disarm Trap 2",
+                    rarity: 5
+                }, {
+                    name: "Disarm Trap 3",
+                    rarity: 5
+                }, {
+                    name: "Hone Atk 1",
+                    rarity: 5
+                }, {
+                    name: "Hone Atk 2",
+                    rarity: 5
+                }, {
+                    name: "Hone Fliers",
+                    rarity: 5
+                }
+
+            ],
+            stats: {
+                level1: {
+                    hp: 19,
+                    atk: 7,
+                    spd: 10,
+                    def: 4,
+                    res: 5
+                },
+                level40: {
+                    hp: [35, 38, 42],
+                    atk: [34, 37, 41],
+                    spd: [31, 34, 37],
+                    def: [13, 17, 20],
+                    res: [26, 29, 32]
+                }
+            }
+        }, {
+            name: "Veronica (Regal Rabbits)",
+            shortName: "Veronica",
+            title: "Spring Princess",
+            artist: "Umiu Geso (海鵜げそ)",
+            voice: "Wendee Lee",
+            releaseDate: "Mar 19, 2019",
+            colorType: "Green",
+            weaponType: "Tome",
+            moveType: "Flying",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Veronica (Regal Rabbits).png",
+                main: "img/heroes-main/Veronica (Regal Rabbits).png"
+            },
+            skills: [{
+                name: "Wind",
+                rarity: 5
+            }, {
+                name: "Elwind",
+                rarity: 5
+            }, {
+                name: "Rexcalivur",
+                rarity: 5
+            }, {
+                name: "Veðrfölnir's Egg",
+                rarity: 5
+            }, {
+                name: "Night Sky",
+                rarity: 5
+            }, {
+                name: "Glimmer",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 1",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 2",
+                rarity: 5
+            }, {
+                name: "G Duel Flying 3",
+                rarity: 5
+            }, {
+                name: "Chill Res 1",
+                rarity: 5
+            }, {
+                name: "Chill Res 2",
+                rarity: 5
+            }, {
+                name: "Chill Res 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 9,
+                    spd: 10,
+                    def: 3,
+                    res: 6
+                },
+                level40: {
+                    hp: [34, 38, 41],
+                    atk: [32, 35, 38],
+                    spd: [33, 36, 39],
+                    def: [12, 16, 19],
+                    res: [22, 25, 29]
+                }
+            }
+        }, {
+            name: "Marisa (Regal Rabbits)",
+            shortName: "Marisa",
+            title: "Crimson Rabbit",
+            artist: "Tsukito (月戸)",
+            voice: "Connor Kelly",
+            releaseDate: "Mar 19, 2019",
+            colorType: "Blue",
+            weaponType: "Lance",
+            moveType: "Flying",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Marisa (Regal Rabbits).png",
+                main: "img/heroes-main/Marisa (Regal Rabbits).png"
+            },
+            skills: [{
+                name: "Iron Lance",
+                rarity: 5
+            }, {
+                name: "Steel Lance",
+                rarity: 5
+            }, {
+                name: "Flashing Carrot",
+                rarity: 5
+            }, {
+                name: "Flashing Carrot+",
+                rarity: 5
+            }, {
+                name: "Reposition",
+                rarity: 5
+            }, {
+                name: "Spd/Def Link 1",
+                rarity: 5
+            }, {
+                name: "Spd/Def Link 2",
+                rarity: 5
+            }, {
+                name: "Spd/Def Link 3",
+                rarity: 5
+            }, {
+                name: "Flier Guidance 1",
+                rarity: 5
+            }, {
+                name: "Flier Guidance 2",
+                rarity: 5
+            }, {
+                name: "Flier Guidance 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 9,
+                    spd: 8,
+                    def: 6,
+                    res: 6
+                },
+                level40: {
+                    hp: [39, 42, 45],
+                    atk: [30, 33, 36],
+                    spd: [35, 38, 42],
+                    def: [24, 28, 31],
+                    res: [18, 21, 24]
+                }
+            }
+        }, {
+            name: "Caineghis",
+            shortName: "Caineghis",
+            title: "Gallia's Lion King",
+            artist: "Kita Senri (北千里)",
+            voice: "Jake Eberle",
+            releaseDate: "Apr 10, 2019",
+            colorType: "Neutral",
+            weaponType: "Beast",
+            moveType: "Armor",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Caineghis.png",
+                main: "img/heroes-main/Caineghis.png"
+            },
+            skills: [{
+                name: "Lion King Fang",
+                rarity: 5
+            }, {
+                name: "Glowing Ember",
+                rarity: 5
+            }, {
+                name: "Bonfire",
+                rarity: 5
+            }, {
+                name: "Distant Def 1",
+                rarity: 5
+            }, {
+                name: "Distant Def 2",
+                rarity: 5
+            }, {
+                name: "Distant Def 3",
+                rarity: 5
+            }, {
+                name: "Distant Def 4",
+                rarity: 5
+            }, {
+                name: "Vengeful Fighter 1",
+                rarity: 5
+            }, {
+                name: "Vengeful Fighter 2",
+                rarity: 5
+            }, {
+                name: "Vengeful Fighter 3",
+                rarity: 5
+            }, {
+                name: "Distant Guard 1",
+                rarity: 5
+            }, {
+                name: "Distant Guard 2",
+                rarity: 5
+            }, {
+                name: "Distant Guard 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 23,
+                    atk: 9,
+                    spd: 4,
+                    def: 11,
+                    res: 8
+                },
+                level40: {
+                    hp: [44, 47, 50],
+                    atk: [34, 37, 40],
+                    spd: [20, 23, 27],
+                    def: [34, 37, 40],
+                    res: [26, 30, 33]
+                }
+            }
+        }, {
+            name: "Lethe",
+            shortName: "Lethe",
+            title: "Gallia's Valkyrie",
+            artist: "kaya8",
+            voice: "Kirsten Day",
+            releaseDate: "Apr 10, 2019",
+            colorType: "Red",
+            weaponType: "Beast",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Lethe.png",
+                main: "img/heroes-main/Lethe.png"
+            },
+            skills: [{
+                name: "Brazen Cat Fang",
+                rarity: 5
+            }, {
+                name: "New Moon",
+                rarity: 5
+            }, {
+                name: "Moonbow",
+                rarity: 5
+            }, {
+                name: "Spd/Def Solo 1",
+                rarity: 5
+            }, {
+                name: "Spd/Def Solo 2",
+                rarity: 5
+            }, {
+                name: "Spd/Def Solo 3",
+                rarity: 5
+            }, {
+                name: "Hone Atk 1",
+                rarity: 5
+            }, {
+                name: "Hone Atk 2",
+                rarity: 5
+            }, {
+                name: "Hone Beasts",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 17,
+                    atk: 9,
+                    spd: 10,
+                    def: 4,
+                    res: 6
+                },
+                level40: {
+                    hp: [38, 41, 44],
+                    atk: [30, 33, 36],
+                    spd: [35, 38, 41],
+                    def: [22, 26, 29],
+                    res: [15, 19, 22]
+                }
+            }
+        }, {
+            name: "Ranulf",
+            shortName: "Ranulf",
+            title: "Friend of Nations",
+            artist: "Meka (めか)",
+            voice: "Armen Taylor",
+            releaseDate: "Apr 10, 2019",
+            colorType: "Green",
+            weaponType: "Beast",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Ranulf.png",
+                main: "img/heroes-main/Ranulf.png"
+            },
+            skills: [{
+                name: "Covert Cat Fang",
+                rarity: 5
+            }, {
+                name: "Rally Defense",
+                rarity: 5
+            }, {
+                name: "Rally Atk/Def",
+                rarity: 5
+            }, {
+                name: "Rally Atk/Def+",
+                rarity: 5
+            }, {
+                name: "Chill Atk 1",
+                rarity: 5
+            }, {
+                name: "Chill Atk 2",
+                rarity: 5
+            }, {
+                name: "Chill Atk 3",
+                rarity: 5
+            }, {
+                name: "Spur Def 1",
+                rarity: 5
+            }, {
+                name: "Spur Def 2",
+                rarity: 5
+            }, {
+                name: "Ward Beasts",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 8,
+                    spd: 11,
+                    def: 7,
+                    res: 4
+                },
+                level40: {
+                    hp: [37, 40, 43],
+                    atk: [26, 30, 33],
+                    spd: [34, 37, 40],
+                    def: [30, 33, 36],
+                    res: [13, 17, 20]
+                }
+            }
+        }, {
+            name: "Mordecai",
+            shortName: "Mordecai",
+            title: "Kindhearted Tiger",
+            artist: "Homazo (ホマ蔵)",
+            voice: "Jason Vande Brake",
+            releaseDate: "Apr 10, 2019",
+            colorType: "Blue",
+            weaponType: "Beast",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Mordecai.png",
+                main: "img/heroes-main/Mordecai.png"
+            },
+            skills: [{
+                name: "Sabertooth Fang",
+                rarity: 5
+            }, {
+                name: "Smite",
+                rarity: 5
+            }, {
+                name: "Atk/Def Link 1",
+                rarity: 5
+            }, {
+                name: "Atk/Def Link 2",
+                rarity: 5
+            }, {
+                name: "Atk/Def Link 3",
+                rarity: 5
+            }, {
+                name: "Beast Exp. 1",
+                rarity: 5
+            }, {
+                name: "Beast Exp. 2",
+                rarity: 5
+            }, {
+                name: "Beast Exp. 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 19,
+                    atk: 11,
+                    spd: 5,
+                    def: 9,
+                    res: 5
+                },
+                level40: {
+                    hp: [44, 47, 50],
+                    atk: [34, 37, 40],
+                    spd: [21, 24, 28],
+                    def: [36, 39, 43],
+                    res: [17, 20, 23]
+                }
+            }
+        }, {
+            name: "Haar",
+            shortName: "Haar",
+            title: "Black Tempest",
+            artist: "Shimomura Watari",
+            voice: "Jake Eberle",
+            releaseDate: "Apr 11, 2019",
+            colorType: "Green",
+            weaponType: "Axe",
+            moveType: "Flying",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Haar.png",
+                main: "img/heroes-main/Haar.png"
+            },
+            skills: [{
+                name: "Iron Axe",
+                rarity: 5
+            }, {
+                name: "Steel Axe",
+                rarity: 5
+            }, {
+                name: "Brave Axe",
+                rarity: 5
+            }, {
+                name: "Brave Axe+",
+                rarity: 5
+            }, {
+                name: "Swap",
+                rarity: 5
+            }, {
+                name: "Guard 1",
+                rarity: 5
+            }, {
+                name: "Guard 2",
+                rarity: 5
+            }, {
+                name: "Guard 3",
+                rarity: 5
+            }, {
+                name: "Odd Def Wave 1",
+                rarity: 5
+            }, {
+                name: "Odd Def Wave 2",
+                rarity: 5
+            }, {
+                name: "Odd Def Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 16,
+                    atk: 8,
+                    spd: 11,
+                    def: 7,
+                    res: 4
+                },
+                level40: {
+                    hp: [37, 40, 43],
+                    atk: [26, 30, 33],
+                    spd: [34, 37, 40],
+                    def: [30, 33, 36],
+                    res: [13, 17, 20]
+                }
+            }
+        }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
