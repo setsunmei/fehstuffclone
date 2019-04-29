@@ -12595,7 +12595,7 @@ module.exports = [
     ttReward: true,  
     assets: {
       portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
-      main: "img/heroes-main/Loki_(Regal_Rabbits).png"
+      main: "img/heroes-main/Loki (Regal Rabbits).png"
     },
     skills: [
       { name: "Iron Bow", rarity: 4 },
