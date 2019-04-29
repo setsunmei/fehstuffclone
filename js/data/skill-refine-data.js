@@ -1,4 +1,289 @@
 module.exports = {
+  "Flashing Carrot+": [
+   {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+    }
+  ],
+  "Luncheon Lance+": [
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+    }
+  ],
+  "Ovoid Staff+": [
+    {
+      name: "Wrathful Staff",
+      icon: "32-1",
+      effect: "At start of turn, restores 7 HP to unit and adjacent allies. Calculates damage from staff like other weapons."
+    },
+    {
+      name: "Dazzling Staff",
+      icon: "32-2",
+      effect: "At start of turn, restores 7 HP to unit and adjacent allies. Foe cannot counterattack."
+    }
+  ],
+  "Toasty Skewer+": [
+    {
+      name: "Wrathful Staff",
+      icon: "32-1",
+      effect: "If a foe initiates combat against any ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat.Calculates damage from staff like other weapons."
+    },
+    {
+      name: "Dazzling Staff",
+      icon: "32-2",
+      effect: "If a foe initiates combat against any ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat. Foe cannot counterattack."
+    }
+  ],
+  "Peri's Lance": [
+    {
+      name: "Special Refine",
+      icon: "61-5",
+      cost: 1,
+      stats: {hp: 3},
+      effect: "Accelerates Special trigger (cooldown count-1). At start of combat, if unit's HP < 100%, grants Atk/Spd/Def/Res+4 during combat."
+    },{
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "Accelerates Special trigger (cooldown count-1)."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "Accelerates Special trigger (cooldown count-1)."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "Accelerates Special trigger (cooldown count-1)."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "Accelerates Special trigger (cooldown count-1)."
+    }
+  ],
+  "Bull Blade": [
+    {
+      name: "Special Refine",
+      icon: "61-4",
+      cost: 1,
+      stats: {hp: 3},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.) If cavalry allies within 2 spaces use sword, lance, or axe and unit initiates combat, unit attacks twice."
+    },
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    }
+  ],
+  "Panther Lance": [
+    {
+      name: "Special Refine",
+      icon: "61-4",
+      cost: 1,
+      stats: {hp: 3},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.) If cavalry allies within 2 spaces use sword,lance, or axe and unit initiates combat, unit attacks twice."
+    },
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    }
+  ],
+  "Hana's Katana": [
+    {
+      name: "Special Refine",
+      icon: "57-9",
+      cost: 1,
+      stats: {hp: 3},
+      effect: "Effective against armored foes. If unit initiates combat, grants Atk/Spd+4 during combat."
+    },
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 5, atk: 2},
+      effect: "Effective against armored foes."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 5, spd: 3},
+      effect: "Effective against armored foes."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 5, def: 4},
+      effect: "Effective against armored foes."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 5, res: 4},
+      effect: "Effective against armored foes."
+    }
+  ],
+  "Beguiling Bow+": [
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 2, atk: 1},
+      effect: "Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 2, spd: 2},
+      effect: "Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 2, def: 3},
+      effect: "Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 2, res: 3},
+      effect: "Effective against flying foes. At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+    }
+  ],
+  "Pegasus Carrot+": [
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 2, atk: 1},
+      effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 2, spd: 1},
+      effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 2, def: 3},
+      effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 2, res: 3},
+      effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    }
+  ],
+  "Sandwiches!+": [
+    {
+      name: "+Atk",
+      icon: "31-9",
+      stats: {hp: 2, atk: 1},
+      effect: "If foe initiates combat, grants Atk/Res+4 during combat."
+    },
+    {
+      name: "+Spd",
+      icon: "31-10",
+      stats: {hp: 2, spd: 1},
+      effect: "If foe initiates combat, grants Atk/Res+4 during combat."
+    },
+    {
+      name: "+Def",
+      icon: "31-11",
+      stats: {hp: 2, def: 3},
+      effect: "If foe initiates combat, grants Atk/Res+4 during combat."
+    },
+    {
+      name: "+Res",
+      icon: "31-12",
+      stats: {hp: 2, res: 3},
+      effect: "If foe initiates combat, grants Atk/Res+4 during combat."
+    }
+  ],
   "Silver Sword+": [
     {
       name: "+Atk",

@@ -102,6 +102,16 @@ module.exports = [
     effect: "Effective against armored foes."
   },
   {
+    name: "Peri's Lance",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Lance",
+    colorType: "Blue",
+    exclusive: ["Peri"],
+    effect: "Accelerates Special trigger (cooldown count-1)."
+  },
+  {
     name: "Bull Blade",
     spCost: 400,
     damage: 16,
@@ -137,12 +147,30 @@ module.exports = [
     name: "Luna Arc",
     spCost: 400,
     damage: 14,
-    range: 1,
+    range: 2,
     weaponType: "Bow",
     colorType: "Neutral",
     stats: {spd: 3},
     exclusive: ["Goku"],
     effect: "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash))"
+  },
+  {
+    name: "Sandwiches!",
+    spCost: 200,
+    damage: 8,
+    range: 2,
+    weaponType: "Tome",
+    colorType: "Green",
+    effect: "If foe initiates combat, grants Atk/Res+4 during combat."
+  },
+  {
+    name: "Sandwiches!",
+    spCost: 300,
+    damage: 12,
+    range: 2,
+    weaponType: "Tome",
+    colorType: "Green",
+    effect: "If foe initiates combat, grants Atk/Res+4 during combat."
   },
   {
     name: "Luncheon Lance",
