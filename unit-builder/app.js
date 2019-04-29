@@ -42214,8 +42214,229 @@
             effect: "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn."
         }]
     }, {}],
-    14: [function(e, a, t) {
+    14: [function(e, a, t) { //weapons 
         a.exports = [{
+            name: "Flashing Carrot",
+            spCost: 200,
+            damage: 10,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            prev: ["Steel Lance"],
+            effect: "At start of combat, if foe’s HP = 100%, grants Atk/Spd/Def/Res+2 during combat."
+        }, {
+            name: "Flashing Carrot+",
+            spCost: 300,
+            damage: 14,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            prev: ["Flashing Carrot"],
+            effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+        }, {
+            name: "Beguiling Bow",
+            spCost: 200,
+            damage: 8,
+            range: 2,
+            weaponType: "Bow",
+            colorType: "Neutral",
+            prev: ["Steel Bow"],
+            effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+        }, {
+            name: "Beguiling Bow+",
+            spCost: 300,
+            damage: 12,
+            range: 2,
+            weaponType: "Bow",
+            colorType: "Neutral",
+            prev: ["Beguiling Bow"],
+            effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+        }, {
+            name: "Pegasus Carrot",
+            spCost: 200,
+            damage: 8,
+            range: 2,
+            weaponType: "Dagger",
+            prev: ["Steel Dagger"],
+            effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+        }, {
+            name: "Pegasus Carrot+",
+            spCost: 300,
+            damage: 12,
+            range: 2,
+            weaponType: "Dagger",
+            prev: ["Steel Dagger"],
+            effect: "Effective against armored foes. If unit has weapon-triangle advantage, neutralizes status effects and disables skills that prevent follow-up attacks during combat. After combat, if unit attacked, inflicts Def/Res-5 on target and foes within 2 spaces of target through their next actions."
+        }, {
+            name: "Veðrfölnir's Egg",
+            spCost: 400,
+            damage: 14,
+            range: 2,
+            weaponType: "Tome",
+            colorType: "Green",
+            prev: ["Rexcalibur"],
+            stats: {spd: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Spd+3. At start of combat, it unit's HP >= 75%, grants Atk/Spd/Def/Res+4 during combat."
+        }, {
+            name: "Chaos Manifest",
+            spCost: 400,
+            damage: 14,
+            range: 2,
+            weaponType: "Tome",
+            colorType: "Green",
+            prev: ["Rexcalibur"],
+            stats: {res: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Res. +3. If a penalty inflicted by a skill like Panic or Threathen and/or a a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack."
+        }, {
+            name: "Panther Lance",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            exclusive: ["Abel"],
+            effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+        }, {
+            name: "Hana's Katana",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Sword",
+            colorType: "Red",
+            exclusive: ["Hana"],
+            effect: "Effective against armored foes."
+        }, {
+            name: "Bull Blade",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Sword",
+            colorType: "Red",
+            exclusive: ["Cain"],
+            effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+        }, {
+            name: "Sæhrímnir",
+            spCost: 400,
+            damage: 14,
+            range: 2,
+            weaponType: "Dagger",
+            colorType: "Red",
+            stats: {atk: 3},
+            exclusive: ["Goku"],
+            effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
+        }, {
+            name: "Eldhrímnir",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Axe",
+            colorType: "Green",
+            stats: {spd: 3},
+            exclusive: ["Goku"],
+            effect: "Effective against beast foes. Grants Spd+3. At start of combat, If unit's Res > foe's Res, reduces foe's Atk/Spd by 50% of difference between stats during combat. (Calculates reduction before combat. Maximum penalty of -8.)"
+        }, {
+            name: "Luna Arc",
+            spCost: 400,
+            damage: 14,
+            range: 1,
+            weaponType: "Bow",
+            colorType: "Neutral",
+            stats: {spd: 3},
+            exclusive: ["Goku"],
+            effect: "Effective against flying foes. Grants Spd+3. If unit initiates combat, deals damage = 25% of foe's Def. (Ignores reductions to Def from special skills like Lunar Flash))"
+        }, {
+            name: "Luncheon Lance",
+            spCost: 200,
+            damage: 10,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+        }, {
+            name: "Luncheon Lance+",
+            spCost: 300,
+            damage: 14,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            effect: "If foe initiates combat, grants Atk/Def+4 during combat."
+        }, {
+            name: "Toasty Skewer",
+            spCost: 200,
+            damage: 8,
+            range: 2,
+            weaponType: "Staff",
+            colorType: "Neutral",
+            effect: "If a foe initiates combat against any ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat."
+        }, {
+            name: "Toasty Skewer+",
+            spCost: 300,
+            damage: 12,
+            range: 2,
+            weaponType: "Staff",
+            colorType: "Neutral",
+            effect: "If a foe initiates combat against any ally within 2 spaces of unit, grants Def/Res+3 to that ally during combat."
+        }, {
+            name: "Brazen Cat Fang",
+            spCost: 400,
+            damage: 14,
+            range: 1,
+            weaponType: "Beast",
+            colorType: "Red",
+            stats: {spd: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Spd+3. If unit is not adjacent to an ally, grants Atk/Spd+6 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
+        }, {
+            name: "Covert Cat Fang",
+            spCost: 400,
+            damage: 14,
+            range: 1,
+            weaponType: "Beast",
+            colorType: "Green",
+            stats: {def: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
+        }, {
+            name: "Sabertooth Fang",
+            spCost: 400,
+            damage: 14,
+            range: 1,
+            weaponType: "Beast",
+            colorType: "Blue",
+            stats: {def: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Def +3. If unit is within 2 spaces of an ally, grants Atk/Def+3 to unit and allies withing 2 spaces of unit during combat. At start of turn, if unit is adjacent to only beast or dragon allies or unit is not adjacent to any ally, unit transforms (otherwise, unit reverts). If unit transforms, grants Atk+2 and if unit initiates combat, inflicts Atk/Def-4 on foe during combat and foe cannot make a follow-up attack."
+        }, {
+            name: "Lion King Fang",
+            spCost: 400,
+            damage: 14,
+            range: 1,
+            weaponType: "Beast",
+            colorType: "Neutral",
+            stats: {atk: 3},
+            exclusive: ["Goku"],
+            effect: "Grants Atk+3 . If foe initiates combat, grants Atk/Spd/Def/Res+4 during combat. At start of turn, if unit is adjacent to only beast or dragon allies or if unit is not adjacent to any ally unit, unit transforms (otherwise, unit reverts). If unit transforms grants Atk+2, and unit can counterattack regardless of foe's range."
+        }, {
+            name: "Ovoid Staff",
+            spCost: 200,
+            damage: 8,
+            range: 2,
+            weaponType: "Staff",
+            colorType: "Neutral",
+            prev: ["Assault"],
+            effect: "At start of turn, restores 5 HP to unit and adjacent allies."
+        }, {
+            name: "Ovoid Staff+",
+            spCost: 300,
+            damage: 12,
+            range: 2,
+            weaponType: "Staff",
+            colorType: "Neutral",
+            prev: ["Assault"],
+            effect: "At start of turn, restores 7 HP to unit and adjacent allies."
+        }, {
             name: "Absorb",
             spCost: 150,
             damage: 4,
