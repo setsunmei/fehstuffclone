@@ -102,6 +102,16 @@ module.exports = [
     effect: "Effective against armored foes."
   },
   {
+    name: "Peri's Lance",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Lance",
+    colorType: "Blue",
+    exclusive: ["Peri"],
+    effect: "Accelerates Special trigger (cooldown count-1)."
+  },
+  {
     name: "Bull Blade",
     spCost: 400,
     damage: 16,
