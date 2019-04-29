@@ -27640,83 +27640,83 @@
             }
         }, {
             name: "Lukas (Season For Picnics)",
-            shortName: "Lukas",
-            title: "Buffet for One",
-            artist: "cuboon",
-            voice: "Greg Chun",
-            releaseDate: "Apr 19, 2019",
-            colorType: "Blue",
-            weaponType: "Lance",
-            moveType: "Armor",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season For Picnics).png",
-                main: "img/heroes-main/Lukas (Season For Picnics).png"
-            },
-            skills: [{
-                name: "Iron Lance",
-                rarity: 5
-            }, {
-                name: "Steel Lance",
-                rarity: 5
-            }, {
-                name: "Luncheon Lance",
-                rarity: 5
-            }, {
-                name: "Luncheon Lance+",
-                rarity: 5
-            }, {
-                name: "Pivot",
-                rarity: 5
-            }, {
-                name: "AR-O Atk/Def 1",
-                rarity: 5
-            }, {
-                name: "AR-O Atk/Def 2",
-                rarity: 5
-            }, {
-                name: "AR-O Atk/Def 3",
-                rarity: 5
-            }, {
-                name: "Wary Fighter 1",
-                rarity: 5
-            }, {
-                name: "Wary Fighter 2",
-                rarity: 5
-            }, {
-                name: "Wary Fighter 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 25,
-                    atk: 9,
-                    spd: 6,
-                    def: 12,
-                    res: 3
+                shortName: "Lukas",
+                title: "Buffet for One",
+                artist: "cuboon",
+                voice: "Greg Chun",
+                releaseDate: "Apr 19, 2019",
+                colorType: "Blue",
+                weaponType: "Lance",
+                moveType: "Armor",
+                assets: {
+                    portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season For Picnics).png",
+                    main: "img/heroes-main/Lukas (Season For Picnics).png"
                 },
-                level40: {
-                    hp: [48, 51, 54],
-                    atk: [18, 21, 24],
-                    spd: [18, 21, 24],
-                    def: [39, 42, 46],
-                    res: [19, 22, 26]
+                skills: [{
+                    name: "Iron Lance",
+                    rarity: 5
+                }, {
+                    name: "Steel Lance",
+                    rarity: 5
+                }, {
+                    name: "Luncheon Lance",
+                    rarity: 5
+                }, {
+                    name: "Luncheon Lance+",
+                    rarity: 5
+                }, {
+                    name: "Pivot",
+                    rarity: 5
+                }, {
+                    name: "AR-O Atk/Def 1",
+                    rarity: 5
+                }, {
+                    name: "AR-O Atk/Def 2",
+                    rarity: 5
+                }, {
+                    name: "AR-O Atk/Def 3",
+                    rarity: 5
+                }, {
+                    name: "Wary Fighter 1",
+                    rarity: 5
+                }, {
+                    name: "Wary Fighter 2",
+                    rarity: 5
+                }, {
+                    name: "Wary Fighter 3",
+                    rarity: 5
+                }],
+                stats: {
+                    level1: {
+                        hp: 25,
+                        atk: 9,
+                        spd: 6,
+                        def: 12,
+                        res: 3
+                    },
+                    level40: {
+                        hp: [48, 51, 54],
+                        atk: [18, 21, 24],
+                        spd: [18, 21, 24],
+                        def: [39, 42, 46],
+                        res: [19, 22, 26]
+                    }
                 }
-            }
-        }, {
-            name: "Yune",
-            shortName: "Yune",
-            title: "Chaos Goddess",
-            artist: "Miwabe Sakura (みわべさくら)",
-            voice: "Megan Lee",
-            releaseDate: "Mar 29, 2019",
-            colorType: "Green",
-            weaponType: "Tome",
-            moveType: "Flying",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Yune.png",
-                main: "img/heroes-main/Yune.png"
-            },
-            skills: [{
+            }, {
+                name: "Yune",
+                shortName: "Yune",
+                title: "Chaos Goddess",
+                artist: "Miwabe Sakura (みわべさくら)",
+                voice: "Megan Lee",
+                releaseDate: "Mar 29, 2019",
+                colorType: "Green",
+                weaponType: "Tome",
+                moveType: "Flying",
+                assets: {
+                    portrait: "img/heroes-portrait/75px-Icon_Portrait_Yune.png",
+                    main: "img/heroes-main/Yune.png"
+                },
+                skills: [{
                     name: "Wind",
                     rarity: 5
                 }, {
@@ -27755,190 +27755,188 @@
                 }, {
                     name: "Chaos Named",
                     rarity: 5
+                }],
+                stats: {
+                    level1: {
+                        hp: 16,
+                        atk: 9,
+                        spd: 5,
+                        def: 5,
+                        res: 9
+                    },
+                    level40: {
+                        hp: [34, 38, 41],
+                        atk: [30, 33, 36],
+                        spd: [23, 27, 30],
+                        def: [12, 15, 19],
+                        res: [34, 37, 40]
+                    }
                 }
-
-            ],
-            stats: {
-                level1: {
-                    hp: 16,
-                    atk: 9,
-                    spd: 5,
-                    def: 5,
-                    res: 9
+            }, {
+                name: "Alm (Legendary Heroes)",
+                shortName: "Alm",
+                title: "Saint King",
+                artist: "Arai Teruko (新井テル子)",
+                voice: "Kyle McCarley",
+                releaseDate: "Apr 27, 2019",
+                colorType: "Neutral",
+                weaponType: "Bow",
+                moveType: "Infantry",
+                assets: {
+                    portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm (Legendary Heroes).png",
+                    main: "img/heroes-main/Alm (Legendary Heroes).png"
                 },
-                level40: {
-                    hp: [34, 38, 41],
-                    atk: [30, 33, 36],
-                    spd: [23, 27, 30],
-                    def: [12, 15, 19],
-                    res: [34, 37, 40]
+                skills: [{
+                    name: "Iron Bow",
+                    rarity: 5
+                }, {
+                    name: "Steel Bow",
+                    rarity: 5
+                }, {
+                    name: "Silver Bow",
+                    rarity: 5
+                }, {
+                    name: "Luna Arc",
+                    rarity: 5
+                }, {
+                    name: "New Moon",
+                    rarity: 5
+                }, {
+                    name: "Moonbow",
+                    rarity: 5
+                }, {
+                    name: "Lunar Flash",
+                    rarity: 5
+                }, {
+                    name: "Darting Blow 1",
+                    rarity: 5
+                }, {
+                    name: "Darting Blow 2",
+                    rarity: 5
+                }, {
+                    name: "Darting Blow 3",
+                    rarity: 5
+                }, {
+                    name: "Darting Blow 4",
+                    rarity: 5
+                }, {
+                    name: "Null Follow-Up 1",
+                    rarity: 5
+                }, {
+                    name: "Null Follow-Up 2",
+                    rarity: 5
+                }, {
+                    name: "Null Follow-Up 3",
+                    rarity: 5
+                }, {
+                    name: "Odd Atk Wave 1",
+                    rarity: 5
+                }, {
+                    name: "Odd Atk Wave 2",
+                    rarity: 5
+                }, {
+                    name: "Odd Atk Wave 3",
+                    rarity: 5
+                }, ],
+                stats: {
+                    level1: {
+                        hp: 18,
+                        atk: 11,
+                        spd: 11,
+                        def: 4,
+                        res: 3
+                    },
+                    level40: {
+                        hp: [36, 40, 43],
+                        atk: [34, 37, 40],
+                        spd: [34, 37, 40],
+                        def: [22, 26, 29],
+                        res: [19, 22, 26]
+                    }
                 }
-            }
-        }, {
-            name: "Alm (Legendary Heroes)",
-            shortName: "Alm",
-            title: "Saint King",
-            artist: "Arai Teruko (新井テル子)",
-            voice: "Kyle McCarley",
-            releaseDate: "Apr 27, 2019",
-            colorType: "Neutral",
-            weaponType: "Bow",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Alm (Legendary Heroes).png",
-                main: "img/heroes-main/Alm (Legendary Heroes).png"
-            },
-            skills: [{
-                name: "Iron Bow",
-                rarity: 5
             }, {
-                name: "Steel Bow",
-                rarity: 5
-            }, {
-                name: "Silver Bow",
-                rarity: 5
-            }, {
-                name: "Luna Arc",
-                rarity: 5
-            }, {
-                name: "New Moon",
-                rarity: 5
-            }, {
-                name: "Moonbow",
-                rarity: 5
-            }, {
-                name: "Lunar Flash",
-                rarity: 5
-            }, {
-                name: "Darting Blow 1",
-                rarity: 5
-            }, {
-                name: "Darting Blow 2",
-                rarity: 5
-            }, {
-                name: "Darting Blow 3",
-                rarity: 5
-            }, {
-                name: "Darting Blow 4",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 1",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 2",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 3",
-                rarity: 5
-            }, {
-                name: "Odd Atk Wave 1",
-                rarity: 5
-            }, {
-                name: "Odd Atk Wave 2",
-                rarity: 5
-            }, {
-                name: "Odd Atk Wave 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 11,
-                    spd: 11,
-                    def: 4,
-                    res: 3
+                name: "Genny (Season For Picnics)",
+                shortName: "Genny",
+                title: "Dressed with Care",
+                artist: "Amagaitaro (アマガイタロー)",
+                voice: "Claudia Lenz",
+                releaseDate: "Apr 19, 2019",
+                colorType: "Neutral",
+                weaponType: "Staff",
+                moveType: "Cavalry",
+                assets: {
+                    portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny (Season For Picnics).png",
+                    main: "img/heroes-main/Genny (Season For Picnics).png"
                 },
-                level40: {
-                    hp: [36, 40, 43],
-                    atk: [34, 37, 40],
-                    spd: [34, 37, 40],
-                    def: [22, 26, 29],
-                    res: [19, 22, 26]
+                skills: [{
+                    name: "Assault",
+                    rarity: 5
+                }, {
+                    name: "Toasty Skewer",
+                    rarity: 5
+                }, {
+                    name: "Toasty Skewer+",
+                    rarity: 5
+                }, {
+                    name: "Heal",
+                    rarity: 5
+                }, {
+                    name: "Mend",
+                    rarity: 5
+                }, {
+                    name: "Physic",
+                    rarity: 5
+                }, {
+                    name: "Physic+",
+                    rarity: 5
+                }, {
+                    name: "Imbue",
+                    rarity: 5
+                }, {
+                    name: "Kindled-Fire Balm",
+                    rarity: 5
+                }, {
+                    name: "Fireflood Balm",
+                    rarity: 5
+                }, {
+                    name: "Fireflood Balm+",
+                    rarity: 5
+                }, {
+                    name: "Wrathful Staff 1",
+                    rarity: 5
+                }, {
+                    name: "Wrathful Staff 2",
+                    rarity: 5
+                }, {
+                    name: "Wrathful Staff 3",
+                    rarity: 5
+                }, {
+                    name: "Def Opening 1",
+                    rarity: 5
+                }, {
+                    name: "Def Opening 2",
+                    rarity: 5
+                }, {
+                    name: "Def Opening 3",
+                    rarity: 5
+                }, ],
+                stats: {
+                    level1: {
+                        hp: 16,
+                        atk: 10,
+                        spd: 5,
+                        def: 4,
+                        res: 8
+                    },
+                    level40: {
+                        hp: [32, 35, 39],
+                        atk: [33, 36, 39],
+                        spd: [21, 24, 28],
+                        def: [11, 14, 18],
+                        res: [31, 34, 37]
+                    }
                 }
-            }
-        }, {
-            name: "Genny (Season For Picnics)",
-            shortName: "Genny",
-            title: "Dressed with Care",
-            artist: "Amagaitaro (アマガイタロー)",
-            voice: "Claudia Lenz",
-            releaseDate: "Apr 19, 2019",
-            colorType: "Neutral",
-            weaponType: "Staff",
-            moveType: "Cavalry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny (Season For Picnics).png",
-                main: "img/heroes-main/Genny (Season For Picnics).png"
-            },
-            skills: [{
-                name: "Assault",
-                rarity: 5
             }, {
-                name: "Toasty Skewer",
-                rarity: 5
-            }, {
-                name: "Toasty Skewer+",
-                rarity: 5
-            }, {
-                name: "Heal",
-                rarity: 5
-            }, {
-                name: "Mend",
-                rarity: 5
-            }, {
-                name: "Physic",
-                rarity: 5
-            }, {
-                name: "Physic+",
-                rarity: 5
-            }, {
-                name: "Imbue",
-                rarity: 5
-            }, {
-                name: "Kindled-Fire Balm",
-                rarity: 5
-            }, {
-                name: "Fireflood Balm",
-                rarity: 5
-            }, {
-                name: "Fireflood Balm+",
-                rarity: 5
-            }, {
-                name: "Wrathful Staff 1",
-                rarity: 5
-            }, {
-                name: "Wrathful Staff 2",
-                rarity: 5
-            }, {
-                name: "Wrathful Staff 3",
-                rarity: 5
-            }, {
-                name: "Def Opening 1",
-                rarity: 5
-            }, {
-                name: "Def Opening 2",
-                rarity: 5
-            }, {
-                name: "Def Opening 3",
-                rarity: 5
-            }, ],
-            stats: {
-                level1: {
-                    hp: 16,
-                    atk: 10,
-                    spd: 5,
-                    def: 4,
-                    res: 8
-                },
-                level40: {
-                    hp: [32, 35, 39],
-                    atk: [33, 36, 39],
-                    spd: [21, 24, 28],
-                    def: [11, 14, 18],
-                    res: [31, 34, 37]
-                }
-            }
-        }, {
             name: "Leo (Season For Picnics)",
             shortName: "Leo",
             title: "Extra Tomatoes",
