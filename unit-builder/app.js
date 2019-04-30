@@ -43883,6 +43883,7 @@
             damage: 14,
             range: 2,
             weaponType: "Dagger",
+            colorType: "Red",
             stats: {
                 atk: 3
             },
