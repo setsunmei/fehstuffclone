@@ -122,14 +122,16 @@ module.exports = [
     effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
   },
   {
-    name: "Help",
+    name: "Sæhrímnir",
     spCost: 400,
     damage: 14,
     range: 2,
     weaponType: "Dagger",
     prev: ["Silver Dagger"],
+    colorType: "Red",
+    stats: {atk: 3},
     exclusive: ["Flora (Season for Picnics)"],
-    effect: "Accelerates Special trigger (cooldown count-1). If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Def+20 during combat, and if foe can counter, unit makes a guaranteed follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
+    effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
   },
   {
     name: "Eldhrímnir",
