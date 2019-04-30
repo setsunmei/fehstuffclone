@@ -127,8 +127,9 @@ module.exports = [
     damage: 14,
     range: 2,
     weaponType: "Dagger",
+    prev: ["Silver Dagger"],
     exclusive: ["Flora (Season for Picnics)"],
-    effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+    effect: "Accelerates Special trigger (cooldown count-1). If unit initiates combat and foe uses sword, lance, axe, or dragonstone, grants Def+20 during combat, and if foe can counter, unit makes a guaranteed follow-up attack. After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next actions."
   },
   {
     name: "Eldhrímnir",
