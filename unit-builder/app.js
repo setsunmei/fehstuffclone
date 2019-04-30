@@ -27588,7 +27588,7 @@
                 name: "Silver Dagger",
                 rarity: 5
             },{
-                name: "Sæhrímnir",
+                name: "Saehrímnir",
                 rarity: 5
             },{
                 name: "Chilling Wind",
