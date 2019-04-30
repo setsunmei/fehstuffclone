@@ -43884,6 +43884,9 @@
             range: 2,
             weaponType: "Dagger",
             prev: ["Silver Dagger"],
+            stats: {
+                atk: 3
+            },
             exclusive: ["Flora (Season for Picnics)"],
             effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
         }, {
