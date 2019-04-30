@@ -26756,9 +26756,9 @@
         }, {
             name: "Goku",
             shortName: "Goku",
-            title: "Saiyan",
-            artist: "Goku",
-            voice: "Goku Goku",
+            title: "Placeholder",
+            artist: "Test",
+            voice: "Test",
             releaseDate: "Apr 1, 2019",
             colorType: "Green",
             weaponType: "Dagger",
@@ -26815,10 +26815,10 @@
             stats: {
                 level1: {
                     hp: 16,
-                    atk: 9,
-                    spd: 9,
-                    def: 3,
-                    res: 7
+                    atk: 7,
+                    spd: 8,
+                    def: 5,
+                    res: 8
                 },
                 level40: {
                     hp: [34, 38, 41],
@@ -26881,18 +26881,18 @@
             }],
             stats: {
                 level1: {
-                    hp: 16,
-                    atk: 9,
-                    spd: 9,
-                    def: 3,
-                    res: 7
+                    hp: 17,
+                    atk: 7,
+                    spd: 8,
+                    def: 5,
+                    res: 8
                 },
                 level40: {
-                    hp: [34, 38, 41],
-                    atk: [32, 35, 38],
-                    spd: [32, 35, 38],
-                    def: [12, 16, 19],
-                    res: [23, 26, 30]
+                    hp: [35, 39, 42],
+                    atk: [28, 31, 34],
+                    spd: [31, 34, 37],
+                    def: [23, 27, 30],
+                    res: [22, 25, 28]
                 }
             }
         }, {
