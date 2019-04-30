@@ -27588,7 +27588,7 @@
                 name: "Silver Dagger",
                 rarity: 5
             },{
-                name: "Saehrímnir",
+                name: "Help",
                 rarity: 5
             },{
                 name: "Chilling Wind",
@@ -43878,15 +43878,12 @@
             exclusive: ["Cain"],
             effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
         }, {
-            name: "Saehrímnir",
+            name: "Help",
             spCost: 400,
             damage: 14,
             range: 2,
             weaponType: "Dagger",
             colorType: "Red",
-            stats: {
-                atk: 3
-            },
             exclusive: ["Flora (Season for Picnics)"],
             effect: "Effective against beast foes. Grants Atk+3. At start of combat, if unit's Res > foe's Res, reduces foe's Atk/Def by 50% of difference between stats during combat (Calculates reduction before combat. Maximum penalty of -8) After combat, if unit attacked, inflicts Def/Res-7 on target and foes within 2 spaces of target through their next action."
         }, {
