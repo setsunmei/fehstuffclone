@@ -122,7 +122,7 @@ module.exports = [
     effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
   },
   {
-    name: "Sæhrímnir",
+    name: "Saehrímnir",
     spCost: 400,
     damage: 14,
     range: 2,
