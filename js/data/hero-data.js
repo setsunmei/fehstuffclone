@@ -12963,7 +12963,7 @@ module.exports = [
       { name: "Iron Dagger", rarity: 5 },
       { name: "Steel Dagger", rarity: 5 },
       { name: "Silver Dagger", rarity: 5 },
-      { name: "Saehrímnir", rarity: 5 },
+      { name: "Help", rarity: 5 },
       { name: "Chilling Wind", rarity: 5 },
       { name: "Iceberg", rarity: 5 },
       { name: "AR-D Atk/Res 1", rarity: 5 },
