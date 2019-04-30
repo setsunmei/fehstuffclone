@@ -27512,7 +27512,7 @@
                 name: "Silver Axe",
                 rarity: 5
             }, {
-                name: "Silver Axe+",
+                name: "Eldhrímnir",
                 rarity: 5
             }, {
                 name: "Chilling Wind",
@@ -27575,43 +27575,43 @@
             weaponType: "Dagger",
             moveType: "Armored",
             assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora (Season For Picnics).png",
-                main: "img/heroes-main/Flora (Season For Picnics).png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Flora (Season for Picnics).png",
+                main: "img/heroes-main/Flora (Season for Picnics).png"
             },
             skills: [{
                 name: "Iron Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Silver Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Sæhrímnir",
                 rarity: 5
-            }, {
+            },{
                 name: "Chilling Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Iceberg",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 3",
                 rarity: 5
             }],
@@ -27642,40 +27642,40 @@
             weaponType: "Lance",
             moveType: "Armored",
             assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season For Picnics).png",
-                main: "img/heroes-main/Lukas (Season For Picnics).png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Lukas (Season for Picnics).png",
+                main: "img/heroes-main/Lukas (Season for Picnics).png"
             },
             skills: [{
                 name: "Iron Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance+",
                 rarity: 5
-            }, {
+            },{
                 name: "Pivot",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 3",
                 rarity: 5
             }],
@@ -27696,7 +27696,7 @@
                 }
             }
         }, {
-            name: "Genny (Season For Picnics)",
+            name: "Genny (Season for Picnics)",
             shortName: "Genny",
             title: "Dressed with Care",
             artist: "Amagaitaro (アマガイタロー)",
@@ -27706,58 +27706,58 @@
             weaponType: "Staff",
             moveType: "Cavalry",
             assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny (Season For Picnics).png",
-                main: "img/heroes-main/Genny (Season For Picnics).png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Genny (Season for Picnics).png",
+                main: "img/heroes-main/Genny (Season for Picnics).png"
             },
             skills: [{
                 name: "Assault",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer+",
                 rarity: 5
-            }, {
+            },{
                 name: "Heal",
                 rarity: 5
-            }, {
+            },{
                 name: "Mend",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic+",
                 rarity: 5
-            }, {
+            },{
                 name: "Imbue",
                 rarity: 5
-            }, {
+            },{
                 name: "Kindled-Fire Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm+",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 3",
                 rarity: 5
             }],
@@ -27778,7 +27778,7 @@
                 }
             }
         }, {
-            name: "Leo (Season For Picnics)",
+            name: "Leo (Season for Picnics)",
             shortName: "Leo",
             title: "Extra Tomatoes",
             artist: "Hino Shinnosuke (日野慎之助)",
@@ -27788,43 +27788,43 @@
             weaponType: "Tome",
             moveType: "Cavalry",
             assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Leo (Season For Picnics).png",
-                main: "img/heroes-main/Leo (Season For Picnics).png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Leo (Season for Picnics).png",
+                main: "img/heroes-main/Leo (Season for Picnics).png"
             },
             skills: [{
                 name: "Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Elwind",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!+",
                 rarity: 5
-            }, {
+            },{
                 name: "Night Sky",
                 rarity: 5
-            }, {
+            },{
                 name: "Glimmer",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 3",
                 rarity: 5
             }],
