@@ -43882,7 +43882,7 @@
             spCost: 400,
             damage: 14,
             range: 2,
-            weaponType: "Dagger",,
+            weaponType: "Dagger",
             stats: {
                 atk: 3
             },
