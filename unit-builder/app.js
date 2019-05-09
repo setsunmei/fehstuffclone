@@ -32572,6 +32572,14 @@
             }],
             effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
         }, {
+            name: "Solitary Dream",
+            spCost: 300,
+            icon: "61-3",
+            include: [{
+                name: "Goku"
+            }],
+            effect: "At start of turn, if unit is adjacent to only dragon allies or if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
+        }, {
             name: "Beast Exp. 1",
             spCost: 30,
             icon: "61-10",
