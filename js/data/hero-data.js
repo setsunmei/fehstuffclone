@@ -13154,7 +13154,7 @@ module.exports = [
     }
   },
   {
-    name: "Fallen Tiki (Young)",
+    name: "Tiki (Darkness Within)",
     shortName: "Tiki",
     title: "Torpid Dragon",
     artist: "lack",
@@ -13183,7 +13183,7 @@ module.exports = [
     }
   },
   {
-    name: "Fallen Mareeta",
+    name: "Mareeta (Darkness Within)",
     shortName: "Mareeta",
     title: "The Blade's Pawn",
     artist: "kiyu",
@@ -13214,7 +13214,7 @@ module.exports = [
     }
   },
   {
-    name: "Fallen Berkut",
+    name: "Berkut (Darkness Within)",
     shortName: "Berkut",
     title: "Purgatorial Prince",
     artist: "Asatani Tomoyo",
@@ -13245,7 +13245,7 @@ module.exports = [
     }
   },
   {
-    name: "Fallen Delthea",
+    name: "Delthea (Darkness Within)",
     shortName: "Delthea",
     title: "Tatarrah's Puppet",
     artist: "Placeholder",
@@ -13275,7 +13275,7 @@ module.exports = [
     }
   },
   {
-    name: "Fallen Corrin (F)",
+    name: "Corrin (Darkness Within)",
     shortName: "Corrin",
     title: "Wailing Soul",
     artist: "Sencha",

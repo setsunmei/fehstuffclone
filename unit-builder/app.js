@@ -27997,7 +27997,7 @@
                 }
             }
         }, {
-            name: "Fallen Tiki (Young)",
+            name: "Tiki (Darkness Within)",
             shortName: "Tiki",
             title: "Torpid Dragon",
             artist: "lack",
@@ -28052,7 +28052,7 @@
                 }
             }
         }, {
-            name: "Fallen Mareeta",
+            name: "Mareeta (Darkness Within)",
             shortName: "Mareeta",
             title: "The Blade's Pawn",
             artist: "kiyu",
@@ -28113,7 +28113,7 @@
                 }
             }
         },  {
-            name: "Fallen Berkut",
+            name: "Berkut (Darkness Within)",
             shortName: "Berkut",
             title: "Purgatorial Prince",
             artist: "Asatani Tomoyo",
@@ -28174,7 +28174,7 @@
                 }
             }
         },  {
-            name: "Fallen Delthea",
+            name: "Delthea (Darkness Within)",
             shortName: "Delthea",
             title: "Tatarrah's Puppet",
             artist: "Placeholder",
@@ -28232,7 +28232,7 @@
                 }
             }
         },  {
-            name: "Fallen Corrin (F)",
+            name: "Corrin (Darkness Within)",
             shortName: "Corrin",
             title: "Wailing Soul",
             artist: "Sencha",
@@ -32864,6 +32864,14 @@
                 name: "Yune"
             }],
             effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
+        }, {
+            name: "Solitary Dream",
+            spCost: 300,
+            icon: "61-3",
+            include: [{
+                name: "Tiki (Darkness Within)"
+            }],
+            effect: "At start of turn, if unit is adjacent to only dragon allies of if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
         }, {
             name: "Beast Exp. 1",
             spCost: 30,
@@ -44142,7 +44150,7 @@
             damage: 16,
             range: 1,
             weaponType: "Breath",
-            exclusive: ["Fallen Tiki (Young)"]
+            exclusive: ["Tiki (Darkness Within)"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
@@ -44153,7 +44161,7 @@
                 atk: 3
             },
             weaponType: "Breath",
-            exclusive: ["Fallen Corrin (F)"]
+            exclusive: ["Corrin (Darkness Within)"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
@@ -44161,7 +44169,7 @@
             damage: 16,
             range: 1,
             weaponType: "Lance",
-            exclusive: ["Fallen Berkut"]
+            exclusive: ["Berkut (Darkness Within)"]
             effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
         }, {
             name: "Shadow Sword",
@@ -44169,7 +44177,7 @@
             damage: 16,
             range: 1,
             weaponType: "Sword",
-            exclusive: ["Fallen Mareeta"]
+            exclusive: ["Mareeta (Darkness Within)"]
             effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }, {
             name: "Death",
@@ -44181,7 +44189,7 @@
             },
             weaponType: "Tome",
             colorType: "Blue"
-            exclusive: ["Fallen Delthea"]
+            exclusive: ["Delthea (Darkness Within)"]
             effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
