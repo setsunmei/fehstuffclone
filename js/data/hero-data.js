@@ -13154,6 +13154,29 @@ module.exports = [
     }
   },
   {
+    name: "Tiki (Young) (Darkness Within)",
+    shortName: "Tiki",
+    title: "Torpid Dragon",
+    artist: "lack",
+    voice: "Mela Lee",
+    releaseDate: "May 10, 2019",
+    colorType: "Neutral",
+    weaponType: "Breath",
+    moveType: "Armored", 
+    assets: {
+      portrait: "img/heroes-portrait/75px-Icon_Portrait_Tiki (Young) (Darkness Within).png",
+      main: "img/heroes-main/Tiki (Young) (Darkness Within).png"
+    },
+    skills: [
+      { name: "", rarity: 5 },
+      { name: "", rarity: 5 }
+    ],
+    stats: {
+      level1: { hp: 17, atk: 10, spd: 10, def: 4, res: 6 },
+      level40: { hp: [ 42, 45, 48 ], atk: [ 33, 36, 39 ], spd: [ 31, 34, 37 ], def: [ 33, 37, 40 ], res: [ 24, 28, 31 ] }
+    }
+  },
+  {
     name: "Zephiel",
     title: "The Liberator",
     artist: "Yamada Akihiro (山田章博)",
