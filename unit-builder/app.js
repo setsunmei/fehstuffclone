@@ -27581,37 +27581,37 @@
             skills: [{
                 name: "Iron Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Steel Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Silver Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Sæhrímnir",
                 rarity: 5
-            },{
+            }, {
                 name: "Chilling Wind",
                 rarity: 5
-            },{
+            }, {
                 name: "Iceberg",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 1",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 2",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 3",
                 rarity: 5
             }],
@@ -27648,34 +27648,34 @@
             skills: [{
                 name: "Iron Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Steel Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Luncheon Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Luncheon Lance+",
                 rarity: 5
-            },{
+            }, {
                 name: "Pivot",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 1",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 2",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 3",
                 rarity: 5
             }],
@@ -27712,52 +27712,52 @@
             skills: [{
                 name: "Assault",
                 rarity: 5
-            },{
+            }, {
                 name: "Toasty Skewer",
                 rarity: 5
-            },{
+            }, {
                 name: "Toasty Skewer+",
                 rarity: 5
-            },{
+            }, {
                 name: "Heal",
                 rarity: 5
-            },{
+            }, {
                 name: "Mend",
                 rarity: 5
-            },{
+            }, {
                 name: "Physic",
                 rarity: 5
-            },{
+            }, {
                 name: "Physic+",
                 rarity: 5
-            },{
+            }, {
                 name: "Imbue",
                 rarity: 5
-            },{
+            }, {
                 name: "Kindled-Fire Balm",
                 rarity: 5
-            },{
+            }, {
                 name: "Fireflood Balm",
                 rarity: 5
-            },{
+            }, {
                 name: "Fireflood Balm+",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 3",
                 rarity: 5
             }],
@@ -27794,37 +27794,37 @@
             skills: [{
                 name: "Wind",
                 rarity: 5
-            },{
+            }, {
                 name: "Elwind",
                 rarity: 5
-            },{
+            }, {
                 name: "Sandwiches!",
                 rarity: 5
-            },{
+            }, {
                 name: "Sandwiches!+",
                 rarity: 5
-            },{
+            }, {
                 name: "Night Sky",
                 rarity: 5
-            },{
+            }, {
                 name: "Glimmer",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 3",
                 rarity: 5
             }],
@@ -28374,7 +28374,7 @@
             }
         }]
     }, {}],
-    5: [function(e, a, t) {  //A Skills
+    5: [function(e, a, t) { //A Skills
         a.exports = [{
             name: "Armored Blow 1",
             spCost: 50,
@@ -44149,7 +44149,7 @@
             range: 1,
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Tiki (Darkness Within)"]
+            exclusive: ["Tiki (Young) (Darkness Within)"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
@@ -44161,7 +44161,7 @@
             },
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Corrin (Darkness Within)"]
+            exclusive: ["Corrin (F) (Darkness Within)"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
@@ -50389,7 +50389,7 @@
                 [1494, 669],
                 [1068, 669],
                 [1498, 224],
-                [1068,446]
+                [1068, 446]
             ]
         }
     }, {}]
