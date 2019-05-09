@@ -27581,37 +27581,37 @@
             skills: [{
                 name: "Iron Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Silver Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Sæhrímnir",
                 rarity: 5
-            }, {
+            },{
                 name: "Chilling Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Iceberg",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 3",
                 rarity: 5
             }],
@@ -27648,34 +27648,34 @@
             skills: [{
                 name: "Iron Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance+",
                 rarity: 5
-            }, {
+            },{
                 name: "Pivot",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 3",
                 rarity: 5
             }],
@@ -27712,52 +27712,52 @@
             skills: [{
                 name: "Assault",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer+",
                 rarity: 5
-            }, {
+            },{
                 name: "Heal",
                 rarity: 5
-            }, {
+            },{
                 name: "Mend",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic+",
                 rarity: 5
-            }, {
+            },{
                 name: "Imbue",
                 rarity: 5
-            }, {
+            },{
                 name: "Kindled-Fire Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm+",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 3",
                 rarity: 5
             }],
@@ -27794,37 +27794,37 @@
             skills: [{
                 name: "Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Elwind",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!+",
                 rarity: 5
-            }, {
+            },{
                 name: "Night Sky",
                 rarity: 5
-            }, {
+            },{
                 name: "Glimmer",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 3",
                 rarity: 5
             }],
@@ -28001,11 +28001,11 @@
             shortName: "Tiki",
             title: "Torpid Dragon",
             artist: "lack",
-            voice: "Mela Lee",
-            releaseDate: "May 10, 2019",
+            voice: "placeholder",
+            releaseDate: "Apr 27, 2019",
             colorType: "Neutral",
             weaponType: "Breath",
-            moveType: "Armored",
+            moveType: "Infantry",
             assets: {
                 portrait: "img/heroes-portrait/75px-Icon_Portrait_Tiki (Darkness Within).png",
                 main: "img/heroes-main/Tiki (Darkness Within).png"
@@ -28014,279 +28014,23 @@
                 name: "Razing Breath",
                 rarity: 5
             }, {
-                name: "Brazen Atk/Spd 1",
-                rarity: 5
-            }, {
-                name: "Brazen Atk/Spd 2",
-                rarity: 5
-            }, {
-                name: "Brazen Atk/Spd 3",
-                rarity: 5
-            }, {
-                name: "Special Fighter 1",
-                rarity: 5
-            }, {
-                name: "Special Fighter 2",
-                rarity: 5
-            }, {
-                name: "Special Fighter 3",
-                rarity: 5
-            }, {
                 name: "Solitary Dream",
                 rarity: 5
             }],
             stats: {
                 level1: {
-                    hp: 17,
-                    atk: 10,
-                    spd: 10,
-                    def: 4,
-                    res: 6
-                },
-                level40: {
-                    hp: [42, 45, 48],
-                    atk: [33, 36, 39],
-                    spd: [31, 34, 37],
-                    def: [33, 37, 40],
-                    res: [24, 28, 31]
-                }
-            }
-        }, {
-            name: "Mareeta (Darkness Within)",
-            shortName: "Mareeta",
-            title: "The Blade's Pawn",
-            artist: "kiyu",
-            voice: "Kayli Mills",
-            releaseDate: "May 10, 2019",
-            colorType: "Red",
-            weaponType: "Sword",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Mareeta (Darkness Within).png",
-                main: "img/heroes-main/Mareeta (Darkness Within).png"
-            },
-            skills: [{
-                name: "Shadow Sword",
-                rarity: 5
-            }, {
-                name: "New Moon",
-                rarity: 5
-            }, {
-                name: "Luna",
-                rarity: 5
-            }, {
-                name: "Flashing Blade 1",
-                rarity: 5
-            }, {
-                name: "Flashing Blade 2",
-                rarity: 5
-            }, {
-                name: "Flashing Blade 3",
-                rarity: 5
-            }, {
-                name: "Flashing Blade 4",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 1",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 2",
-                rarity: 5
-            }, {
-                name: "Null Follow-Up 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
                     hp: 18,
-                    atk: 9,
+                    atk: 11,
                     spd: 11,
-                    def: 7,
-                    res: 4
-                },
-                level40: {
-                    hp: [39, 42, 45],
-                    atk: [39, 33, 36],
-                    spd: [38, 41, 45],
-                    def: [25, 29, 32],
-                    res: [20, 23, 27]
-                }
-            }
-        }, {
-            name: "Berkut (Darkness Within)",
-            shortName: "Berkut",
-            title: "Purgatorial Prince",
-            artist: "Asatani Tomoyo",
-            voice: "Ian Sinclair",
-            releaseDate: "May 10, 2019",
-            colorType: "Blue",
-            weaponType: "Lance",
-            moveType: "Cavalry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Berkut (Darkness Within).png",
-                main: "img/heroes-main/Berkut (Darkness Within).png"
-            },
-            skills: [{
-                name: "Kriemhild",
-                rarity: 5
-            }, {
-                name: "Retribution",
-                rarity: 5
-            }, {
-                name: "Reprisal",
-                rarity: 5
-            }, {
-                name: "Warding Stance 1",
-                rarity: 5
-            }, {
-                name: "Warding Stance 2",
-                rarity: 5
-            }, {
-                name: "Warding Stance 3",
-                rarity: 5
-            }, {
-                name: "Warding Stance 4",
-                rarity: 5
-            }, {
-                name: "Odd Res Wave 1",
-                rarity: 5
-            }, {
-                name: "Odd Res Wave 2",
-                rarity: 5
-            }, {
-                name: "Odd Res Wave 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 5,
-                    spd: 4,
-                    def: 11,
-                    res: 9
+                    def: 4,
+                    res: 3
                 },
                 level40: {
                     hp: [36, 40, 43],
-                    atk: [32, 35, 39],
-                    spd: [13, 17, 20],
-                    def: [32, 35, 38],
-                    res: [26, 30, 33]
-                }
-            }
-        }, {
-            name: "Delthea (Darkness Within)",
-            shortName: "Delthea",
-            title: "Tatarrah's Puppet",
-            artist: "Placeholder",
-            voice: "Placeholder",
-            releaseDate: "May 10, 2019",
-            colorType: "Blue",
-            weaponType: "Tome",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Delthea (Darkness Within).png",
-                main: "img/heroes-main/Delthea (Darkness Within).png"
-            },
-            skills: [{
-                name: "Death",
-                rarity: 5
-            }, {
-                name: "Chilling Wind",
-                rarity: 5
-            }, {
-                name: "Glacies",
-                rarity: 5
-            }, {
-                name: "Death Blow 1",
-                rarity: 5
-            }, {
-                name: "Death Blow 2",
-                rarity: 5
-            }, {
-                name: "Death Blow 3",
-                rarity: 5
-            }, {
-                name: "Even Atk Wave 1",
-                rarity: 5
-            }, {
-                name: "Even Atk Wave 2",
-                rarity: 5
-            }, {
-                name: "Even Atk Wave 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 17,
-                    atk: 10,
-                    spd: 9,
-                    def: 4,
-                    res: 6
-                },
-                level40: {
-                    hp: [38, 41, 44],
-                    atk: [33, 36, 39],
-                    spd: [30, 33, 36],
-                    def: [16, 19, 21],
-                    res: [25, 28, 31]
-                }
-            }
-        }, {
-            name: "Corrin (F) (Darkness Within)",
-            shortName: "Corrin",
-            title: "Wailing Soul",
-            artist: "Sencha",
-            voice: "Marcella Lentz-Pope",
-            releaseDate: "May 10, 2019",
-            colorType: "Neutral",
-            weaponType: "Breath",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (Darkness Within).png",
-                main: "img/heroes-main/Corrin (Darkness Within).png"
-            },
-            skills: [{
-                name: "Savage Breath",
-                rarity: 5
-            }, {
-                name: "Dragon Gaze",
-                rarity: 5
-            }, {
-                name: "Dragon Fang",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Solo 1",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Solo 2",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Solo 3",
-                rarity: 5
-            }, {
-                name: "Sudden Panic 1",
-                rarity: 5
-            }, {
-                name: "Sudden Panic 2",
-                rarity: 5
-            }, {
-                name: "Sudden Panic 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 15,
-                    atk: 7,
-                    spd: 7,
-                    def: 7,
-                    res: 5
-                },
-                level40: {
-                    hp: [40, 43, 46],
-                    atk: [32, 35, 38],
+                    atk: [34, 37, 40],
                     spd: [34, 37, 40],
-                    def: [28, 31, 34],
-                    res: [23, 27, 31]
+                    def: [22, 26, 29],
+                    res: [19, 22, 26]
                 }
             }
         }, {
@@ -28374,7 +28118,7 @@
             }
         }]
     }, {}],
-    5: [function(e, a, t) { //A Skills
+    5: [function(e, a, t) {  //A Skills
         a.exports = [{
             name: "Armored Blow 1",
             spCost: 50,
@@ -29298,24 +29042,6 @@
                 weaponType: "Staff"
             }],
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
-        }, {
-            name: "Flashing Blade 4",
-            spCost: 300,
-            icon: "31-8",
-            prev: ["Flashing Blade 3"],
-            include: [{
-                moveType: "Infantry"
-            }, {
-                moveType: "Armored"
-            }],
-            exclude: [{
-                weaponType: "Staff"
-            }, {
-                moveType: "Flying"
-            }, {
-                moveType: "Cavalry"
-            }],
-            effect: "If unit's Spd > foe's Spd. grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)"
         }, {
             name: "Fort. Def/Res 1",
             spCost: 100,
@@ -30254,12 +29980,6 @@
             prev: ["Warding Stance 2"],
             effect: "Grants Res+6 during combat when this unit is attacked."
         }, {
-            name: "Warding Stance 4",
-            spCost: 300,
-            icon: "30-7",
-            prev: ["Warding Stance 3"],
-            effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
-        }, {
             name: "Water Boost 1",
             spCost: 50,
             icon: "23-2",
@@ -30972,44 +30692,6 @@
                 moveType: "Flying"
             }],
             effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
-        }, {
-            name: "Sudden Panic 1",
-            spCost: 60,
-            icon: "19-2",
-            exclude: [{
-                moveType: "Armored"
-            }, {
-                moveType: "Cavalry"
-            }, {
-                weaponType: "Staff"
-            }],
-            effect: "At start of turn, if any foe's HP ≤ unit's HP-5 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
-        }, {
-            name: "Sudden Panic 2",
-            spCost: 120,
-            icon: "19-3",
-            prev: ["Sudden Panic 1"],
-            exclude: [{
-                moveType: "Armored"
-            }, {
-                moveType: "Cavalry"
-            }, {
-                weaponType: "Staff"
-            }],
-            effect: "At start of turn, if any foe's HP ≤ unit's HP-3 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
-        }, {
-            name: "Sudden Panic 3",
-            spCost: 240,
-            icon: "19-4",
-            prev: ["Sudden Panic 2"],
-            exclude: [{
-                moveType: "Armored"
-            }, {
-                moveType: "Cavalry"
-            }, {
-                weaponType: "Staff"
-            }],
-            effect: "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts [Panic] on that foe. [Panic] Converts bonuses on target into penalties through its next action."
         }, {
             name: "Spd/Def Link 1",
             spCost: 60,
@@ -44149,7 +43831,7 @@
             range: 1,
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Tiki (Young) (Darkness Within)"]
+            exclusive: ["Tiki (Darkness Within)"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
@@ -44161,7 +43843,7 @@
             },
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Corrin (F) (Darkness Within)"]
+            exclusive: ["Corrin (Darkness Within)"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
@@ -50389,7 +50071,7 @@
                 [1494, 669],
                 [1068, 669],
                 [1498, 224],
-                [1068, 446]
+                [1068,446]
             ]
         }
     }, {}]
