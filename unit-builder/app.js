@@ -27997,43 +27997,6 @@
                 }
             }
         }, {
-            name: "Tiki (Young) (Darkness Within)",
-            shortName: "Tiki",
-            title: "Torpid Dragon",
-            artist: "lack",
-            voice: "placeholder",
-            releaseDate: "Apr 27, 2019",
-            colorType: "Neutral",
-            weaponType: "Breath",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Tiki (Darkness Within).png",
-                main: "img/heroes-main/Tiki (Darkness Within).png"
-            },
-            skills: [{
-                name: "Razing Breath",
-                rarity: 5
-            }, {
-                name: "Solitary Dream",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 11,
-                    spd: 11,
-                    def: 4,
-                    res: 3
-                },
-                level40: {
-                    hp: [36, 40, 43],
-                    atk: [34, 37, 40],
-                    spd: [34, 37, 40],
-                    def: [22, 26, 29],
-                    res: [19, 22, 26]
-                }
-            }
-        }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
@@ -28118,7 +28081,7 @@
             }
         }]
     }, {}],
-    5: [function(e, a, t) {  //A Skills
+    5: [function(e, a, t) {
         a.exports = [{
             name: "Armored Blow 1",
             spCost: 50,
@@ -29041,6 +29004,7 @@
             exclude: [{
                 weaponType: "Staff"
             }],
+            last: !0,
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
         }, {
             name: "Fort. Def/Res 1",
@@ -29978,6 +29942,7 @@
             spCost: 200,
             icon: "30-7",
             prev: ["Warding Stance 2"],
+            last: !0,
             effect: "Grants Res+6 during combat when this unit is attacked."
         }, {
             name: "Water Boost 1",
@@ -32544,14 +32509,6 @@
                 name: "Yune"
             }],
             effect: "At start of turn, if foes within 3 columns centered on unit have Res ≤ unit's Res-3, inflicts -5 on the highest of those foes' Atk/Spd/Def/Res through their next actions. (When calculating highest stat, treats Atk as -15. Calculates each stat penalty independently.)"
-        }, {
-            name: "Solitary Dream",
-            spCost: 300,
-            icon: "61-3",
-            include: [{
-                name: "Tiki (Young) (Darkness Within)"
-            }],
-            effect: "At start of turn, if unit is adjacent to only dragon allies of if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
         }, {
             name: "Beast Exp. 1",
             spCost: 30,
@@ -43805,7 +43762,7 @@
             effect: "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn."
         }]
     }, {}],
-    14: [function(e, a, t) { //weapon skills 
+    14: [function(e, a, t) { //weapons 
         a.exports = [{
             name: "Flashing Carrot",
             spCost: 200,
@@ -43824,57 +43781,6 @@
             colorType: "Blue",
             prev: ["Flashing Carrot"],
             effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
-        }, {
-            name: "Razing Breath",
-            spCost: 400,
-            damage: 16,
-            range: 1,
-            weaponType: "Breath",
-            colorType: "Neutral",
-            exclusive: ["Tiki (Darkness Within)"]
-            effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
-        }, {
-            name: "Savage Breath",
-            spCost: 400,
-            damage: 16,
-            range: 1,
-            stats: {
-                atk: 3
-            },
-            weaponType: "Breath",
-            colorType: "Neutral",
-            exclusive: ["Corrin (Darkness Within)"]
-            effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
-        }, {
-            name: "Kriemhild",
-            spCost: 400,
-            damage: 16,
-            range: 1,
-            weaponType: "Lance",
-            colorType: "Blue",
-            exclusive: ["Berkut (Darkness Within)"]
-            effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
-        }, {
-            name: "Shadow Sword",
-            spCost: 400,
-            damage: 16,
-            range: 1,
-            weaponType: "Sword",
-            colorType: "Red"
-            exclusive: ["Mareeta (Darkness Within)"]
-            effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
-        }, {
-            name: "Death",
-            spCost: 400,
-            damage: 14,
-            range: 2,
-            stats: {
-                res: 3
-            },
-            weaponType: "Tome",
-            colorType: "Blue"
-            exclusive: ["Delthea (Darkness Within)"]
-            effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
             spCost: 200,
