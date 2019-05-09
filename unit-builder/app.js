@@ -29024,7 +29024,7 @@
             }],
             last: !0,
             effect: "If unit's Spd > foe's Spd. grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)"
-        },{
+        }, {
             name: "Fort. Def/Res 1",
             spCost: 100,
             icon: "52-4",
