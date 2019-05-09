@@ -28,13 +28,6 @@ module.exports = [
     include: [{name: "Yune"}]
   },
   {
-    name: "Solitary Dream",
-    spCost: 300,
-    icon: "61-3",
-    effect: "At start of turn, if unit is adjacent to only dragon allies of if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
-    include: [{name: "Tiki (Darkness Within)"}]
-  },
-  {
     name: "Beast Exp. 1",
     spCost: 30,
     icon: "61-10",
