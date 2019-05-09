@@ -44150,6 +44150,7 @@
             damage: 16,
             range: 1,
             weaponType: "Breath",
+            colorType: "Neutral",
             exclusive: ["Tiki (Darkness Within)"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
@@ -44161,6 +44162,7 @@
                 atk: 3
             },
             weaponType: "Breath",
+            colorType: "Neutral",
             exclusive: ["Corrin (Darkness Within)"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
@@ -44169,6 +44171,7 @@
             damage: 16,
             range: 1,
             weaponType: "Lance",
+            colorType: "Blue",
             exclusive: ["Berkut (Darkness Within)"]
             effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
         }, {
@@ -44177,6 +44180,7 @@
             damage: 16,
             range: 1,
             weaponType: "Sword",
+            colorType: "Red"
             exclusive: ["Mareeta (Darkness Within)"]
             effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }, {
