@@ -844,8 +844,17 @@ module.exports = [
     prev: ["Flashing Blade 2"],
     include: [{moveType:"Infantry"}, {moveType:"Armored"}],
     exclude: [{weaponType:"Staff"}],
-    last: true,
     effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+  },
+  {
+    name: "Flashing Blade 4",
+    spCost: 300,
+    icon: "31-8",
+    prev: ["Flashing Blade 3"],
+    include: [{moveType:"Infantry"}, {moveType:"Armored"}],
+    exclude: [{weaponType:"Staff"}, {moveType:"Flying"}, {moveType:"Cavalry"}],
+    last: true,
+    effect: "If unit's Spd > foe's Spd. grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)"
   },
   {
     name: "Fort. Def/Res 1",
@@ -1619,8 +1628,15 @@ module.exports = [
     spCost: 200,
     icon: "30-7",
     prev: ["Warding Stance 2"],
-    last: true,
     effect: "Grants Res+6 during combat when this unit is attacked."
+  },
+  {
+    name: "Warding Stance 4",
+    spCost: 300,
+    icon: "30-7",
+    prev: ["Warding Stance 3"],
+    last: true,
+    effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
   },
   {
     name: "Water Boost 1",
