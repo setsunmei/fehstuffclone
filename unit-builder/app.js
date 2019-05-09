@@ -27997,6 +27997,299 @@
                 }
             }
         }, {
+            name: "Tiki (Young) (Darkness Within)",
+            shortName: "Tiki",
+            title: "Torpid Dragon",
+            artist: "lack",
+            voice: "Mela Lee",
+            releaseDate: "May 10, 2019",
+            colorType: "Neutral",
+            weaponType: "Breath",
+            moveType: "Armored",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Tiki (Darkness Within).png",
+                main: "img/heroes-main/Tiki (Darkness Within).png"
+            },
+            skills: [{
+                name: "Razing Breath",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 1",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 2",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 3",
+                rarity: 5
+            }, {
+                name: "Special Fighter 1",
+                rarity: 5
+            }, {
+                name: "Special Fighter 2",
+                rarity: 5
+            }, {
+                name: "Special Fighter 3",
+                rarity: 5
+            }, {
+                name: "Solitary Dream",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 17,
+                    atk: 10,
+                    spd: 10,
+                    def: 4,
+                    res: 6
+                },
+                level40: {
+                    hp: [42, 45, 48],
+                    atk: [33, 36, 39],
+                    spd: [31, 34, 37],
+                    def: [33, 37, 40],
+                    res: [24, 28, 31]
+                }
+            }
+        }, {
+            name: "Mareeta (Darkness Within)",
+            shortName: "Mareeta",
+            title: "The Blade's Pawn",
+            artist: "kiyu",
+            voice: "Kayli Mills",
+            releaseDate: "May 10, 2019",
+            colorType: "Red",
+            weaponType: "Sword",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Mareeta (Darkness Within).png",
+                main: "img/heroes-main/Mareeta (Darkness Within).png"
+            },
+            skills: [{
+                name: "Shadow Sword",
+                rarity: 5
+            }, {
+                name: "New Moon",
+                rarity: 5
+            }, {
+                name: "Luna",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 1",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 2",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 3",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 4",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 1",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 2",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 9,
+                    spd: 11,
+                    def: 7,
+                    res: 4
+                },
+                level40: {
+                    hp: [39, 42, 45],
+                    atk: [39, 33, 36],
+                    spd: [38, 41, 45],
+                    def: [25, 29, 32],
+                    res: [20, 23, 27]
+                }
+            }
+        }, {
+            name: "Berkut (Darkness Within)",
+            shortName: "Berkut",
+            title: "Purgatorial Prince",
+            artist: "Asatani Tomoyo",
+            voice: "Ian Sinclair",
+            releaseDate: "May 10, 2019",
+            colorType: "Blue",
+            weaponType: "Lance",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Berkut (Darkness Within).png",
+                main: "img/heroes-main/Berkut (Darkness Within).png"
+            },
+            skills: [{
+                name: "Kriemhild",
+                rarity: 5
+            }, {
+                name: "Retribution",
+                rarity: 5
+            }, {
+                name: "Reprisal",
+                rarity: 5
+            }, {
+                name: "Warding Stance 1",
+                rarity: 5
+            }, {
+                name: "Warding Stance 2",
+                rarity: 5
+            }, {
+                name: "Warding Stance 3",
+                rarity: 5
+            }, {
+                name: "Warding Stance 4",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 1",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 2",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 5,
+                    spd: 4,
+                    def: 11,
+                    res: 9
+                },
+                level40: {
+                    hp: [36, 40, 43],
+                    atk: [32, 35, 39],
+                    spd: [13, 17, 20],
+                    def: [32, 35, 38],
+                    res: [26, 30, 33]
+                }
+            }
+        },  {
+            name: "Delthea (Darkness Within)",
+            shortName: "Delthea",
+            title: "Tatarrah's Puppet",
+            artist: "Placeholder",
+            voice: "Placeholder",
+            releaseDate: "May 10, 2019",
+            colorType: "Blue",
+            weaponType: "Tome",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Delthea (Darkness Within).png",
+                main: "img/heroes-main/Delthea (Darkness Within).png"
+            },
+            skills: [{
+                name: "Death",
+                rarity: 5
+            }, {
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Glacies",
+                rarity: 5
+            }, {
+                name: "Death Blow 1",
+                rarity: 5
+            }, {
+                name: "Death Blow 2",
+                rarity: 5
+            }, {
+                name: "Death Blow 3",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 1",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 2",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 17,
+                    atk: 10,
+                    spd: 9,
+                    def: 4,
+                    res: 6
+                },
+                level40: {
+                    hp: [38, 41, 44],
+                    atk: [33, 36, 39],
+                    spd: [30, 33, 36],
+                    def: [16, 19, 21],
+                    res: [25, 28, 31]
+                }
+            }
+        },  {
+            name: "Corrin (F) (Darkness Within)",
+            shortName: "Corrin",
+            title: "Wailing Soul",
+            artist: "Sencha",
+            voice: "Marcella Lentz-Pope",
+            releaseDate: "May 10, 2019",
+            colorType: "Neutral",
+            weaponType: "Breath",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (Darkness Within).png",
+                main: "img/heroes-main/Corrin (Darkness Within).png"
+            },
+            skills: [{
+                name: "Savage Breath",
+                rarity: 5
+            }, {
+                name: "Dragon Gaze",
+                rarity: 5
+            }, {
+                name: "Dragon Fang",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 1",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 2",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 3",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 1",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 2",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 15,
+                    atk: 7,
+                    spd: 7,
+                    def: 7,
+                    res: 5
+                },
+                level40: {
+                    hp: [40, 43, 46],
+                    atk: [32, 35, 38],
+                    spd: [34, 37, 40],
+                    def: [28, 31, 34],
+                    res: [23, 27, 31]
+                }
+            }
+        }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
@@ -29007,7 +29300,7 @@
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
         }, {
             name: "Flashing Blade 4",
-            spCost: 240,
+            spCost: 300,
             icon: "31-8",
             prev: ["Flashing Blade 3"],
             include: [{
@@ -29017,8 +29310,12 @@
             }],
             exclude: [{
                 weaponType: "Staff"
+            }, {
+                moveType: "Flying"
+            }, {
+                moveType: "Cavalry"
             }],
-            effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+            effect: "If unit's Spd > foe's Spd. grants Special cooldown charge +1 and deals +5 damage per unit's attack. (Only highest value applied. Does not stack.)"
         }, {
             name: "Fort. Def/Res 1",
             spCost: 100,
@@ -32570,7 +32867,7 @@
             spCost: 300,
             icon: "61-3",
             include: [{
-                name: "Goku"
+                name: "Tiki (Young) (Darkness Within)"
             }],
             effect: "At start of turn, if unit is adjacent to only dragon allies of if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
         }, {
@@ -43852,7 +44149,7 @@
             range: 1,
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Goku"]
+            exclusive: ["Tiki (Darkness Within)"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
@@ -43864,7 +44161,7 @@
             },
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Goku"]
+            exclusive: ["Corrin (Darkness Within)"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
@@ -43873,7 +44170,7 @@
             range: 1,
             weaponType: "Lance",
             colorType: "Blue",
-            exclusive: ["Goku"]
+            exclusive: ["Berkut (Darkness Within)"]
             effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
         }, {
             name: "Shadow Sword",
@@ -43882,7 +44179,7 @@
             range: 1,
             weaponType: "Sword",
             colorType: "Red"
-            exclusive: ["Goku"]
+            exclusive: ["Mareeta (Darkness Within)"]
             effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }, {
             name: "Death",
@@ -43894,7 +44191,7 @@
             },
             weaponType: "Tome",
             colorType: "Blue"
-            exclusive: ["Goku"]
+            exclusive: ["Delthea (Darkness Within)"]
             effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
