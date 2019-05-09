@@ -23,6 +23,29 @@ module.exports = [
     effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
   },
   {
+    name: "Sudden Panic 1",
+    spCost: 60,
+    icon: "19-2",
+    exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
+    effect: "At start of turn, if any foe's HP ≤ unit's HP-5 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
+  },
+  {
+    name: "Sudden Panic 2",
+    spCost: 120,
+    icon: "19-3",
+    prev: ["Sudden Panic 1"],
+    exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
+    effect: "At start of turn, if any foe's HP ≤ unit's HP-3 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
+  },
+  {
+    name: "Sudden Panic 3",
+    spCost: 240,
+    icon: "19-4",
+    prev: ["Sudden Panic 2"],
+    exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
+    effect: "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
+  },
+  {
     name: "Spd/Def Link 1",
     spCost: 60,
     icon: "60-7",
