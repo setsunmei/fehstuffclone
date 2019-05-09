@@ -27997,6 +27997,299 @@
                 }
             }
         }, {
+            name: "Fallen Tiki (Young)",
+            shortName: "Tiki",
+            title: "Torpid Dragon",
+            artist: "lack",
+            voice: "Mela Lee",
+            releaseDate: "May 10, 2019",
+            colorType: "Neutral",
+            weaponType: "Breath",
+            moveType: "Armored",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Tiki (Darkness Within).png",
+                main: "img/heroes-main/Tiki (Darkness Within).png"
+            },
+            skills: [{
+                name: "Razing Breath",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 1",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 2",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 3",
+                rarity: 5
+            }, {
+                name: "Special Fighter 1",
+                rarity: 5
+            }, {
+                name: "Special Fighter 2",
+                rarity: 5
+            }, {
+                name: "Special Fighter 3",
+                rarity: 5
+            }, {
+                name: "Solitary Dream",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 17,
+                    atk: 10,
+                    spd: 10,
+                    def: 4,
+                    res: 6
+                },
+                level40: {
+                    hp: [42, 45, 48],
+                    atk: [33, 36, 39],
+                    spd: [31, 34, 37],
+                    def: [33, 37, 40],
+                    res: [24, 28, 31]
+                }
+            }
+        }, {
+            name: "Fallen Mareeta",
+            shortName: "Mareeta",
+            title: "The Blade's Pawn",
+            artist: "kiyu",
+            voice: "Kayli Mills",
+            releaseDate: "May 10, 2019",
+            colorType: "Red",
+            weaponType: "Sword",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Mareeta (Darkness Within).png",
+                main: "img/heroes-main/Mareeta (Darkness Within).png"
+            },
+            skills: [{
+                name: "Shadow Sword",
+                rarity: 5
+            }, {
+                name: "New Moon",
+                rarity: 5
+            }, {
+                name: "Luna",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 1",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 2",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 3",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 4",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 1",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 2",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 9,
+                    spd: 11,
+                    def: 7,
+                    res: 4
+                },
+                level40: {
+                    hp: [39, 42, 45],
+                    atk: [39, 33, 36],
+                    spd: [38, 41, 45],
+                    def: [25, 29, 32],
+                    res: [20, 23, 27]
+                }
+            }
+        },  {
+            name: "Fallen Berkut",
+            shortName: "Berkut",
+            title: "Purgatorial Prince",
+            artist: "Asatani Tomoyo",
+            voice: "Ian Sinclair",
+            releaseDate: "May 10, 2019",
+            colorType: "Blue",
+            weaponType: "Lance",
+            moveType: "Cavalry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Berkut (Darkness Within).png",
+                main: "img/heroes-main/Berkut (Darkness Within).png"
+            },
+            skills: [{
+                name: "Kriemhild",
+                rarity: 5
+            }, {
+                name: "Retribution",
+                rarity: 5
+            }, {
+                name: "Reprisal",
+                rarity: 5
+            }, {
+                name: "Warding Stance 1",
+                rarity: 5
+            }, {
+                name: "Warding Stance 2",
+                rarity: 5
+            }, {
+                name: "Warding Stance 3",
+                rarity: 5
+            }, {
+                name: "Warding Stance 4",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 1",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 2",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 18,
+                    atk: 5,
+                    spd: 4,
+                    def: 11,
+                    res: 9
+                },
+                level40: {
+                    hp: [36, 40, 43],
+                    atk: [32, 35, 39],
+                    spd: [13, 17, 20],
+                    def: [32, 35, 38],
+                    res: [26, 30, 33]
+                }
+            }
+        },  {
+            name: "Fallen Delthea",
+            shortName: "Delthea",
+            title: "Tatarrah's Puppet",
+            artist: "Placeholder",
+            voice: "Placeholder",
+            releaseDate: "May 10, 2019",
+            colorType: "Blue",
+            weaponType: "Tome",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Delthea (Darkness Within).png",
+                main: "img/heroes-main/Delthea (Darkness Within).png"
+            },
+            skills: [{
+                name: "Death",
+                rarity: 5
+            }, {
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Glacies",
+                rarity: 5
+            }, {
+                name: "Death Blow 1",
+                rarity: 5
+            }, {
+                name: "Death Blow 2",
+                rarity: 5
+            }, {
+                name: "Death Blow 3",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 1",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 2",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 17,
+                    atk: 10,
+                    spd: 9,
+                    def: 4,
+                    res: 6
+                },
+                level40: {
+                    hp: [38, 41, 44],
+                    atk: [33, 36, 39],
+                    spd: [30, 33, 36],
+                    def: [16, 19, 21],
+                    res: [25, 28, 31]
+                }
+            }
+        },  {
+            name: "Fallen Corrin (F)",
+            shortName: "Corrin",
+            title: "Wailing Soul",
+            artist: "Sencha",
+            voice: "Marcella Lentz-Pope",
+            releaseDate: "May 10, 2019",
+            colorType: "Neutral",
+            weaponType: "Breath",
+            moveType: "Infantry",
+            assets: {
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Corrin (Darkness Within).png",
+                main: "img/heroes-main/Corrin (Darkness Within).png"
+            },
+            skills: [{
+                name: "Savage Breath",
+                rarity: 5
+            }, {
+                name: "Dragon Gaze",
+                rarity: 5
+            }, {
+                name: "Dragon Fang",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 1",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 2",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 3",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 1",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 2",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 3",
+                rarity: 5
+            }],
+            stats: {
+                level1: {
+                    hp: 15,
+                    atk: 7,
+                    spd: 7,
+                    def: 7,
+                    res: 5
+                },
+                level40: {
+                    hp: [40, 43, 46],
+                    atk: [32, 35, 38],
+                    spd: [34, 37, 40],
+                    def: [28, 31, 34],
+                    res: [23, 27, 31]
+                }
+            }
+        }, {
             name: "Zephiel",
             title: "The Liberator",
             artist: "Yamada Akihiro (山田章博)",
@@ -28081,7 +28374,7 @@
             }
         }]
     }, {}],
-    5: [function(e, a, t) {
+    5: [function(e, a, t) {  //A Skills
         a.exports = [{
             name: "Armored Blow 1",
             spCost: 50,
@@ -29003,6 +29296,24 @@
             }],
             exclude: [{
                 weaponType: "Staff"
+            }],
+            effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
+        }, {
+            name: "Flashing Blade 4",
+            spCost: 300,
+            icon: "31-8",
+            prev: ["Flashing Blade 3"],
+            include: [{
+                moveType: "Infantry"
+            }, {
+                moveType: "Armored"
+            }],
+            exclude: [{
+                weaponType: "Staff"
+            }, {
+                moveType: "Flying"
+            }, {
+                moveType: "Cavalry"
             }],
             last: !0,
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
@@ -29942,8 +30253,14 @@
             spCost: 200,
             icon: "30-7",
             prev: ["Warding Stance 2"],
-            last: !0,
             effect: "Grants Res+6 during combat when this unit is attacked."
+        }, {
+            name: "Warding Stance 4",
+            spCost: 300,
+            icon: "30-7",
+            prev: ["Warding Stance 3"],
+            last: !0,
+            effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
         }, {
             name: "Water Boost 1",
             spCost: 50,
@@ -30657,6 +30974,44 @@
                 moveType: "Flying"
             }],
             effect: "Unit can move to a space adjacent to any infantry, armored, or cavalry ally within 2 spaces."
+        }, {
+            name: "Sudden Panic 1",
+            spCost: 60,
+            icon: "19-2",
+            exclude: [{
+                moveType: "Armored"
+            }, {
+                moveType: "Cavalry"
+            }, {
+                weaponType: "Staff"
+            }],
+            effect: "At start of turn, if any foe's HP ≤ unit's HP-5 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
+        }, {
+            name: "Sudden Panic 2",
+            spCost: 120,
+            icon: "19-3",
+            prev: ["Sudden Panic 1"],
+            exclude: [{
+                moveType: "Armored"
+            }, {
+                moveType: "Cavalry"
+            }, {
+                weaponType: "Staff"
+            }],
+            effect: "At start of turn, if any foe's HP ≤ unit's HP-3 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
+        }, {
+            name: "Sudden Panic 3",
+            spCost: 240,
+            icon: "19-4",
+            prev: ["Sudden Panic 2"],
+            exclude: [{
+                moveType: "Armored"
+            }, {
+                moveType: "Cavalry"
+            }, {
+                weaponType: "Staff"
+            }],
+            effect: "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts [Panic] on that foe. [Panic] Converts bonuses on target into penalties through its next action."
         }, {
             name: "Spd/Def Link 1",
             spCost: 60,
@@ -43762,7 +44117,7 @@
             effect: "When healing an ally with a staff, grants Atk/Spd+6 to all allies for 1 turn."
         }]
     }, {}],
-    14: [function(e, a, t) { //weapons 
+    14: [function(e, a, t) { //weapon skills 
         a.exports = [{
             name: "Flashing Carrot",
             spCost: 200,
@@ -43781,6 +44136,53 @@
             colorType: "Blue",
             prev: ["Flashing Carrot"],
             effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
+        }, {
+            name: "Razing Breath",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Breath",
+            exclusive: ["Fallen Tiki (Young)"]
+            effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
+        }, {
+            name: "Savage Breath",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            stats: {
+                atk: 3
+            },
+            weaponType: "Breath",
+            exclusive: ["Fallen Corrin (F)"]
+            effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
+        }, {
+            name: "Kriemhild",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Lance",
+            exclusive: ["Fallen Berkut"]
+            effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
+        }, {
+            name: "Shadow Sword",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Sword",
+            exclusive: ["Fallen Mareeta"]
+            effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
+        }, {
+            name: "Death",
+            spCost: 400,
+            damage: 14,
+            range: 2,
+            stats: {
+                res: 3
+            },
+            weaponType: "Tome",
+            colorType: "Blue"
+            exclusive: ["Fallen Delthea"]
+            effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
             spCost: 200,
