@@ -29007,7 +29007,7 @@
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
         }, {
             name: "Flashing Blade 4",
-            spCost: 300,
+            spCost: 240,
             icon: "31-8",
             prev: ["Flashing Blade 3"],
             include: [{
@@ -29017,12 +29017,7 @@
             }],
             exclude: [{
                 weaponType: "Staff"
-            }, {
-                moveType: "Flying"
-            }, {
-                moveType: "Cavalry"
             }],
-            last: !0,
             effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
         }, {
             name: "Fort. Def/Res 1",
@@ -29966,7 +29961,6 @@
             spCost: 300,
             icon: "30-7",
             prev: ["Warding Stance 3"],
-            last: !0,
             effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
         }, {
             name: "Water Boost 1",
@@ -32576,7 +32570,7 @@
             spCost: 300,
             icon: "61-3",
             include: [{
-                name: "Tiki (Darkness Within)"
+                name: "Goku"
             }],
             effect: "At start of turn, if unit is adjacent to only dragon allies of if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
         }, {
@@ -43858,7 +43852,7 @@
             range: 1,
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Tiki (Darkness Within)"]
+            exclusive: ["Goku"]
             effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
@@ -43870,7 +43864,7 @@
             },
             weaponType: "Breath",
             colorType: "Neutral",
-            exclusive: ["Corrin (Darkness Within)"]
+            exclusive: ["Goku"]
             effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
@@ -43879,7 +43873,7 @@
             range: 1,
             weaponType: "Lance",
             colorType: "Blue",
-            exclusive: ["Berkut (Darkness Within)"]
+            exclusive: ["Goku"]
             effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
         }, {
             name: "Shadow Sword",
@@ -43888,7 +43882,7 @@
             range: 1,
             weaponType: "Sword",
             colorType: "Red"
-            exclusive: ["Mareeta (Darkness Within)"]
+            exclusive: ["Goku"]
             effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }, {
             name: "Death",
@@ -43900,7 +43894,7 @@
             },
             weaponType: "Tome",
             colorType: "Blue"
-            exclusive: ["Delthea (Darkness Within)"]
+            exclusive: ["Goku"]
             effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
