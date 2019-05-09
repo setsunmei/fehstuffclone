@@ -844,7 +844,6 @@ module.exports = [
     prev: ["Flashing Blade 2"],
     include: [{moveType:"Infantry"}, {moveType:"Armored"}],
     exclude: [{weaponType:"Staff"}],
-    last: true,
     effect: "If unit's Spd - foe's Spd ≥ 1, unit gains Special cooldown charge +1 per attack. (If using other similar skill, only highest value applied.)"
   },
   {
