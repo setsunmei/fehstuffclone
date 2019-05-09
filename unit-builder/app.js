@@ -28173,7 +28173,7 @@
                     res: [26, 30, 33]
                 }
             }
-        },  {
+        }, {
             name: "Delthea (Darkness Within)",
             shortName: "Delthea",
             title: "Tatarrah's Puppet",
@@ -28231,7 +28231,7 @@
                     res: [25, 28, 31]
                 }
             }
-        },  {
+        }, {
             name: "Corrin (F) (Darkness Within)",
             shortName: "Corrin",
             title: "Wailing Soul",
