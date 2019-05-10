@@ -44044,7 +44044,7 @@
             weaponType: "Breath",
             colorType: "Neutral",
             exclusive: ["Tiki (Young) (Darkness Within)"],
-            effect: ""
+            effect: "Effective against dragon foes. Unit can counterattack regardless of foe's range. If foe's Range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Savage Breath",
             spCost: 400,
@@ -44056,7 +44056,7 @@
                 atk: 3
             },
             exclusive: ["Corrin (F) (Darkness Within)"],
-            effect: ""
+            effect: "Grants Atk+3. Grants Atk/Spd/Def/Res+X (Calculates X based on number of allies withing 2 spaces of unit:0 allies grants +6; 1 ally grants +4; 2 allies grants +2; ≥ 3 allies grants +0.) If foe's range = 2, calculates damage using the lower of foe's Def or Res."
         }, {
             name: "Kriemhild",
             spCost: 400,
@@ -44065,7 +44065,7 @@
             weaponType: "Lance",
             colorType: "Blue",
             exclusive: ["Berkut (Darkness Within)"],
-            effect: ""
+            effect: "If a bow, dagger, magic or staff foe initiates combat and unit is within 2 spaces of an ally, unit can counterattack regardless of foe's range and foe cannot make a follow-up attack, but after combat, if unit attacked, deals 20 damage to nearest ally."
         }, {
             name: "Shadow Sword",
             spCost: 400,
@@ -44074,7 +44074,7 @@
             weaponType: "Sword",
             colorType: "Red",
             exclusive: ["Mareeta (Darkness Within)"],
-            effect: ""
+            effect: "Accelerates Special trigger (cooldown count-1). If unit's HP≥ 50% and unit initiates combat, unit can make a follow-up attack before foe can counterattack."
         }, {
             name: "Death",
             spCost: 400,
@@ -44086,7 +44086,7 @@
                 res: 3
             },
             exclusive: ["Delthea (Darkness Within)"],
-            effect: ""
+            effect: "Grants Res+3. Grants Atk/Spd/Def/Res+4 during combat. After combat, if unit attacked, deals 4 damage to unit."
         }, {
             name: "Beguiling Bow",
             spCost: 200,
