@@ -28011,10 +28011,28 @@
                 main: "img/heroes-main/Tiki (Young) (Darkness Within).png"
             },
             skills: [{
-                name: "",
+                name: "Razing Breath",
                 rarity: 5
             }, {
-                name: "",
+                name: "Brazen Atk/Spd 1",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 2",
+                rarity: 5
+            }, {
+                name: "Brazen Atk/Spd 3",
+                rarity: 5
+            }, {
+                name: "Special Fighter 1",
+                rarity: 5
+            }, {
+                name: "Special Fighter 2",
+                rarity: 5
+            }, {
+                name: "Special Fighter 3",
+                rarity: 5
+            }, {
+                name: "Solitary Dream",
                 rarity: 5
             }],
             stats: {
@@ -28048,10 +28066,34 @@
                 main: "img/heroes-main/Mareeta (Darkness Within).png"
             },
             skills: [{
-                name: "",
+                name: "Shadow Sword",
                 rarity: 5
             }, {
-                name: "",
+                name: "New Moon",
+                rarity: 5
+            }, {
+                name: "Luna",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 1",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 2",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 3",
+                rarity: 5
+            }, {
+                name: "Flashing Blade 4",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 1",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 2",
+                rarity: 5
+            }, {
+                name: "Null Follow-Up 3",
                 rarity: 5
             }],
             stats: {
@@ -28085,10 +28127,34 @@
                 main: "img/heroes-main/Berkut (Darkness Within).png"
             },
             skills: [{
-                name: "",
+                name: "Kriemhild",
                 rarity: 5
             }, {
-                name: "",
+                name: "Retribution",
+                rarity: 5
+            }, {
+                name: "Reprisal",
+                rarity: 5
+            }, {
+                name: "Warding Stance 1",
+                rarity: 5
+            }, {
+                name: "Warding Stance 2",
+                rarity: 5
+            }, {
+                name: "Warding Stance 3",
+                rarity: 5
+            }, {
+                name: "Warding Stance 4",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 1",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 2",
+                rarity: 5
+            }, {
+                name: "Odd Res Wave 3",
                 rarity: 5
             }],
             stats: {
@@ -28122,10 +28188,31 @@
                 main: "img/heroes-main/Delthea (Darkness Within).png"
             },
             skills: [{
-                name: "",
+                name: "Death",
                 rarity: 5
             }, {
-                name: "",
+                name: "Chilling Wind",
+                rarity: 5
+            }, {
+                name: "Glacies",
+                rarity: 5
+            }, {
+                name: "Death Blow 1",
+                rarity: 5
+            }, {
+                name: "Death Blow 2",
+                rarity: 5
+            }, {
+                name: "Death Blow 3",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 1",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 2",
+                rarity: 5
+            }, {
+                name: "Even Atk Wave 3",
                 rarity: 5
             }],
             stats: {
@@ -28159,10 +28246,31 @@
                 main: "img/heroes-main/Corrin (F) (Darkness Within).png"
             },
             skills: [{
-                name: "",
+                name: "Savage Breath",
                 rarity: 5
             }, {
-                name: "",
+                name: "Dragon Gaze",
+                rarity: 5
+            }, {
+                name: "Dragon Fang",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 1",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 2",
+                rarity: 5
+            }, {
+                name: "Atk/Spd Solo 3",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 1",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 2",
+                rarity: 5
+            }, {
+                name: "Sudden Panic 3",
                 rarity: 5
             }],
             stats: {

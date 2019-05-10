@@ -13168,8 +13168,14 @@ module.exports = [
       main: "img/heroes-main/Tiki (Young) (Darkness Within).png"
     },
     skills: [
-      { name: "", rarity: 5 },
-      { name: "", rarity: 5 }
+      { name: "Razing Breath", rarity: 5 },
+      { name: "Brazen Atk/Spd 1", rarity: 5 },
+      { name: "Brazen Atk/Spd 2", rarity: 5 },
+      { name: "Brazen Atk/Spd 3", rarity: 5 },
+      { name: "Special Fighter 1", rarity: 5 },
+      { name: "Special Fighter 2", rarity: 5 },
+      { name: "Special Fighter 3", rarity: 5 },
+      { name: "Solitary Dream", rarity: 5 }
     ],
     stats: {
       level1: { hp: 17, atk: 10, spd: 10, def: 4, res: 6 },
@@ -13191,8 +13197,16 @@ module.exports = [
       main: "img/heroes-main/Mareeta (Darkness Within).png"
     },
     skills: [
-      { name: "", rarity: 5 },
-      { name: "", rarity: 5 }
+      { name: "Shadow Sword", rarity: 5 },
+      { name: "New Moon", rarity: 5 },
+      { name: "Luna", rarity: 5 },
+      { name: "Flashing Blade 1", rarity: 5 },
+      { name: "Flashing Blade 2", rarity: 5 },
+      { name: "Flashing Blade 3", rarity: 5 },
+      { name: "Flashing Blade 4", rarity: 5 },
+      { name: "Null Follow-Up 1", rarity: 5 },
+      { name: "Null Follow-Up 2", rarity: 5 },
+      { name: "Null Follow-Up 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 18, atk: 9, spd: 11, def: 7, res: 4 },
@@ -13214,8 +13228,16 @@ module.exports = [
       main: "img/heroes-main/Berkut (Darkness Within).png"
     },
     skills: [
-      { name: "", rarity: 5 },
-      { name: "", rarity: 5 }
+      { name: "Kriemhild", rarity: 5 },
+      { name: "Retribution", rarity: 5 },
+      { name: "Reprisal", rarity: 5 },
+      { name: "Warding Stance 1", rarity: 5 },
+      { name: "Warding Stance 2", rarity: 5 },
+      { name: "Warding Stance 3", rarity: 5 },
+      { name: "Warding Stance 4", rarity: 5 },
+      { name: "Odd Res Wave 1", rarity: 5 },
+      { name: "Odd Res Wave 2", rarity: 5 },
+      { name: "Odd Res Wave 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 18, atk: 5, spd: 4, def: 11, res: 9 },
@@ -13237,8 +13259,15 @@ module.exports = [
       main: "img/heroes-main/Delthea (Darkness Within).png"
     },
     skills: [
-      { name: "", rarity: 5 },
-      { name: "", rarity: 5 }
+      { name: "Death", rarity: 5 },
+      { name: "Chilling Wind", rarity: 5 },
+      { name: "Glacies", rarity: 5 },
+      { name: "Death Blow 1", rarity: 5 },
+      { name: "Death Blow 2", rarity: 5 },
+      { name: "Death Blow 3", rarity: 5 },
+      { name: "Even Atk Wave 1", rarity: 5 },
+      { name: "Even Atk Wave 2", rarity: 5 },
+      { name: "Even Atk Wave 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 17, atk: 10, spd: 9, def: 4, res: 6 },
@@ -13260,8 +13289,15 @@ module.exports = [
       main: "img/heroes-main/Corrin (F) (Darkness Within).png"
     },
     skills: [
-      { name: "", rarity: 5 },
-      { name: "", rarity: 5 }
+      { name: "Savage Breath", rarity: 5 },
+      { name: "Dragon Gaze", rarity: 5 },
+      { name: "Dragon Fang", rarity: 5 },
+      { name: "Atk/Spd Solo 1", rarity: 5 },
+      { name: "Atk/Spd Solo 2", rarity: 5 },
+      { name: "Atk/Spd Solo 3", rarity: 5 },
+      { name: "Sudden Panic 1", rarity: 5 },
+      { name: "Sudden Panic 2", rarity: 5 },
+      { name: "Sudden Panic 3", rarity: 5 }
     ],
     stats: {
       level1: { hp: 15, atk: 7, spd: 7, def: 7, res: 5 },
