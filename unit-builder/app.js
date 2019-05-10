@@ -32761,7 +32761,7 @@
             spCost: 300,
             icon: "61-3",
             include: [{
-                name: "Goku"
+                name: "Tiki (Young) (Darkness Within)"
             }],
             effect: "At start of turn, if unit is adjacent to only dragon allies or if unit is not adajcent to any ally, grants Atk/Spd/Def/Res+4 to unit and unit can move 1 extra space. (That turn only. Does not stack.)"
         }, {
