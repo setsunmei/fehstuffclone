@@ -20,6 +20,58 @@ module.exports = [
     effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
   },
   {
+    name: "Razing Breath",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Breath",
+    colorType: "Neutral",
+    exclusive: ["Tiki (Young) (Darkness Within)"],
+    effect: ""
+  },
+  {
+    name: "Savage Breath",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Breath",
+    colorType: "Neutral",
+    stats: {atk: 3},
+    exclusive: ["Corrin (F) (Darkness Within)"],
+    effect: ""
+  },
+  {
+    name: "Kriemhild",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Lance",
+    colorType: "Blue",
+    exclusive: ["Berkut (Darkness Within)"],
+    effect: ""
+  },
+  {
+    name: "Shadow Sword",
+    spCost: 400,
+    damage: 16,
+    range: 1,
+    weaponType: "Sword",
+    colorType: "Red",
+    exclusive: ["Mareeta (Darkness Within)"],
+    effect: ""
+  },
+  {
+    name: "Death",
+    spCost: 400,
+    damage: 14,
+    range: 2,
+    weaponType: "Tome",
+    colorType: "Blue",
+    stats: {res: 3},
+    exclusive: ["Delthea (Darkness Within)"],
+    effect: ""
+  },
+  {
     name: "Beguiling Bow",
     spCost: 200,
     damage: 8,
