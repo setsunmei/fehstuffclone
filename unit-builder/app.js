@@ -44256,6 +44256,15 @@
             exclusive: ["Yune"],
             effect: "Grants Res. +3. If a penalty inflicted by a skill like Panic or Threathen and/or a a negative status effect (preventing counterattacks or restricting movement) is active on foe, grants Atk+6 during combat and unit makes a guaranteed follow-up attack."
         }, {
+            name: "Bow of Devotion",
+            spCost: 400,
+            damage: 14,
+            range: 2,
+            weaponType: "Bow",
+            colorType: "Neutral",
+            exclusive: ["Faye"],
+            effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
+        }, {
             name: "Panther Lance",
             spCost: 400,
             damage: 16,
@@ -44264,6 +44273,15 @@
             colorType: "Blue",
             exclusive: ["Abel"],
             effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+        }, {
+            name: "Panther Sword",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Sword",
+            colorType: "Red",
+            exclusive: ["Stahl"],
+            effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
         }, {
             name: "Hana's Katana",
             spCost: 400,
@@ -44281,6 +44299,24 @@
             weaponType: "Lance",
             colorType: "Blue",
             exclusive: ["Peri"],
+            effect: "Accelerates Special trigger (cooldown count-1)."
+        }, {
+            name: "Bull Spear",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            exclusive: ["Sully"],
+            effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+        }, {
+            name: "Daybreak Lance",
+            spCost: 400,
+            damage: 16,
+            range: 1,
+            weaponType: "Lance",
+            colorType: "Blue",
+            exclusive: ["Lukas"],
             effect: "Accelerates Special trigger (cooldown count-1)."
         }, {
             name: "Bull Blade",
