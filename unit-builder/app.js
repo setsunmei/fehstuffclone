@@ -30257,7 +30257,7 @@
         }, {
             name: "Warding Stance 4",
             spCost: 300,
-            icon: "62-10",
+            icon: "62-12",
             prev: ["Warding Stance 3"],
             last: !0,
             effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
