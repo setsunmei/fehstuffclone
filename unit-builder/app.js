@@ -44262,7 +44262,7 @@
             range: 2,
             weaponType: "Bow",
             colorType: "Neutral",
-            prev: ["Faye"],
+            exclusive: ["Faye"],
             effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
         }, {
             name: "Panther Lance",
