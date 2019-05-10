@@ -34622,7 +34622,7 @@
             divineDew: 200
         }]
     }, {}],
-    11: [function(e, a, t) { //refines
+    11: [function(e, a, t) { //refine skills
         a.exports = {
             "Flashing Carrot+": [{
                 name: "+Atk",
@@ -34830,6 +34830,167 @@
                     res: 4
                 },
                 effect: "During combat, boosts unit's Atk/Def by number of allies within 2 spaces × 2. (Maximum bonus of +6 to each stat.)"
+            }],
+            "Panther Sword": [{
+                name: "Special Refine",
+                icon: "63-3",
+                cost: 1,
+                stats: {
+                    hp: 3
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%. If cavalry allies within 2 spaces use sword, lance or axe and foe initiates combat, unit attacks twice."
+            }, {
+                name: "+Atk",
+                icon: "31-9",
+                stats: {
+                    hp: 5,
+                    atk: 2
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Spd",
+                icon: "31-10",
+                stats: {
+                    hp: 5,
+                    spd: 3
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Def",
+                icon: "31-11",
+                stats: {
+                    hp: 5,
+                    def: 4
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Res",
+                icon: "31-12",
+                stats: {
+                    hp: 5,
+                    res: 4
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }],
+            "Bull Spear": [{
+                name: "Special Refine",
+                icon: "63-3",
+                cost: 1,
+                stats: {
+                    hp: 3
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%. If cavalry allies within 2 spaces use sword, lance or axe and foe initiates combat, unit attacks twice. If cavalry allies within 2 spaces use sword, lance, or axe and foe initiates combat, unit attacks twice."
+            }, {
+                name: "+Atk",
+                icon: "31-9",
+                stats: {
+                    hp: 5,
+                    atk: 2
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Spd",
+                icon: "31-10",
+                stats: {
+                    hp: 5,
+                    spd: 3
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Def",
+                icon: "31-11",
+                stats: {
+                    hp: 5,
+                    def: 4
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }, {
+                name: "+Res",
+                icon: "31-12",
+                stats: {
+                    hp: 5,
+                    res: 4
+                },
+                effect: "If unit has weapon-triangle advantage, boosts Atk by 20%. If unit has weapon-triangle disadvantage, reduces Atk by 20%."
+            }],
+            "Daybreak Lance": [{
+                name: "Special Refine",
+                icon: "63-4",
+                cost: 1,
+                stats: {
+                    hp: 3
+                },
+                effect: "Accelerates Special trigger (cooldown count-1). If foe initiates combat, grants Atk/Def+4 during combat."
+            }, {
+                name: "+Atk",
+                icon: "31-9",
+                stats: {
+                    hp: 5,
+                    atk: 2
+                },
+                effect: "Accelerates Special trigger (cooldown count-1)"
+            }, {
+                name: "+Spd",
+                icon: "31-10",
+                stats: {
+                    hp: 5,
+                    spd: 3
+                },
+                effect: "Accelerates Special trigger (cooldown count-1)"
+            }, {
+                name: "+Def",
+                icon: "31-11",
+                stats: {
+                    hp: 5,
+                    def: 4
+                },
+                effect: "Accelerates Special trigger (cooldown count-1)"
+            }, {
+                name: "+Res",
+                icon: "31-12",
+                stats: {
+                    hp: 5,
+                    res: 4
+                },
+                effect: "Accelerates Special trigger (cooldown count-1)"
+            }],
+            "Bow of Devotion": [{
+                name: "Special Refine",
+                icon: "40-8",
+                cost: 1,
+                effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat. If unit's HP ≥ 50% and foe initiates combat, unit's make a guaranteed follow-up attack."
+            }, {
+                name: "+Atk",
+                icon: "31-9",
+                stats: {
+                    hp: 2,
+                    atk: 1
+                },
+                effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
+            }, {
+                name: "+Spd",
+                icon: "31-10",
+                stats: {
+                    hp: 2,
+                    spd: 2
+                },
+                effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
+            }, {
+                name: "+Def",
+                icon: "31-11",
+                stats: {
+                    hp: 2,
+                    def: 2
+                },
+                effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
+            }, {
+                name: "+Res",
+                icon: "31-12",
+                stats: {
+                    hp: 2,
+                    res: 2
+                },
+                effect: "Effective against flying foes. If foe initiates combat and uses bow, dagger, magic, or staff, grants Atk/Spd/Def/Res+4 to unit during combat."
             }],
             "Hana's Katana": [{
                 name: "Special Refine",
