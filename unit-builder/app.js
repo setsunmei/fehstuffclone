@@ -29301,7 +29301,7 @@
         }, {
             name: "Flashing Blade 4",
             spCost: 300,
-            icon: "31-8",
+            icon: "62-11",
             prev: ["Flashing Blade 3"],
             include: [{
                 moveType: "Infantry"
@@ -30257,7 +30257,7 @@
         }, {
             name: "Warding Stance 4",
             spCost: 300,
-            icon: "30-7",
+            icon: "62-10",
             prev: ["Warding Stance 3"],
             last: !0,
             effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"
@@ -30977,7 +30977,7 @@
         }, {
             name: "Sudden Panic 1",
             spCost: 60,
-            icon: "19-2",
+            icon: "63-0",
             exclude: [{
                 moveType: "Armored"
             }, {
@@ -30989,7 +30989,7 @@
         }, {
             name: "Sudden Panic 2",
             spCost: 120,
-            icon: "19-3",
+            icon: "63-1",
             prev: ["Sudden Panic 1"],
             exclude: [{
                 moveType: "Armored"
@@ -31002,7 +31002,7 @@
         }, {
             name: "Sudden Panic 3",
             spCost: 240,
-            icon: "19-4",
+            icon: "63-2",
             prev: ["Sudden Panic 2"],
             exclude: [{
                 moveType: "Armored"
@@ -32867,7 +32867,7 @@
         }, {
             name: "Solitary Dream",
             spCost: 300,
-            icon: "61-3",
+            icon: "62-10",
             include: [{
                 name: "Tiki (Young) (Darkness Within)"
             }],
