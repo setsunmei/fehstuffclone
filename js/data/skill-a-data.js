@@ -849,7 +849,7 @@ module.exports = [
   {
     name: "Flashing Blade 4",
     spCost: 300,
-    icon: "31-8",
+    icon: "62-11",
     prev: ["Flashing Blade 3"],
     include: [{moveType:"Infantry"}, {moveType:"Armored"}],
     exclude: [{weaponType:"Staff"}, {moveType:"Flying"}, {moveType: "Cavalry"}],
@@ -1633,7 +1633,7 @@ module.exports = [
   {
     name: "Warding Stance 4",
     spCost: 300,
-    icon: "30-7",
+    icon: "62-12",
     prev: ["Warding Stance 3"],
     last: true,
     effect: "If foe initiates combat, grants Res+8 during combat and inflicts Special cooldown charge -1 on foe's per foe's attack. (Only highest value applied. Does not stack.)"

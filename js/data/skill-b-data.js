@@ -25,14 +25,14 @@ module.exports = [
   {
     name: "Sudden Panic 1",
     spCost: 60,
-    icon: "19-2",
+    icon: "63-0",
     exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
     effect: "At start of turn, if any foe's HP ≤ unit's HP-5 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
   },
   {
     name: "Sudden Panic 2",
     spCost: 120,
-    icon: "19-3",
+    icon: "63-1",
     prev: ["Sudden Panic 1"],
     exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
     effect: "At start of turn, if any foe's HP ≤ unit's HP-3 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
@@ -40,7 +40,7 @@ module.exports = [
   {
     name: "Sudden Panic 3",
     spCost: 240,
-    icon: "19-4",
+    icon: "63-2",
     prev: ["Sudden Panic 2"],
     exclude: [{moveType: "Armored"}, {moveType: "Cavalry"}, {weaponType: "Staff"}],
     effect: "At start of turn, if any foe's HP ≤ unit's HP-1 and that foe is adjacent to another foe, inflicts 【Panic】on that foe. 【Panic】 Converts bonuses on target into penalties through its next action."
