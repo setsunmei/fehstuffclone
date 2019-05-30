@@ -26754,78 +26754,40 @@
                 }
             }
         }, {
-            name: "Goku",
-            shortName: "Goku",
-            title: "Placeholder",
-            artist: "Test",
-            voice: "Test",
-            releaseDate: "Apr 1, 2019",
-            colorType: "Green",
-            weaponType: "Dagger",
-            moveType: "Flying",
-            rarity5: ["pool2"],
-            limited: !0,
+            name: "Placeholder",
+            shortName: "",
+            title: "",
+            artist: "",
+            voice: "",
+            releaseDate: "",
+            colorType: "Neutral",
+            weaponType: "Bow",
+            moveType: "Infantry",
             assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Goku.png",
-                main: "img/heroes-main/Goku.png"
+                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
+                main: "img/heroes-main/Setsuna.png"
             },
             skills: [{
-                name: "Iron Dagger",
+                name: "Iron Bow",
                 rarity: 5
             }, {
-                name: "Steel Dagger",
-                rarity: 5
-            }, {
-                name: "Splashy Bucket",
-                rarity: 5
-            }, {
-                name: "Splashy Bucket+",
-                rarity: 5
-            }, {
-                name: "Draw Back",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 1",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 2",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 3",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Link 1",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Link 2",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Link 3",
-                rarity: 5
-            }, {
-                name: "Air Orders 1",
-                rarity: 5
-            }, {
-                name: "Air Orders 2",
-                rarity: 5
-            }, {
-                name: "Air Orders 3",
+                name: "Steel Bow",
                 rarity: 5
             }],
             stats: {
                 level1: {
-                    hp: 16,
+                    hp: 15,
                     atk: 7,
-                    spd: 8,
-                    def: 5,
-                    res: 8
+                    spd: 7,
+                    def: 7,
+                    res: 5
                 },
                 level40: {
-                    hp: [34, 38, 41],
+                    hp: [40, 43, 46],
                     atk: [32, 35, 38],
-                    spd: [32, 35, 38],
-                    def: [12, 16, 19],
-                    res: [23, 26, 30]
+                    spd: [34, 37, 40],
+                    def: [28, 31, 34],
+                    res: [23, 27, 31]
                 }
             }
         }, {
@@ -28177,8 +28139,8 @@
             name: "Delthea (Darkness Within)",
             shortName: "Delthea",
             title: "Tatarrah's Puppet",
-            artist: "Placeholder",
-            voice: "Placeholder",
+            artist: "Umiu Geso (海鵜げそ)",
+            voice: "Christine Marie Cabanos",
             releaseDate: "May 10, 2019",
             colorType: "Blue",
             weaponType: "Tome",
