@@ -33335,7 +33335,7 @@
             }],
             effect: "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at maximum.)"
         }, {
-            name: "Pulse Smoke 3",
+            name: "Pulse Smoke 2",
             spCost: 120,
             icon: "26-9",
             exclude: [{
@@ -44810,7 +44810,6 @@
             range: 1,
             weaponType: "Lance",
             colorType: "Blue",
-            exclusive: ["Tanith (Bridal Belongings)"],
             prev: ["Lofty Blossoms"],
             effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
         }, {
