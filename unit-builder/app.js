@@ -27543,37 +27543,37 @@
             skills: [{
                 name: "Iron Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Steel Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Silver Dagger",
                 rarity: 5
-            },{
+            }, {
                 name: "Sæhrímnir",
                 rarity: 5
-            },{
+            }, {
                 name: "Chilling Wind",
                 rarity: 5
-            },{
+            }, {
                 name: "Iceberg",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 1",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 2",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-D Atk/Res 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Armor March 3",
                 rarity: 5
             }],
@@ -27610,34 +27610,34 @@
             skills: [{
                 name: "Iron Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Steel Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Luncheon Lance",
                 rarity: 5
-            },{
+            }, {
                 name: "Luncheon Lance+",
                 rarity: 5
-            },{
+            }, {
                 name: "Pivot",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 1",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 2",
                 rarity: 5
-            },{
+            }, {
                 name: "AR-O Atk/Def 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Wary Fighter 3",
                 rarity: 5
             }],
@@ -27674,52 +27674,52 @@
             skills: [{
                 name: "Assault",
                 rarity: 5
-            },{
+            }, {
                 name: "Toasty Skewer",
                 rarity: 5
-            },{
+            }, {
                 name: "Toasty Skewer+",
                 rarity: 5
-            },{
+            }, {
                 name: "Heal",
                 rarity: 5
-            },{
+            }, {
                 name: "Mend",
                 rarity: 5
-            },{
+            }, {
                 name: "Physic",
                 rarity: 5
-            },{
+            }, {
                 name: "Physic+",
                 rarity: 5
-            },{
+            }, {
                 name: "Imbue",
                 rarity: 5
-            },{
+            }, {
                 name: "Kindled-Fire Balm",
                 rarity: 5
-            },{
+            }, {
                 name: "Fireflood Balm",
                 rarity: 5
-            },{
+            }, {
                 name: "Fireflood Balm+",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Wrathful Staff 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Def Opening 3",
                 rarity: 5
             }],
@@ -27756,37 +27756,37 @@
             skills: [{
                 name: "Wind",
                 rarity: 5
-            },{
+            }, {
                 name: "Elwind",
                 rarity: 5
-            },{
+            }, {
                 name: "Sandwiches!",
                 rarity: 5
-            },{
+            }, {
                 name: "Sandwiches!+",
                 rarity: 5
-            },{
+            }, {
                 name: "Night Sky",
                 rarity: 5
-            },{
+            }, {
                 name: "Glimmer",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Distant Def 3",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 1",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 2",
                 rarity: 5
-            },{
+            }, {
                 name: "Quick Riposte 3",
                 rarity: 5
             }],
@@ -30673,7 +30673,7 @@
         }, {
             name: "AR-D Spd/Def 2",
             spCost: 120,
-            icon: "62-4", 
+            icon: "62-4",
             prev: ["AR-D Spd/Def 1"],
             effect: "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
         }, {
@@ -30746,7 +30746,8 @@
             } else
                 for (let a in r)
                     for (let t = 0; t < r[a].length; t++)
-                        if (r[a][t].name === e) return r[a][t]; return s
+                        if (r[a][t].name === e) return r[a][t];
+            return s
         }, t.getWeapons = function(e, a = !0) {
             let t = [];
             for (let n = 0; n < r.weapons.length; n++) a && r.weapons[n].exclusive && !r.weapons[n].exclusive.includes(e.name) || e.weaponType === r.weapons[n].weaponType && ("Tome" === e.weaponType ? e.colorType === r.weapons[n].colorType && t.push(r.weapons[n]) : t.push(r.weapons[n]));
@@ -33327,7 +33328,7 @@
             }],
             effect: "After combat, inflicts Atk-7 on foes within 2 spaces of target through their next actions."
         }, {
-            name: "Pulse Smoke 1", 
+            name: "Pulse Smoke 1",
             spCost: 60,
             icon: "26-8", //fix later
             exclude: [{
@@ -51146,7 +51147,7 @@
                 [1494, 669],
                 [1068, 669],
                 [1498, 224],
-                [1068,446]
+                [1068, 446]
             ]
         }
     }, {}]
