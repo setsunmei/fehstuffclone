@@ -27543,37 +27543,37 @@
             skills: [{
                 name: "Iron Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Silver Dagger",
                 rarity: 5
-            }, {
+            },{
                 name: "Sæhrímnir",
                 rarity: 5
-            }, {
+            },{
                 name: "Chilling Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Iceberg",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-D Atk/Res 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Armor March 3",
                 rarity: 5
             }],
@@ -27610,34 +27610,34 @@
             skills: [{
                 name: "Iron Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Steel Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance",
                 rarity: 5
-            }, {
+            },{
                 name: "Luncheon Lance+",
                 rarity: 5
-            }, {
+            },{
                 name: "Pivot",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "AR-O Atk/Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wary Fighter 3",
                 rarity: 5
             }],
@@ -27674,52 +27674,52 @@
             skills: [{
                 name: "Assault",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer",
                 rarity: 5
-            }, {
+            },{
                 name: "Toasty Skewer+",
                 rarity: 5
-            }, {
+            },{
                 name: "Heal",
                 rarity: 5
-            }, {
+            },{
                 name: "Mend",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic",
                 rarity: 5
-            }, {
+            },{
                 name: "Physic+",
                 rarity: 5
-            }, {
+            },{
                 name: "Imbue",
                 rarity: 5
-            }, {
+            },{
                 name: "Kindled-Fire Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm",
                 rarity: 5
-            }, {
+            },{
                 name: "Fireflood Balm+",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Wrathful Staff 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Def Opening 3",
                 rarity: 5
             }],
@@ -27756,37 +27756,37 @@
             skills: [{
                 name: "Wind",
                 rarity: 5
-            }, {
+            },{
                 name: "Elwind",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!",
                 rarity: 5
-            }, {
+            },{
                 name: "Sandwiches!+",
                 rarity: 5
-            }, {
+            },{
                 name: "Night Sky",
                 rarity: 5
-            }, {
+            },{
                 name: "Glimmer",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Distant Def 3",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 1",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 2",
                 rarity: 5
-            }, {
+            },{
                 name: "Quick Riposte 3",
                 rarity: 5
             }],
@@ -28249,320 +28249,6 @@
                     spd: [34, 37, 40],
                     def: [28, 31, 34],
                     res: [23, 27, 31]
-                }
-            }
-        }, {
-            name: "Tanith (Bridal Belongings)",
-            shortName: "Tanith",
-            title: "Forthright Heart",
-            artist: "mattsun! (まっつん！)",
-            voice: "Katelyn Gault",
-            releaseDate: "May 25, 2019",
-            colorType: "Blue",
-            weaponType: "Lance",
-            moveType: "Flying",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
-                main: "img/heroes-main/Setsuna.png"
-            },
-            skills: [{
-                name: "Lofty Blossoms",
-                rarity: 5
-            }, {
-                name: "Lofty Blossoms+",
-                rarity: 5
-            }, {
-                name: "Harsh Command",
-                rarity: 5
-            }, {
-                name: "Harsh Command+",
-                rarity: 5
-            }, {
-                name: "Darting Blow 1",
-                rarity: 5
-            }, {
-                name: "Swift Sparrow 1",
-                rarity: 5
-            }, {
-                name: "Swift Sparrow 2",
-                rarity: 5
-            }, {
-                name: "Chill Atk 1",
-                rarity: 5
-            }, {
-                name: "Chill Atk 2",
-                rarity: 5
-            }, {
-                name: "Chill Atk 3",
-                rarity: 5
-            }, {
-                name: "Fortify Def 1",
-                rarity: 5
-            }, {
-                name: "Fortify Def 2",
-                rarity: 5
-            }, {
-                name: "Fortify Fliers",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 8,
-                    spd: 10,
-                    def: 7,
-                    res: 4
-                },
-                level40: {
-                    hp: [34, 37, 41],
-                    atk: [31, 34, 37],
-                    spd: [33, 36, 39],
-                    def: [30, 33, 36],
-                    res: [18, 21, 24]
-                }
-            }
-        }, {
-            name: "Sigrun (Bridal Belongings)",
-            shortName: "Sigrun",
-            title: "Steadfast Bride",
-            artist: "pikomaro",
-            voice: "Megan Lee",
-            releaseDate: "May 25, 2019",
-            colorType: "Red",
-            weaponType: "Sword",
-            moveType: "Flying",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
-                main: "img/heroes-main/Setsuna.png"
-            },
-            skills: [{
-                name: "Cake Cutter",
-                rarity: 5
-            }, {
-                name: "Cake Cutter+",
-                rarity: 5
-            }, {
-                name: "Ardent Sacrifice",
-                rarity: 5
-            }, {
-                name: "AR-D Spd/Def 1",
-                rarity: 5
-            }, {
-                name: "AR-D Spd/Def 2",
-                rarity: 5
-            }, {
-                name: "AR-D Spd/Def 3",
-                rarity: 5
-            }, {
-                name: "Air Orders 1",
-                rarity: 5
-            }, {
-                name: "Air Orders 2",
-                rarity: 5
-            }, {
-                name: "Air Orders 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 16,
-                    atk: 7,
-                    spd: 12,
-                    def: 5,
-                    res: 7
-                },
-                level40: {
-                    hp: [32, 35, 39],
-                    atk: [28, 31, 34],
-                    spd: [35, 38, 41],
-                    def: [23, 27, 30],
-                    res: [28, 31, 34]
-                }
-            }
-        }, {
-            name: "Pent (Bridal Belongings)",
-            shortName: "Pent",
-            title: "Fancy Fiancé",
-            artist: "Wada Sachiko (ワダサチコ)",
-            voice: "Jamison Boaz",
-            releaseDate: "May 25, 2019",
-            colorType: "Blue",
-            weaponType: "Lance",
-            moveType: "Cavalry"
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
-                main: "img/heroes-main/Setsuna.png"
-            },
-            skills: [{
-                name: "Vessel of Cheer",
-                rarity: 5
-            }, {
-                name: "Vessel of Cheer+",
-                rarity: 5
-            }, {
-                name: "Rally Up Atk",
-                rarity: 5
-            }, {
-                name: "Rally Up Atk+",
-                rarity: 5
-            }, {
-                name: "Dull Ranged 1",
-                rarity: 5
-            }, {
-                name: "Dull Ranged 2",
-                rarity: 5
-            }, {
-                name: "Dull Ranged 3",
-                rarity: 5
-            }, {
-                name: "Pulse Smoke 1",
-                rarity: 5
-            }, {
-                name: "Pulse Smoke 2",
-                rarity: 5
-            }, {
-                name: "Pulse Smoke 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 7,
-                    spd: 8,
-                    def: 4,
-                    res: 6
-                },
-                level40: {
-                    hp: [34, 37, 41],
-                    atk: [30, 33, 36],
-                    spd: [31, 34, 37],
-                    def: [16, 19, 22],
-                    res: [18, 21, 24]
-                }
-            }
-        }, {
-            name: "Fjorm (Bridal Belongings)",
-            shortName: "Fjorm",
-            title: "Bride of Rime",
-            artist: "Maeshima Shigeki (前嶋重機)",
-            voice: "Heather Watson",
-            releaseDate: "May 25, 2019",
-            colorType: "Neutral",
-            weaponType: "Staff",
-            moveType: "Flying",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
-                main: "img/heroes-main/Setsuna.png"
-            },
-            skills: [{
-                name: "Gjallarbrú",
-                rarity: 5
-            }, {
-                name: "Restore",
-                rarity: 5
-            }, {
-                name: "Restore+",
-                rarity: 5
-            }, {
-                name: "HP +3",
-                rarity: 5
-            }, {
-                name: "HP/Atk 1",
-                rarity: 5
-            }, {
-                name: "HP/Atk 2",
-                rarity: 5
-            }, {
-                name: "Dazzling Staff 1",
-                rarity: 5
-            }, {
-                name: "Dazzling Staff 2",
-                rarity: 5
-            }, {
-                name: "Dazzling Staff 3",
-                rarity: 5
-            }, {
-                name: "Ground Orders 1",
-                rarity: 5
-            }, {
-                name: "Ground Orders 2",
-                rarity: 5
-            }, {
-                name: "Ground Orders 3",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 18,
-                    atk: 8,
-                    spd: 10,
-                    def: 4,
-                    res: 4
-                },
-                level40: {
-                    hp: [39, 42, 45],
-                    atk: [31, 34, 37],
-                    spd: [31, 34, 37],
-                    def: [13, 17, 20],
-                    res: [20, 23, 27]
-                }
-            }
-        }, {
-            name: "Louise (Bridal Belongings)",
-            shortName: "Louise",
-            title: "Eternal Devotion",
-            artist: "Wada Sachiko (ワダサチコ)",
-            voice: "Maureen Price",
-            releaseDate: "May 25, 2019",
-            colorType: "Neutral",
-            weaponType: "Bow",
-            moveType: "Infantry",
-            assets: {
-                portrait: "img/heroes-portrait/75px-Icon_Portrait_Setsuna.png",
-                main: "img/heroes-main/Setsuna.png"
-            },
-            skills: [{
-                name: "Bouquet Bow",
-                rarity: 5
-            }, {
-                name: "Bouquet Bow+",
-                rarity: 5
-            }, {
-                name: "Reciprocal Aid",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 1",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 2",
-                rarity: 5
-            }, {
-                name: "Atk/Spd Bond 3",
-                rarity: 5
-            }, {
-                name: "Hone Spd 1",
-                rarity: 5
-            }, {
-                name: "Hone Spd 2",
-                rarity: 5
-            }, {
-                name: "Hone Cavalry",
-                rarity: 5
-            }],
-            stats: {
-                level1: {
-                    hp: 17,
-                    atk: 7,
-                    spd: 8,
-                    def: 4,
-                    res: 8
-                },
-                level40: {
-                    hp: [35, 39, 42],
-                    atk: [28, 31, 34],
-                    spd: [31, 34, 37],
-                    def: [13, 17, 20],
-                    res: [26, 30, 33]
                 }
             }
         }, {
@@ -30663,25 +30349,8 @@
             name: "AR-D Atk/Res 3",
             spCost: 240,
             icon: "62-5",
-            prev: ["AR-D Atk/Res 2"],
+            prev: ["G Duel Flying 2"],
             effect: "If defending in Aether Raids, grants Atk/Res+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Spd/Def 1",
-            spCost: 60,
-            icon: "62-3", //fix later
-            effect: "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +4; 4 grants +3; 3 grants +2; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Spd/Def 2",
-            spCost: 120,
-            icon: "62-4",
-            prev: ["AR-D Spd/Def 1"],
-            effect: "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +7; 4 grants +5; 3 grants +3; ≤2 grants +1. Destroyed defensive structures are not counted.)"
-        }, {
-            name: "AR-D Spd/Def 3",
-            spCost: 240,
-            icon: "62-5",
-            prev: ["AR-D Spd/Def 2"],
-            effect: "If defending in Aether Raids, grants Spd/Def+X during combat. (Calculates X based on number of your defensive structures: ≥5 structures grants +10; 4 grants +7; 3 grants +4; ≤2 grants +1. Destroyed defensive structures are not counted.)"
         }]
     }, {}],
     6: [function(e, a, t) {
@@ -30746,8 +30415,7 @@
             } else
                 for (let a in r)
                     for (let t = 0; t < r[a].length; t++)
-                        if (r[a][t].name === e) return r[a][t];
-            return s
+                        if (r[a][t].name === e) return r[a][t]; return s
         }, t.getWeapons = function(e, a = !0) {
             let t = [];
             for (let n = 0; n < r.weapons.length; n++) a && r.weapons[n].exclusive && !r.weapons[n].exclusive.includes(e.name) || e.weaponType === r.weapons[n].weaponType && ("Tome" === e.weaponType ? e.colorType === r.weapons[n].colorType && t.push(r.weapons[n]) : t.push(r.weapons[n]));
@@ -30864,16 +30532,8 @@
             exclude: [{
                 weaponType: "Staff"
             }],
-            effect: "Converts penalties on target into bonuses."
-        }, {
-            name: "Harsh Command+",
-            range: 1,
-            spCost: 400,
-            exclude: [{
-                weaponType: "Staff"
-            }],
             last: !0,
-            effect: "Neutralizes target ally's penalties (from skills like Panic, Threaten, etc.) and negative status effects (preventing counterattacks, restricting movement, etc.) that last through ally's next action. Converts any penalties on target ally into bonuses."
+            effect: "Converts penalties on target into bonuses."
         }, {
             name: "Heal",
             range: 1,
@@ -33159,30 +32819,6 @@
                 moveType: "Flying"
             }]
         }, {
-            name: "Ground Orders 1",
-            icon: "57-2", //fix later
-            effect: 'At start of turn, if unit\'s HP = 100% grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: "Unit can move to a space adjacent to any ally within 2 spaces".',
-            spCost: 60,
-            include: [{
-                moveType: "Flying"
-            }]
-        }, {
-            name: "Ground Orders 2",
-            icon: "57-3",
-            effect: 'At start of turn, if unit\'s HP ≥ 50%, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: "Unit can move to a space adjacent to any ally within 2 spaces".',
-            spCost: 120,
-            include: [{
-                moveType: "Flying"
-            }]
-        }, {
-            name: "Ground Orders 3",
-            icon: "57-4",
-            effect: 'At start of turn, grants the following status to adjacent infantry, armored, and cavalry allies for 1 turn: "Unit can move to a space adjacent to any ally within 2 spaces".',
-            spCost: 240,
-            include: [{
-                moveType: "Flying"
-            }]
-        }, {
             name: "Chaos Named",
             spCost: 300,
             icon: "61-3",
@@ -33327,30 +32963,6 @@
                 weaponType: "Staff"
             }],
             effect: "After combat, inflicts Atk-7 on foes within 2 spaces of target through their next actions."
-        }, {
-            name: "Pulse Smoke 1",
-            spCost: 60,
-            icon: "26-8", //fix later
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            effect: "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 1 space of target after combat. (No effect on Special cooldown counts already at maximum.)"
-        }, {
-            name: "Pulse Smoke 2",
-            spCost: 120,
-            icon: "26-9",
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            effect: "If unit initiates combat, inflicts Special cooldown count+1 on target and foes within 2 spaces of target after combat. (No effect on Special cooldown counts already at maximum.)"
-        }, {
-            name: "Pulse Smoke 3",
-            spCost: 240,
-            icon: "26-10",
-            exclude: [{
-                weaponType: "Staff"
-            }],
-            effect: "Inflicts Special cooldown count+1 on target and foes withing 2 spaces of target after combat. (No effects on Special cooldown counts already at maximum.)"
         }, {
             name: "Atk Tactic 1",
             spCost: 60,
@@ -35006,138 +34618,6 @@
                     res: 4
                 },
                 effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
-            }],
-            "Lofty Blossoms+": [{
-                name: "+Atk",
-                icon: "31-9",
-                stats: {
-                    hp: 5,
-                    atk: 2
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Spd",
-                icon: "31-10",
-                stats: {
-                    hp: 5,
-                    spd: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Def",
-                icon: "31-11",
-                stats: {
-                    hp: 5,
-                    def: 4
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Res",
-                icon: "31-12",
-                stats: {
-                    hp: 5,
-                    res: 4
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }],
-            "Cake Cutter+": [{
-                name: "+Atk",
-                icon: "31-9",
-                stats: {
-                    hp: 5,
-                    atk: 2
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Spd",
-                icon: "31-10",
-                stats: {
-                    hp: 5,
-                    spd: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Def",
-                icon: "31-11",
-                stats: {
-                    hp: 5,
-                    def: 4
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Res",
-                icon: "31-12",
-                stats: {
-                    hp: 5,
-                    res: 4
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }],
-            "Vessel of Cheer+": [{
-                name: "+Atk",
-                icon: "31-9",
-                stats: {
-                    hp: 2,
-                    atk: 1
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Spd",
-                icon: "31-10",
-                stats: {
-                    hp: 2,
-                    spd: 2
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Def",
-                icon: "31-11",
-                stats: {
-                    hp: 2,
-                    def: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Res",
-                icon: "31-12",
-                stats: {
-                    hp: 2,
-                    res: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }],
-            "Bouquet Bow+": [{
-                name: "+Atk",
-                icon: "31-9",
-                stats: {
-                    hp: 5,
-                    atk: 1
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Spd",
-                icon: "31-10",
-                stats: {
-                    hp: 5,
-                    spd: 2
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Def",
-                icon: "31-11",
-                stats: {
-                    hp: 5,
-                    def: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-            }, {
-                name: "+Res",
-                icon: "31-12",
-                stats: {
-                    hp: 5,
-                    res: 3
-                },
-                effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
             }],
             "Luncheon Lance+": [{
                 name: "+Atk",
@@ -44788,83 +44268,6 @@
             prev: ["Flashing Carrot"],
             effect: "At start of combat, if foe's HP=100%, grants Atk/Spd/Def/Res+2 during combat."
         }, {
-            name: "Gjallarbrú",
-            spCost: 400,
-            damage: 14,
-            range: 2,
-            weaponType: "Staff",
-            colorType: "Neutral",
-            exclusive: ["Fjorm (Bridal Belongings)"],
-            effect: "Calculates damage from staff like other weapons. At start of turn, if foe's HP<= unit's HP-3 and foe is in cardinal directions, inflicts [Isolation] on foe. [Isolation] Target cannot use or be the target of Assist skills through its next action. (Target can neither use nor be the target of skills like Dance and Sing, skills that neutralize penalties, like Restore and Harsh Command+, etc.) "
-        }, {
-            name: "Lofty Blossoms",
-            spCost: 300,
-            damage: 10,
-            range: 1,
-            weaponType: "Lance",
-            colorType: "Blue",
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Lofty Blossoms+",
-            spCost: 300,
-            damage: 14,
-            range: 1,
-            weaponType: "Lance",
-            colorType: "Blue",
-            prev: ["Lofty Blossoms"],
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Cake Cutter",
-            spCost: 300,
-            damage: 10,
-            range: 1,
-            weaponType: "Sword",
-            colorType: "Red",
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Cake Cutter+",
-            spCost: 300,
-            damage: 14,
-            range: 1,
-            weaponType: "Sword",
-            colorType: "Red",
-            prev: ["Cake Cutter"],
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Vessel of Cheer",
-            spCost: 300,
-            damage: 8,
-            range: 2,
-            weaponType: "Tome",
-            colorType: "Blue",
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Vessel of Cheer+",
-            spCost: 300,
-            damage: 12,
-            range: 2,
-            weaponType: "Tome",
-            colorType: "Blue",
-            prev: ["Vessel of Cheer"],
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Bouquet Bow",
-            spCost: 0,
-            damage: 8,
-            range: 2,
-            weaponType: "Bow",
-            colorType: "Neutral",
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
-            name: "Bouquet Bow+",
-            spCost: 0,
-            damage: 12,
-            range: 2,
-            weaponType: "Bow",
-            colorType: "Neutral",
-            prev: ["Bouquet Bow"],
-            effect: "If unit initiates combat, grants Atk/Spd+4 during combat."
-        }, {
             name: "Razing Breath",
             spCost: 400,
             damage: 16,
@@ -51147,7 +50550,7 @@
                 [1494, 669],
                 [1068, 669],
                 [1498, 224],
-                [1068, 446]
+                [1068,446]
             ]
         }
     }, {}]
